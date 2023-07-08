@@ -33,8 +33,7 @@ app.use(
 cloudinaryConnect();
 
 //routes
-const Blog = require("./routes/Blog");
-app.use("", Blog);
+app.use(require("./routes/blog"));
 
 app.get("/", (req, res) => {
 	return res.json({
