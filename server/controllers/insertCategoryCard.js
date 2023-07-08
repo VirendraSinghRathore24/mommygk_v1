@@ -19,9 +19,7 @@ exports.insertCategoryCard = async (req,res) => {
         const response = await uploadFileToCloudinary(file, "Viren", req);
         const imageUrl = response.secure_url;
 
-        console.log(imageUrl);
-
-        const result = await foodcategorydb.create({"category":category.replaceAll(" ", "-"), "title":title, "shortDesc":shortDesc, "imageUrl":imageUrl});
+        await foodcategorydb.create({"category":category.replaceAll(" ", "-"), "title":title, "shortDesc":shortDesc, "imageUrl":imageUrl});
 
         res.set('Access-Control-Allow-Origin', '*');
         res.json({
