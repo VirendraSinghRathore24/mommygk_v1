@@ -1,3 +1,3 @@
-const baseUrl = "https://baby-food-uomt.onrender.com";
+const baseUrl = "https://mom-backend.onrender.com";
 
 export default baseUrl;
