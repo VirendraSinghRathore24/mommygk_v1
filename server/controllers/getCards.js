@@ -9,12 +9,13 @@ exports.getCards = async (req,res) => {
         if(blogTitle === undefined || !blogTitle)
         {
             const result = await foodcarddb.find({});
+            res.set('Access-Control-Allow-Origin', '*');
             res.json({data: result});
         }
         else{
             const result1 = await foodcarddb.findOne({"title":blogTitle});
            
-    
+            res.set('Access-Control-Allow-Origin', '*');
             res.json({data: result1});
         }
        

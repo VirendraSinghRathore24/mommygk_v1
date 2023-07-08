@@ -9,10 +9,12 @@ exports.getBlogByTitle = async (req,res) => {
         if(sidebartitle === undefined || !sidebartitle)
         {
             const result = await foodblogdb.find({});
+            res.set('Access-Control-Allow-Origin', '*');
             res.json({data: result});
         }
         else{
             const result1 = await foodblogdb.findOne({"sidebartitle":sidebartitle});
+            res.set('Access-Control-Allow-Origin', '*');
             res.json({data: result1});
         }
     }
