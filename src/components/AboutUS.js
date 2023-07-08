@@ -6,7 +6,7 @@ function AboutUS() {
     <div className=''>
     <p className='p-2'><strong>Home</strong> / About</p>
     <p className='ml-10 text-3xl text-blue-400'>About Me</p>
-    <div className='flex'>
+    <div className='flex '>
         <div className='flex flex-col ml-10 p-5 w-7/12 items-center justify-evenly'>
             
             <p className='leading-10 text-xl font-light'>Hello!!! Thanks for visiting my space and taking the time to read about me. I am Sanju from Rajasthan and I live in Bangalore. I am working in IT industry as a software engineer for 10 years. I am mother of Rudransh Rathore and during this time I found my passion! Yes it's cooking and clicking, and so this blog!

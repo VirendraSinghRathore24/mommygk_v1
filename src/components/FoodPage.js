@@ -51,9 +51,9 @@ function FoodPage() {
     <div >
     <p className='p-2'><strong><Link to="/">Home</Link> </strong> / Food</p>
     <div className='flex flex-col'>
-        <div className='flex items-center gap-x-12 p-10 justify-center mx-auto'>
+        <div className='flex items-center gap-x-2 p-10 justify-center '>
             <p>Category: </p>
-            <select name="category" id='category' value={category}  onChange={selectHandler}  className='outline rounded-sm px-1 w-[400px] h-10'>           
+            <select name="category" id='category' value={category}  onChange={selectHandler}  className='outline rounded-sm px-1 w-[300px] h-10'>           
             <option value="All-Food-Reciepies">All Baby Food Reciepies</option>
             <option value="Food-By-Months">Baby Food Reciepies by Months</option>
             <option value="Food-By-Puree">Baby Food Reciepies by Purees</option>
