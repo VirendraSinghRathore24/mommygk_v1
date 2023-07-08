@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Spinner from "../components/Spinner"
 import { NavLink } from 'react-router-dom'
 import Card from './Card'
+import baseUrl from '../baseUrl'
 
 function HomePage() {
     const [loading, setLoading] = useState(false);
@@ -11,7 +12,7 @@ function HomePage() {
         setLoading(true);
         try{
   
-          const result = await fetch("http://localhost:3002/cards");
+          const result = await fetch(`${baseUrl}/cards`);
           const data = await result.json();
            
             console.log(result);

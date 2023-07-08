@@ -4,6 +4,7 @@ import { toast } from 'react-hot-toast';
 import Spinner from '../../components/Spinner'
 //import { useLocation } from 'react-router-dom';
 import JoditEditor from 'jodit-react';
+import baseUrl from '../../baseUrl';
 
 function InsertBlog() {
 
@@ -29,7 +30,7 @@ function InsertBlog() {
             data.append('description', description);
             data.append('blogtitle', blogTitle);
     
-            await axios.post("http://localhost:3002/insertblog", data);
+            await axios.post(`${baseUrl}/insertblog`, data);
         
             toast.success("Blog inserted Successfully!!!");
         }

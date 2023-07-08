@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import axios from 'axios';
 import { toast } from 'react-hot-toast';
 import Spinner from '../../components/Spinner'
+import baseUrl from '../../baseUrl';
 
 function InsertCategoryCard() {
 
@@ -25,7 +26,7 @@ function InsertCategoryCard() {
             data.append('title', title);
             data.append('shortDesc', shortDesc);
           
-            await axios.post("http://localhost:3002/insertcategorycard", data);
+            await axios.post(`${baseUrl}/insertcategorycard`, data);
         
             toast.success("Card added Successfully!!!");
         }
