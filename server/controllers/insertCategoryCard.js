@@ -23,6 +23,7 @@ exports.insertCategoryCard = async (req,res) => {
 
         const result = await foodcategorydb.create({"category":category.replaceAll(" ", "-"), "title":title, "shortDesc":shortDesc, "imageUrl":imageUrl});
 
+        res.set('Access-Control-Allow-Origin', '*');
         res.json({
             success:true,
             message:"Food Card uploaded successfully"

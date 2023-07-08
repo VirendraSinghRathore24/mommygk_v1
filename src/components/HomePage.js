@@ -42,7 +42,7 @@ function HomePage() {
         </div>
         <div>
         <p className='text-md font-light py-3 px-10'><strong className='font-semibold text-richblack-700'>To Know More About Baby Food Reciepies, Cloths, Toys and many more... </strong></p>
-            <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 px-20 py-5 gap-x-10 gap-y-10'>
+            <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 px-20 py-5 gap-x-10 gap-y-10'>
             {
                 loading ? (<Spinner/>) :(
                 posts.map((post, index) => (
