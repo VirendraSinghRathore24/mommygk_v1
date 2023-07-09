@@ -10,11 +10,13 @@ exports.getCardsByCategory = async (req,res) => {
         {
             const result = await foodcategorydb.find({});
             res.setHeader('Access-Control-Allow-Origin', '*');
+            res.set("Access-Control-Allow-Private-Network", "true");
             res.json({data: result});
         }
         else{
             const result1 = await foodcategorydb.find({"category":category});
             res.setHeader('Access-Control-Allow-Origin', '*');
+            res.set("Access-Control-Allow-Private-Network", "true");
             res.json({data: result1});
         }
     }
