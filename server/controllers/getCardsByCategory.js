@@ -9,12 +9,12 @@ exports.getCardsByCategory = async (req,res) => {
         if(category === undefined || !category || category === "All-Food-Reciepies")
         {
             const result = await foodcategorydb.find({});
-            res.set('Access-Control-Allow-Origin', '*');
+            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({data: result});
         }
         else{
             const result1 = await foodcategorydb.find({"category":category});
-            res.set('Access-Control-Allow-Origin', '*');
+            res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({data: result1});
         }
     }
