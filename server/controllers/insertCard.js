@@ -18,9 +18,7 @@ exports.insertCard = async (req,res) => {
 
         const response = await uploadFileToCloudinary(file, "Viren", req);
         const imageUrl = response.secure_url;
-
-        console.log(imageUrl);
-
+        
         const result = await foodcarddb.create({"title":title, "shortDesc":shortDesc, "imageUrl":imageUrl});
 
         res.set('Access-Control-Allow-Origin', '*');

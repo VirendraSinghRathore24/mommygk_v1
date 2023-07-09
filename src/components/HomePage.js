@@ -41,7 +41,7 @@ function HomePage() {
         <p className='text-md font-light py-3 px-10'><strong className='font-semibold text-richblack-700'>To Know More About Baby Food Reciepies, Cloths, Toys and many more... </strong></p>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 px-7 py-5 gap-x-10 gap-y-10 '>
             {
-                loading ? (<Spinner/>) :(
+                loading ? (<Spinner type={"Loading, "}/>) :(
                 posts.map((post, index) => (
                     <Card key={index} post={post}/>
                 )))

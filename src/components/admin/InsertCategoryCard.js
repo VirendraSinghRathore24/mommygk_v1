@@ -41,11 +41,11 @@ function InsertCategoryCard() {
     <div className='w-full '>
     {
         loading ? (<div className='mt-80 flex items-center justify-center'>
-        <Spinner type={type}/>
+        <Spinner type={"Inserting, "}/>
         </div>) : (
 
     <form onSubmit={submitHandler}>
-    <div className='flex flex-col mt-[50px]  w-11/12 px-40 h-[666px]'>
+    <div className='flex flex-col mt-[50px] w-11/12 px-40 h-[666px]'>
         <div>
             <p className='flex text-[30px] justify-center items-center mx-auto'>Add new Card with category</p>
         </div>

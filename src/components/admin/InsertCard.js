@@ -39,7 +39,7 @@ function InsertCard() {
     <div className='w-full '>
     {
         loading ? (<div className='mt-80 flex items-center justify-center'>
-        <Spinner type={type}/>
+        <Spinner type={"Inserting, "}/>
         </div>) : (
 
     <form onSubmit={submitHandler}>
