@@ -62,7 +62,7 @@ function FoodPage() {
         
         <div>
             <p className='p-5 text-2xl'>{category.replaceAll("-", " ")}</p>
-            <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 px-20 py-5 gap-x-10 gap-y-10'>
+            <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 px-7 py-5 gap-x-10 gap-y-10'>
             {
                 loading ? (<Spinner/>) :(
                 posts.map((post, index) => (

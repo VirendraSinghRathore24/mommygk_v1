@@ -6,9 +6,8 @@ function AboutUS() {
     <div className=''>
     <p className='p-2'><strong>Home</strong> / About</p>
     <p className='ml-10 text-3xl text-blue-400'>About Me</p>
-    <div className='flex '>
-        <div className='flex flex-col ml-10 p-5 w-7/12 items-center justify-evenly'>
-            
+    <div className='flex xs:flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row mx-auto'>
+        <div className='flex flex-col ml-10 p-5 w-screen items-center justify-evenly'>
             <p className='leading-10 text-xl font-light'>Hello!!! Thanks for visiting my space and taking the time to read about me. I am Sanju from Rajasthan and I live in Bangalore. I am working in IT industry as a software engineer for 10 years. I am mother of Rudransh Rathore and during this time I found my passion! Yes it's cooking and clicking, and so this blog!
  
  Though I am fond of food and like to taste different varieties, but started my own cooking after my marriage as I never entered into the kitchen because of my lovable mom and only had the opportunity to enjoy her yummy food. But after marriage, I started cooking vigorously. My husband is a best critic, and that helps me to improve my cooking.</p>

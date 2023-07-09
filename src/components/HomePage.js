@@ -32,7 +32,7 @@ function HomePage() {
     <div className='pointer-events-none'>
         <div className=''>
         <div className='flex relative'>
-            <img src='https://res.cloudinary.com/dixqxdivr/image/upload/v1688580884/rudra2_yhh4ch.jpg' loading='lazy' className='pointer-events-auto w-full h-[420px]'/>
+            <img src='https://res.cloudinary.com/dixqxdivr/image/upload/v1688580884/rudra2_yhh4ch.jpg' loading='lazy' className='pointer-events-auto w-screen h-[420px]'/>
         </div>
            
             
