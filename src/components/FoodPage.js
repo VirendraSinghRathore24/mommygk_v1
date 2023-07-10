@@ -39,7 +39,7 @@ function FoodPage() {
    {
       setCategory(e.target.value);
 
-      const result = await fetch(`http://localhost:3002/getcardsbycategory?category=${e.target.value}`);
+      const result = await fetch(`${baseUrl}/getcardsbycategory?category=${e.target.value}`);
           const data = await result.json();
 
           console.log(data);
@@ -61,7 +61,7 @@ function FoodPage() {
         </div>
         
         <div>
-            <p className='p-5 text-2xl'>{category.replaceAll("-", " ")}</p>
+            <p className='p-5 text-2xl font-semibold'>{category.replaceAll("-", " ")}</p>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 px-7 py-5 gap-x-10 gap-y-10'>
             {
                 loading ? (<Spinner type={"Loading, "}/>) :(
