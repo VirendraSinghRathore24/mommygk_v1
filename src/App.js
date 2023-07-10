@@ -12,7 +12,7 @@ import InsertCategoryCard from "./components/admin/InsertCategoryCard";
 
 export default function App() {
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-screen min-h-screen">
       <Header/>
       <Routes>
           <Route path="/" element={<HomePage/>}/>
