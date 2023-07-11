@@ -14,8 +14,7 @@ function HomePage() {
           const result = await fetch(`${baseUrl}/cards`);
           const data = await result.json();
            
-            console.log(result);
-            setPosts(data.data);
+          setPosts(data.data);
   
         }
         catch(err){

@@ -4,7 +4,7 @@ exports.insertBlog = async (req,res) => {
     try{
         const {sidebartitle, blogtitle, description} = req.body;
 
-        await foodblogdb.create({"sidebartitle":sidebartitle, "blogtitle":blogtitle, "description":description});
+        await foodblogdb.findOneAndUpdate({"sidebartitle":sidebartitle, "blogtitle" : blogtitle}, {"description" : description});
 
         res.set('Access-Control-Allow-Origin', '*');
         res.json({

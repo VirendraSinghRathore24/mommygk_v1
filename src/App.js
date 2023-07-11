@@ -9,6 +9,7 @@ import AboutUS from "./components/AboutUS";
 import ClothsPage from "./components/ClothsPage";
 import ToysPage from "./components/ToysPage";
 import InsertCategoryCard from "./components/admin/InsertCategoryCard";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="/cloths" element={<ClothsPage/>}/>
           <Route path="/toys" element={<ToysPage/>}/>
       </Routes>
+      <Footer/>
     </div>
   )
 }
