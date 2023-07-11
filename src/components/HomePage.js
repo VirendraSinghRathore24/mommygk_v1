@@ -30,14 +30,14 @@ function HomePage() {
   return (
     <div className='pointer-events-none'>
         <div className=''>
-        <div className='flex relative'>
+        {/* <div className='flex relative'>
             <img src='https://res.cloudinary.com/dixqxdivr/image/upload/v1688580884/rudra2_yhh4ch.jpg' loading='lazy' className='pointer-events-auto w-screen h-[420px]'/>
-        </div>
+        </div> */}
            
             
         </div>
         <div>
-        <p className='text-md font-light py-3 px-7'><strong className='font-semibold text-richblack-700'>To Know More About Baby Food Reciepies, Toys, Cloths and many more... </strong></p>
+        <p className='text-md font-light py-3 px-7'><strong className='font-semibold text-2xl text-richblack-700'>To Know More About Baby Food Reciepies, Toys, Cloths and many more... </strong></p>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 px-7 py-5 gap-x-10 gap-y-10 '>
             {
                 loading ? (<Spinner type={"Loading, "}/>) :(
