@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="w-full h-screen min-h-screen">
+    <div className="w-full h-screen">
       <Header/>
       <Routes>
           <Route path="/" element={<HomePage/>}/>

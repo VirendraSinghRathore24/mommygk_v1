@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function AboutUS() {
   return (
-    <div className='h-screen'>
+    <div className=''>
     <p className='p-2'><strong><Link to="/">Home</Link> </strong> / About us</p>
     <p className='ml-10 text-3xl text-blue-400'>About Me</p>
     <div className='flex flex-wrap w-full'>

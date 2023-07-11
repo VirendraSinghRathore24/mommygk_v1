@@ -48,7 +48,7 @@ function FoodPage() {
    }
 
   return (
-    <div className='h-screen'>
+    <div className=''>
     <p className='p-2'><strong><Link to="/">Home</Link> </strong> / Food</p>
     <div className='flex flex-col'>
         <div className='flex items-center gap-x-2 p-10 justify-center '>
