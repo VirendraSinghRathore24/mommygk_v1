@@ -31,7 +31,7 @@ function BlogPage() {
       },[])
 
   return (
-    <div className='flex w-full'>
+    <div className='flex w-full h-screen'>
         
         <div className='flex flex-col'>
             <p className='p-2 text-[14px]'><strong className='font-semibold '><NavLink to="/"> Home </NavLink>/ <NavLink to="/food"> Food  </NavLink></strong>  / {post.sidebartitle}</p>

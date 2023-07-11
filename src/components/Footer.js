@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div>
-        <div className='shadow-md w-full flex  flex-col justify-center items-center border-2 py-2 bottom-0'>
+        <div className='shadow-md w-full flex flex-col justify-center items-center border-2 bottom-0'>
           <div className='p-5'>
             <p className='text-3xl text-center w-full'>Join Our Community</p>
             <p className='text-xl text-center font-normal p-2'>To stay connected with Sanju and receive updates on the latest post, you can connect on the following platforms</p>
