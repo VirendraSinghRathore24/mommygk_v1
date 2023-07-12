@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react'
 import Spinner from "../components/Spinner"
 import baseUrl from '../baseUrl'
 import Card from './Card';
+import data from "../data/data.json"
 
 function HomePage() {
     const [loading, setLoading] = useState(false);
-    const [posts, setPosts] = useState([]);
+    const [posts, setPosts] = useState(data);
 
     async function fetchBlogsData(){
         setLoading(true);
@@ -24,7 +25,7 @@ function HomePage() {
       }
       
       useEffect(() => {
-        fetchBlogsData();
+       // fetchBlogsData();
       },[])
 
   return (
@@ -37,7 +38,7 @@ function HomePage() {
             
         </div>
         <div>
-        <p className='text-md font-light py-3 px-7'><strong className='font-semibold text-2xl text-richblack-700'>To Know More About Baby Food Reciepies, Toys, Cloths and many more... </strong></p>
+        <p className='text-md font-light py-3 px-7'><strong className='font-semibold text-2xl text-richblack-700'>To Know More About Baby Food Reciepes, Toys, Cloths and many more... </strong></p>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 px-7 py-5 gap-x-10 gap-y-10 '>
             {
                 loading ? (<Spinner type={"Loading, "}/>) :(

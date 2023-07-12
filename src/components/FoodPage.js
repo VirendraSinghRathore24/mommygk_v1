@@ -8,7 +8,7 @@ function FoodPage() {
 
     const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(false);
-    const [category, setCategory] = useState("All Food Reciepies");
+    const [category, setCategory] = useState("All Food Reciepes");
 
     const location = useLocation();
     const sidebartitle = location.pathname.split("/").at(-1);
