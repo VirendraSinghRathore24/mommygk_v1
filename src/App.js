@@ -10,6 +10,8 @@ import ClothsPage from "./components/ClothsPage";
 import ToysPage from "./components/ToysPage";
 import InsertCategoryCard from "./components/admin/InsertCategoryCard";
 import Footer from "./components/Footer";
+import BlogList from "./components/admin/BlogList";
+import UpdateBlog from "./components/admin/UpdateBlog";
 
 export default function App() {
   return (
@@ -25,6 +27,8 @@ export default function App() {
           <Route path="/aboutus" element={<AboutUS/>}/>
           <Route path="/cloths" element={<ClothsPage/>}/>
           <Route path="/toys" element={<ToysPage/>}/>
+          <Route path="/admin/blogs" element={<BlogList/>}/>
+          <Route path="/admin/blogs/:category" element={<UpdateBlog/>}/>
       </Routes>
       <Footer/>
     </div>
