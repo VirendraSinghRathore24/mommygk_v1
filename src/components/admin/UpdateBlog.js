@@ -26,13 +26,15 @@ function UpdateBlog() {
     const editor = useRef(null);
 
     async function fetchCategories(){
-
+        setLoading(true);
         const result1 = await fetch(`${baseUrl}/admin/blogs?category=${title}`);
         const data1 = await result1.json();
         
         setCategory(data1.data.category);
         setDescription(data1.data.description);
         setSubCategory(data1.data.subcategory);
+
+        setLoading(false);
     }
 
     useEffect(() => {

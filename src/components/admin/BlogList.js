@@ -3,13 +3,17 @@ import React, { useEffect, useState } from 'react'
 import { toast } from 'react-hot-toast';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import baseUrl from '../../baseUrl';
+import Spinner from '../Spinner';
 
 function BlogList() {
 
     const [blogs, setBlogs] = useState([]);
+    const [loading, setLoading] = useState(false);
 
     async function fetchBlogsData(){
         try{
+            
+            setLoading(true);
 
             const result = await fetch(`${baseUrl}/admin/blogs`);
             const data = await result.json();
@@ -21,11 +25,12 @@ function BlogList() {
         catch(err){
             console.log(err);
         }
+        setLoading(false);
     }
 
     useEffect(() => {
         fetchBlogsData();
-    })
+    },[])
 
 
   return (
@@ -37,10 +42,13 @@ function BlogList() {
         </Link>
     </div>
         {
+            loading ? (<div className='mt-60 flex items-center justify-center'>
+            <Spinner type={"Loading, "}/>
+            </div>) : (
             blogs.map((blog) => (
                 <div className='flex justify-between items-center w-[800px] p-5 outline'>       
                     <p>Food</p>
-                    <p className='text-blue-500 unerline'>{blog.sidebartitle}</p>
+                    <p className='text-blue-500 '>{blog.sidebartitle}</p>
                     
                     <div>
                     <NavLink to={`/admin/blogs/${blog.sidebartitle}`}>
@@ -50,7 +58,7 @@ function BlogList() {
                         <button  name='title' value={blog.title} className=' ml-20 bg-green-500 h-10 w-[100px] font-semibold rounded-md text-richblack-700 hover:scale-110 transition duration-300 ease-in'>Delete</button>
                     </div>
                 </div>
-            ))
+            )))
         }
         
     </div>
