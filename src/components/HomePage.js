@@ -4,6 +4,7 @@ import baseUrl from '../baseUrl'
 import Card from './Card';
 import data from "../data/data.json"
 
+
 function HomePage() {
     const [loading, setLoading] = useState(false);
     const [posts, setPosts] = useState(data);

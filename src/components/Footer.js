@@ -19,9 +19,10 @@ function Footer() {
                 <img src='https://res.cloudinary.com/dixqxdivr/image/upload/v1686808399/Viren/linkedin.png.png' alt='linkedin' className='w-[70px] h-[70px] mt-4'/>
                 </Link>
               </div>
+              <p className='text-center'>Copyright © 2023 Mommy GK. All rights reserved.</p>
           </div>
         <div>
-       <p>Copyright © 2023 Mommy GK. All rights reserved.</p>
+       
        </div>
             
         </div>
