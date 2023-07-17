@@ -3,10 +3,11 @@ import { Link, NavLink, useLocation } from 'react-router-dom'
 import FoodCard from './FoodCard';
 import Spinner from './Spinner';
 import baseUrl from '../baseUrl';
+import data from "../data/food.json"
 
 function FoodPage() {
 
-    const [posts, setPosts] = useState([]);
+    const [posts, setPosts] = useState(data);
     const [loading, setLoading] = useState(false);
     const [category, setCategory] = useState("All Food Reciepes");
     const [allData, setAllData] = useState([]);
@@ -18,12 +19,12 @@ function FoodPage() {
         setLoading(true);
         try{
   
-          const result = await fetch(`${baseUrl}/getcardsbycategory`);
-          const data = await result.json();
+          //const result = await fetch(`${baseUrl}/getcardsbycategory`);
+          //const data = await result.json();
 
-          setAllData(data.data);
+          setAllData(data);
 
-          setPosts(data.data);
+          //setPosts(data.data);
   
         }
         catch(err){
