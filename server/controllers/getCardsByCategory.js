@@ -6,7 +6,7 @@ exports.getCardsByCategory = async (req,res) => {
         var id = Object.keys(req.query);
         category = req.query[id];
 
-        if(category === undefined || !category || category === "All-Food-Reciepies")
+        if(category === undefined || !category || category === "All-Food-Reciepes")
         {
             const result = await foodcategorydb.find({});
             res.setHeader('Access-Control-Allow-Origin', '*');

@@ -9,6 +9,7 @@ function FoodPage() {
     const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(false);
     const [category, setCategory] = useState("All Food Reciepes");
+    const [allData, setAllData] = useState([]);
 
     const location = useLocation();
     const sidebartitle = location.pathname.split("/").at(-1);
@@ -20,7 +21,7 @@ function FoodPage() {
           const result = await fetch(`${baseUrl}/getcardsbycategory`);
           const data = await result.json();
 
-          console.log(data);
+          setAllData(data.data);
 
           setPosts(data.data);
   
@@ -37,14 +38,22 @@ function FoodPage() {
 
    async function selectHandler(e)
    {
-      setCategory(e.target.value);
+       setCategory(e.target.value);
+     
+      //const result = await fetch(`${baseUrl}/getcardsbycategory?category=${e.target.value}`);
+      
+         // const data = await result.json();
+         if(e.target.value == "All-Food-Reciepes")
+         {
+            setPosts(allData);
+         }
+         else
+         {
+            let res = allData.filter(function(name) {
+            return name.category == e.target.value; });
 
-      const result = await fetch(`${baseUrl}/getcardsbycategory?category=${e.target.value}`);
-          const data = await result.json();
-
-          console.log(data);
-
-          setPosts(data.data);
+            setPosts(res);
+         }      
    }
 
   return (
@@ -54,7 +63,7 @@ function FoodPage() {
         <div className='flex items-center gap-x-2 p-10 justify-center '>
             <p>Category: </p>
             <select name="category" id='category' value={category}  onChange={selectHandler}  className='outline rounded-sm px-1 w-[300px] h-10'>           
-            <option value="All-Food-Reciepies">All Baby Food Reciepes</option>
+            <option value="All-Food-Reciepes">All Baby Food Reciepes</option>
             <option value="Food-By-Months">Baby Food Reciepes by Months</option>
             <option value="Food-By-Puree">Baby Food Reciepes by Purees</option>
             </select>
