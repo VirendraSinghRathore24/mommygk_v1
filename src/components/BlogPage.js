@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import baseUrl from '../baseUrl';
+import Spinner from './Spinner';
 
 function BlogPage() {
 
@@ -34,6 +35,10 @@ function BlogPage() {
     <div className='flex w-full'>
         
         <div className='flex flex-col'>
+        {
+          loading ? (<Spinner type={"Loading, "}/>) :
+          (
+            <div>
             <p className='p-2 text-[14px]'><strong className='font-semibold '><NavLink to="/"> Home </NavLink>/ <NavLink to="/food"> Food  </NavLink></strong>  / {post.sidebartitle}</p>
             <div className='flex flex-col p-5'>
                 <p className='font-semibold text-2xl underline'>{post.blogtitle}</p>
@@ -43,6 +48,8 @@ function BlogPage() {
                 }
                 </div>
             </div>
+            </div>
+          )}
         </div>
     </div>
   )
