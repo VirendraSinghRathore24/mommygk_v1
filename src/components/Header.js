@@ -15,7 +15,7 @@ function Header() {
               <ul className="flex gap-x-6">
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/food">Food</NavLink></li>
-                <li><NavLink to="/newborn">New Born</NavLink></li>
+                <li><NavLink to="/newborn">Infant</NavLink></li>
                 <li><NavLink to="/aboutus">About us</NavLink></li>
                 
               </ul>
