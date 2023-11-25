@@ -13,6 +13,10 @@ import Footer from "./components/Footer";
 import BlogList from "./components/admin/BlogList";
 import UpdateBlog from "./components/admin/UpdateBlog";
 import BabyFood from "./components/BabyFood";
+import ReactGA from "react-ga";
+
+const TRACKING_ID = "G-VLLGEZ81FC";
+ReactGA.initialize(TRACKING_ID);
 
 export default function App() {
   return (
