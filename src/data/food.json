@@ -3,18 +3,18 @@
         "category" : "Food-By-Months",
         "title" : "6 Month",
         "shortDesc" : "Amazing Baby Food Reciepes",
-        "imageUrl" : "https://res.cloudinary.com/dixqxdivr/image/upload/v1688869391/vegetables-3193196_1280_j8pvol.jpg"
+        "imageUrl" : "../../images/6month.jpg"
     },
     {
         "category" : "Food-By-Months",
         "title" : "7 Month",
         "shortDesc" : "Interesting Reciepes",
-        "imageUrl" : "https://res.cloudinary.com/dixqxdivr/image/upload/v1688869325/paprika-3212148_1280_cnf6jt.jpg"
+        "imageUrl" : "../../images/7month.jpg"
     },
     {
         "category" : "Food-By-Puree",
         "title" : "Apple Puree",
         "shortDesc" : "New Apple Puree",
-        "imageUrl" : "https://res.cloudinary.com/dixqxdivr/image/upload/v1688884502/Viren/apples-3580560_1280.jpg.jpg"
+        "imageUrl" : "../../images/apple.jpg"
     }
 ]

@@ -17,7 +17,7 @@ function AboutUS() {
         </div>
 
         <div className='px-20 py-2'>
-            <img src='https://res.cloudinary.com/dixqxdivr/image/upload/v1688706322/sanju_xiwiyn.jpg' loading='lazy' className='w-[200px] h-[280px] rounded-md'/>
+            <img src='../../images/sanju.jpg' loading='lazy' className='w-[200px] h-[280px] rounded-md'/>
        </div>
     </div>
     

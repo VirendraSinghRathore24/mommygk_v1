@@ -1,17 +1,17 @@
 [
     {
         "title" : "Food",
-        "imageUrl" : "https://res.cloudinary.com/dixqxdivr/image/upload/v1688837183/Viren/xq4wjnctl0gawuego2bc.jpg",
+        "imageUrl" : "../../images/food.jpg",
         "shortDesc" : ""
     },
     {
         "title" : "Toys",
-        "imageUrl" : "https://res.cloudinary.com/dixqxdivr/image/upload/v1688988252/Viren/blocks-503109_1280.jpg.jpg",
+        "imageUrl" : "../../images/toys.jpg",
         "shortDesc" : ""
     },
     {
         "title" : "Cloths",
-        "imageUrl" : "https://res.cloudinary.com/dixqxdivr/image/upload/v1688838525/cloths_grlnuw.jpg",
+        "imageUrl" : "../../images/cloths.jpg",
         "shortDesc" : ""
     }
 ]
