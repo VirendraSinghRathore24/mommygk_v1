@@ -5,7 +5,7 @@ function BabyFood() {
     <div>
          <div className='p-4'>
          <div className='flex flex-col items-center'>
-            <h2>Download the PDF file for 6 Month Baby Food Reciepe by Sanju Shekhawat :</h2>
+            <h2>Download the PDF file for 6 Month Baby Food Reciepes :</h2>
             <div className='bg-blue-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
                 <a 
                     href="/6 Month Baby Food Reciepe.pdf"
@@ -29,6 +29,9 @@ function BabyFood() {
                             <img src="../../images/Week4.png" loading='lazy' className=' rounded-md'/>
                         
                     </div>
+                </div>
+                <div className=' mb-4 ml-10 font-semibold'>
+                Please find the reciepe videos in my Instagram and YouTube channel.
                 </div>
     </div>
   )
