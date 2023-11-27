@@ -1,6 +1,22 @@
-import React from 'react'
+import React from 'react';
+import axios from "axios";
+import { useEffect, useState } from "react";
+import baseUrl from '../baseUrl';
 
 function BabyFood() {
+
+
+    const getData = async () => {
+    const res = await axios.get("https://api.ipify.org/?format=json");
+    const result = await axios.post(`${baseUrl}/ip`, {ip:res.data.ip});
+    console.log(res.data.ip);
+   
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <div>
          <div className='p-4'>
