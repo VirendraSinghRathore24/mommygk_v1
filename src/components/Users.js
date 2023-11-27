@@ -28,6 +28,7 @@ function Users() {
                 loading ? (<Spinner type={"Loading, "}/>) :(
                 users.map((user, index) => (
                     <div className='flex justify-center gap-x-6 gap-y-4'>
+                       <div>{index+1}</div>
                         <div>{user.ipaddress}</div>
                         <div>{user.count}</div>
                     </div>
