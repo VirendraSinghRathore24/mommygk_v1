@@ -9,13 +9,14 @@ exports.ip = async (req,res) => {
 
         if(ips === null)
         {
-            await ipdb.create({"ipaddress":ip, "count" : 1});
+            
+            await ipdb.create({"ipaddress":ip, "count" : "1"});
         }
         else
         {
             //console.log(ips.ipaddress);
-            const count = ips.count + 1;
-            await ipdb.updateOne({"ipaddress":ip, "count": count});
+            var count = parseInt(ips.count) + 1;
+            await ipdb.updateOne({"ipaddress":ip, "count": count.toString()});
         }
 
         
