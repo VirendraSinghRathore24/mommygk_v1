@@ -7,7 +7,7 @@ function Users() {
     const [loading, setLoading] = useState(false);
     
     const getData = async () => {
-        setLoading(true);
+        
         const result = await fetch(`${baseUrl}/users`);
         const data = await result.json();
         setUsers(data.data);
