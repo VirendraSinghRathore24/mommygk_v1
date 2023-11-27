@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import baseUrl from '../baseUrl';
 import Spinner from './Spinner';
+import UserCard from './UserCard';
 
 function Users() {
     const [users, setUsers] = useState([]);
@@ -23,15 +24,11 @@ function Users() {
    <div>
     No of users
    </div>
-        <div className='flex justify-center'>
+        <div className='p-5'>
         {
                 loading ? (<Spinner type={"Loading, "}/>) :(
                 users.map((user, index) => (
-                    <div className='flex justify-center gap-x-6 gap-y-4'>
-                       <div>{index+1}</div>
-                        <div>{user.ipaddress}</div>
-                        <div>{user.count}</div>
-                    </div>
+                    <UserCard key={index} id={index+1} ipaddress={user.ipaddress} count={user.count} />
                 )))
         } 
            

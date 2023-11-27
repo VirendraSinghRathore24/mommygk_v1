@@ -1,3 +1,4 @@
+const { isNullOrUndef } = require("chart.js/dist/helpers/helpers.core");
 const ipdb = require("../models/IPDB");
 
 exports.ip = async (req,res) => {
@@ -7,7 +8,7 @@ exports.ip = async (req,res) => {
         //console.log(ip);
         const ips = await ipdb.findOne({"ipaddress": ip});
 
-        if(ips === null)
+        if((isNullOrUndef(ips)))
         {
             
             await ipdb.create({"ipaddress":ip, "count" : "1"});
