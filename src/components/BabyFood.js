@@ -8,7 +8,11 @@ function BabyFood() {
 
     const getData = async () => {
     const res = await axios.get("https://api.ipify.org/?format=json");
-    const result = await axios.post(`${baseUrl}/ip`, {ip:res.data.ip});
+
+    const data = new FormData();
+    data.append('ip', res.data.ip);
+
+    const result = await axios.post(`${baseUrl}/ip`, data);
     console.log(res.data.ip);
    
   };
