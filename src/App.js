@@ -16,6 +16,8 @@ import BabyFood from "./components/BabyFood";
 import ReactGA from "react-ga";
 import Users from "./components/Users";
 import Users1 from "./components/Users1";
+import BabyFood7Month from "./components/BabyFood7Month";
+import BabyFood8Month from "./components/BabyFood8Month";
 
 
 const TRACKING_ID = "G-VLLGEZ81FC";
@@ -39,6 +41,8 @@ export default function App() {
           <Route path="/admin/blogs" element={<BlogList/>}/>
           <Route path="/admin/blogs/:category" element={<UpdateBlog/>}/>
           <Route path="/babyfood6month" element={<BabyFood/>}/>
+          <Route path="/babyfood7month" element={<BabyFood7Month/>}/>
+          <Route path="/babyfood8month" element={<BabyFood8Month/>}/>
           <Route path="/users" element={<Users/>}/>
           <Route path="/users1" element={<Users1/>}/>
       </Routes>

@@ -1,17 +1,20 @@
 [
     {
-        "title" : "Food",
-        "imageUrl" : "../../images/food.jpg",
+        "title" : "Food Chart - 6 Month",
+        "imageUrl" : "../../images/6month.jpg",
+        "url" : "babyfood6month",
         "shortDesc" : ""
     },
     {
-        "title" : "Toys",
-        "imageUrl" : "../../images/toys.jpg",
+        "title" : "Food Chart - 7 Month",
+        "imageUrl" : "../../images/6month.jpg",
+        "url" : "babyfood7month",
         "shortDesc" : ""
     },
     {
-        "title" : "Cloths",
-        "imageUrl" : "../../images/cloths.jpg",
+        "title" : "Food Chart - 8 Month",
+        "imageUrl" : "../../images/6month.jpg",
+        "url" : "babyfood8month",
         "shortDesc" : ""
     }
 ]

@@ -5,11 +5,11 @@ function Card({post}) {
   return (
     <div>
          <div className='relative pointer-events-auto '>
-         <NavLink to={`/${post.title}`}>
+         <NavLink to={`/${post.url}`}>
                 <img src={post.imageUrl} className='w-[600px] h-[400px] rounded-md'/>
                     
-                <div className='absolute text-white bottom-0 px-4  text-left'>
-                    <p className='text-[40px] font-semibold '>{post.title}</p>
+                <div className='absolute text-white -bottom-6 px-4  text-left'>
+                    <p className='text-[40px] font-semibold'>{post.title}</p>
                     <p className='w-[280px]'>{post.shortDesc}</p>
                     <div className='py-10'>
                     
