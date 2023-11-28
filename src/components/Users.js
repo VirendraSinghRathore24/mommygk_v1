@@ -24,7 +24,7 @@ function Users() {
    <div>
     No of users
    </div>
-        <div className='p-5'>
+        <div className=''>
         {
                 loading ? (<Spinner type={"Loading, "}/>) :(
                 users.map((user, index) => (

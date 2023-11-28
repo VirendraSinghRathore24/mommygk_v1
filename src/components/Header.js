@@ -46,7 +46,7 @@ function Header() {
                 <li><a className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center" href="/babyfood6month">
                 <span>Downloads</span>
                 </a></li>
-                <li><a className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center" href="/users">
+                <li><a className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center" href="/users1">
                 <span>Users</span>
                 </a></li>
                 <li><a className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center" href="/aboutus">
@@ -80,7 +80,7 @@ function Header() {
         <li className="text-center"><a class=" text-xl leading-5" href="/">Home</a></li>
         <li className="text-center"><a class=" text-xl leading-5" href="/food">Food</a></li>
         <li className="text-center"><a class="text-xl leading-5" href="/babyfood6month">Downloads</a></li>
-        <li className="text-center"><a class="text-xl leading-5" href="/users">Users</a></li>
+        <li className="text-center"><a class="text-xl leading-5" href="/users1">Users</a></li>
         <li className="text-center"><a class=" text-xl leading-5" href="/aboutus">About us</a></li>
         </ul>
        </div>

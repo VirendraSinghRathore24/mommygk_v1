@@ -15,6 +15,7 @@ import UpdateBlog from "./components/admin/UpdateBlog";
 import BabyFood from "./components/BabyFood";
 import ReactGA from "react-ga";
 import Users from "./components/Users";
+import Users1 from "./components/Users1";
 
 
 const TRACKING_ID = "G-VLLGEZ81FC";
@@ -39,6 +40,7 @@ export default function App() {
           <Route path="/admin/blogs/:category" element={<UpdateBlog/>}/>
           <Route path="/babyfood6month" element={<BabyFood/>}/>
           <Route path="/users" element={<Users/>}/>
+          <Route path="/users1" element={<Users1/>}/>
       </Routes>
       <Footer/>
       

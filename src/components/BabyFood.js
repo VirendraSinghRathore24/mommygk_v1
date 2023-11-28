@@ -5,8 +5,8 @@ import baseUrl from '../baseUrl';
 
 function BabyFood() {
 
-
-    const getData = async () => {
+    const getData = async () => 
+    {
     const res = await axios.get("https://api.ipify.org/?format=json");
 
     const data = new FormData();
@@ -17,8 +17,31 @@ function BabyFood() {
    
   };
 
+  const getGeoInfo = async () => {
+    const data = new FormData();
+    axios.get('https://ipapi.co/json/').then((response) => {
+        let res = response.data;
+        
+        
+        data.append('ip', res.ip);
+        data.append('city', res.city);
+        data.append('state', res.region);
+        data.append('country', res.country_name);
+
+        axios.post(`${baseUrl}/insertuser`, data);
+        
+    }).catch((error) => {
+        console.log(error);
+    });
+   
+    
+
+        
+};
+
   useEffect(() => {
-    getData();
+    //getData();
+    getGeoInfo();
   }, []);
 
   return (
