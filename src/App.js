@@ -18,6 +18,7 @@ import Users from "./components/Users";
 import Users1 from "./components/Users1";
 import BabyFood7Month from "./components/BabyFood7Month";
 import BabyFood8Month from "./components/BabyFood8Month";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 
 
 const TRACKING_ID = "G-VLLGEZ81FC";
@@ -45,6 +46,7 @@ export default function App() {
           <Route path="/babyfood8month" element={<BabyFood8Month/>}/>
           <Route path="/users" element={<Users/>}/>
           <Route path="/users1" element={<Users1/>}/>
+          <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
       </Routes>
       <Footer/>
       
