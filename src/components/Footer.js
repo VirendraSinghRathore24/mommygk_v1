@@ -23,7 +23,7 @@ function Footer() {
                 </Link>
                 
               </div>
-              <div className='flex justify-evenly text-lg font-semibold text-blue-600'>
+              <div className='flex justify-evenly text-lg text-blue-600'>
               <Link to="/aboutus">About us</Link>
               <Link to="/privacypolicy">Privacy Policy</Link>
               <Link to="/termsofuse">Terms of Use</Link>
