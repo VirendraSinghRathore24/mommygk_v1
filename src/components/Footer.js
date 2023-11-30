@@ -26,6 +26,7 @@ function Footer() {
               <div className='flex justify-evenly text-lg font-semibold text-blue-600'>
               <Link to="/aboutus">About us</Link>
               <Link to="/privacypolicy">Privacy Policy</Link>
+              <Link to="/termsofuse">Terms of Use</Link>
               </div>
               <div class="text-base text-center pt-4 text-blue-500">Copyright © 2023 <strong> www.mommygk.com </strong> All Rights Reserved.</div>
           </div>
