@@ -53,7 +53,7 @@ export default function App() {
           <Route path="/termsofuse" element={<TermsOfUse/>}/>
       </Routes>
       <Footer/>
-      <>      <PageComponent />
+      <>      <PageComponent/>
       </>
 
     </div>
