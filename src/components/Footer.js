@@ -24,7 +24,7 @@ function Footer() {
                 
               </div>
               <div className='flex justify-evenly font-normal text-lg '>
-              <Link to="/aboutus">About us</Link>
+              <Link to="/contactus">Contact us</Link>
               <Link to="/privacypolicy">Privacy Policy</Link>
               <Link to="/termsofuse">Terms of Use</Link>
               </div>

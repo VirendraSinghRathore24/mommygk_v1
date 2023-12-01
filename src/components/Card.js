@@ -6,7 +6,7 @@ function Card({post}) {
     <div>
          <div className='relative pointer-events-auto '>
          <NavLink to={`/${post.url}`}>
-                <img src={post.imageUrl} className='w-[600px] h-[400px] rounded-md'/>
+                <img src={post.imageUrl} loading='lazy' className='w-[600px] h-[400px] rounded-md'/>
                     
                 <div className='absolute text-white -bottom-6 px-4  text-left'>
                     <p className='text-[40px] font-semibold'>{post.title}</p>

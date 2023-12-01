@@ -20,6 +20,7 @@ import BabyFood7Month from "./components/BabyFood7Month";
 import BabyFood8Month from "./components/BabyFood8Month";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsOfUse from "./components/TermsOfUse";
+import ContactUS from "./components/ContactUS";
 
 
 const TRACKING_ID = "G-VLLGEZ81FC";
@@ -38,6 +39,7 @@ export default function App() {
           <Route path="/food" element={<FoodPage/>}/>
           <Route path="/food/:home" element={<BlogPage/>}/>
           <Route path="/aboutus" element={<AboutUS/>}/>
+          <Route path="/contactus" element={<ContactUS/>}/>
           <Route path="/cloths" element={<ClothsPage/>}/>
           <Route path="/toys" element={<ToysPage/>}/>
           <Route path="/admin/blogs" element={<BlogList/>}/>
