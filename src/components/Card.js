@@ -20,6 +20,7 @@ function Card({post}) {
                 </div>
                 </NavLink>
             </div>  
+            
     </div>
   )
 }
