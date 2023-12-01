@@ -21,7 +21,7 @@ import BabyFood8Month from "./components/BabyFood8Month";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsOfUse from "./components/TermsOfUse";
 import ContactUS from "./components/ContactUS";
-
+import PageComponent from './components/PageComponent';
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -53,7 +53,7 @@ export default function App() {
           <Route path="/termsofuse" element={<TermsOfUse/>}/>
       </Routes>
       <Footer/>
-      
+      <PageComponent />
     </div>
   )
 }
