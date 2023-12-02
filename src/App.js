@@ -16,6 +16,7 @@ import BabyFood from "./components/BabyFood";
 import ReactGA from "react-ga";
 import Users from "./components/Users";
 import Users1 from "./components/Users1";
+import Users7Month from "./components/Users7Month";
 import BabyFood7Month from "./components/BabyFood7Month";
 import BabyFood8Month from "./components/BabyFood8Month";
 import PrivacyPolicy from "./components/PrivacyPolicy";
@@ -49,6 +50,7 @@ export default function App() {
           <Route path="/babyfood8month" element={<BabyFood8Month/>}/>
           <Route path="/users" element={<Users/>}/>
           <Route path="/users1" element={<Users1/>}/>
+          <Route path="/users7" element={<Users7Month/>}/>
           <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
           <Route path="/termsofuse" element={<TermsOfUse/>}/>
       </Routes>

@@ -15,6 +15,7 @@ const {insertUser} = require("../controllers/insertUser");
 const {insertUser7Month} = require("../controllers/insertUser7Month");
 const {getUsers1} = require("../controllers/getUsers1");
 const {getUsers} = require("../controllers/getUsers");
+const {getUsers7Month} = require("../controllers/getUsers7Month");
 
 router.post("/insertcard", insertCard);
 router.post("/insertblog", insertBlog);
@@ -29,5 +30,6 @@ router.post("/insertuser", insertUser);
 router.post("/insertuser7month", insertUser7Month);
 router.get("/users", getUsers);
 router.get("/getusers", getUsers1);
+router.get("/getusers7month", getUsers7Month);
 
 module.exports = router;
