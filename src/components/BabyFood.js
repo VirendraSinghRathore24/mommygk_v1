@@ -8,8 +8,7 @@ function BabyFood() {
     const data = new FormData();
     axios.get('https://ipapi.co/json/').then((response) => {
         let res = response.data;
-        
-        
+
         data.append('ip', res.ip);
         data.append('city', res.city);
         data.append('state', res.region);
@@ -22,8 +21,8 @@ function BabyFood() {
 };
 
   useEffect(() => {
-    //getData();
     getGeoInfo();
+    window.scroll(0,0);
   }, []);
 
   return (

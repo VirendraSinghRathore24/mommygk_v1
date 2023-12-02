@@ -21,8 +21,8 @@ function BabyFood7Month() {
 };
 
   useEffect(() => {
-    //getData();
     getGeoInfo();
+    window.scroll(0,0);
   }, []);
 
   return (
