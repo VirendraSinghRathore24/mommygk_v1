@@ -12,6 +12,7 @@ const {getAdminBlogs} = require("../controllers/getAdminBlogs");
 const {updateBlog} = require("../controllers/updateBlog");
 const {ip} = require("../controllers/ip");
 const {insertUser} = require("../controllers/insertUser");
+const {insertUser7Month} = require("../controllers/insertUser7Month");
 const {getUsers1} = require("../controllers/getUsers1");
 const {getUsers} = require("../controllers/getUsers");
 
@@ -25,6 +26,7 @@ router.get("/admin/blogs", getAdminBlogs);
 router.post("/admin/blogs/updateblog", updateBlog);
 router.post("/ip", ip);
 router.post("/insertuser", insertUser);
+router.post("/insertuser7month", insertUser7Month);
 router.get("/users", getUsers);
 router.get("/getusers", getUsers1);
 

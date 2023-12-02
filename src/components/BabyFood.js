@@ -4,19 +4,6 @@ import { useEffect, useState } from "react";
 import baseUrl from '../baseUrl';
 
 function BabyFood() {
-
-    const getData = async () => 
-    {
-    const res = await axios.get("https://api.ipify.org/?format=json");
-
-    const data = new FormData();
-    data.append('ip', res.data.ip);
-
-    const result = await axios.post(`${baseUrl}/ip`, data);
-    console.log(res.data.ip);
-   
-  };
-
   const getGeoInfo = async () => {
     const data = new FormData();
     axios.get('https://ipapi.co/json/').then((response) => {
@@ -29,14 +16,9 @@ function BabyFood() {
         data.append('country', res.country_name);
 
         axios.post(`${baseUrl}/insertuser`, data);
-        
     }).catch((error) => {
         console.log(error);
-    });
-   
-    
-
-        
+    });     
 };
 
   useEffect(() => {
