@@ -18,7 +18,7 @@ function AboutUS() {
  Though I am fond of food and like to taste different varieties, but started my own cooking after my marriage as I never entered into the kitchen because of my lovable mom and only had the opportunity to enjoy her yummy food. But after marriage, I started cooking vigorously. My husband is a best critic, and that helps me to improve my cooking.</p>
         
         <br/>
-        <p className='leading-7 text-[18px] '>The recipes posted here are tried and tasted in my kitchen,traditional native recipes from my mom, baby foods which I feed my baby and few other recipes tried from friends, cookbooks or other food blogs.Being a health-conscious person, most of my recipes are focuses on health. (Some are exceptional though)</p>
+        <p className='leading-7 text-[18px] align-baseline text-justify'>The recipes posted here are tried and tasted in my kitchen,traditional native recipes from my mom, baby foods which I feed my baby and few other recipes tried from friends, cookbooks or other food blogs.Being a health-conscious person, most of my recipes are focuses on health. (Some are exceptional though)</p>
         </div>
 
         <div className='px-20 py-2'>
