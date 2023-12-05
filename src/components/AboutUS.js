@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 function AboutUS() {
+
+  useEffect(() => {
+    window.scroll(0,0);
+  }, []);
+
   return (
     <div className=''>
     <p className='p-2'><strong><Link to="/">Home</Link> </strong> / About us</p>

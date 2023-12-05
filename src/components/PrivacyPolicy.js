@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import data from "../data/privacypolicy.json"
 
 function PrivacyPolicy() {
+    useEffect(() => {
+        window.scroll(0,0);
+      }, []);
   return (
     <div className='p-5'>
         <div className='flex justify-center text-[24px] font-semibold'>Privacy Policy</div>
