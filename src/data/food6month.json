@@ -1,0 +1,458 @@
+[
+    {
+           "week" : "Week 1",
+           "time" : "9 - 11 AM",
+           "color" : 1,
+            "details" :
+            [
+            {          
+                "day" : "Day 1",
+                "Reciepe1" : "Carrot Puree",
+                "youtubelink" : "https://www.youtube.com/@MommyGK",
+                "articlelink" : "",
+                "color" : 1
+            },
+            {
+                "day" : "Day 2",
+                "Reciepe1" : "Apple Puree",
+                "youtubelink" : "https://www.youtube.com/@MommyGK",
+                "articlelink" : "",
+                "color" : 2
+            },
+            {
+                "day" : "Day 3",
+                "Reciepe1" : "Banana Puree",
+                "youtubelink" : "https://www.youtube.com/@MommyGK",
+                "articlelink" : "",
+                "color" : 1
+            },
+            {
+                "day" : "Day 4",
+                "Reciepe1" : "Rice Porridge",
+                "youtubelink" : "https://www.youtube.com/@MommyGK",
+                "articlelink" : "",
+                "color" : 2
+            },
+            {
+                "day" : "Day 5",
+                "Reciepe1" : "Pumpkin Puree",
+                "youtubelink" : "https://www.youtube.com/@MommyGK",
+                "articlelink" : "",
+                "color" : 1
+            },
+            {
+                "day" : "Day 6",
+                "Reciepe1" : "Sweetpotato Puree",
+                "youtubelink" : "https://www.youtube.com/@MommyGK",
+                "articlelink" : "",
+                "color" : 2
+            },
+            {
+                "day" : "Day 7",
+                "Reciepe1" : "Moong Daal",
+                "youtubelink" : "https://www.youtube.com/@MommyGK",
+                "articlelink" : "",
+                "color" : 1
+            }
+        ]
+        },
+        {
+            "week" : "Week 1",
+            "time" : "2 - 4 PM",
+            "color" : 1,
+             "details" :
+             [
+             {          
+                 "day" : "Day 1",
+                 "Reciepe1" : "Carrot Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "Apple Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "Banana Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "Rice Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "Pumpkin Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "Sweetpotato Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "Moong Daal",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+        {
+            "week" : "Week 2",
+            "time" : "9 - 11 AM",
+            "color" : 2,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "Pears Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "Oats Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "Papaya Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "Rice Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "Peas Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "Oats + Apple Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "Suji + Banana Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 2",
+            "time" : "2 - 4 PM",
+            "color" : 2,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "Pears Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "Oats Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "Papaya Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "Rice Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "Peas Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "Oats + Apple Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "Suji + Banana Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 3",
+            "time" : "9 - 11 AM",
+            "color" : 3,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "Khichdi",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "Oats + Carrot Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "Suji + Banana Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "Rice Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "Papaya Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "Oats + Banana Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "Spinach + Rcie + Moong Daal Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 3",
+            "time" : "2 - 4 PM",
+            "color" : 3,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "Plain Curd",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "Pumpkin Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "Apple + Pears Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "Oats + Carrot Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "Khichdi",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "Avocado Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "Carrot + Beetroot Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 4",
+            "time" : "9 - 11 AM",
+            "color" : 4,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "Khichdi with Potato",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "Suji Upma",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "Potato + Peas Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "Poha + Apple Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "Khichdi with Spinach",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "Oats + Carrot Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "Corn Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 4",
+            "time" : "2 - 4 PM",
+            "color" : 4,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "Carrot Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "Oats + Carrot Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "Banana Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "Poha + Apple Porridge",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "Pumpkin Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "Carrot + Beetroot Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "Avocado Puree",
+                 "youtubelink" : "https://www.youtube.com/@MommyGK",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         }
+]
