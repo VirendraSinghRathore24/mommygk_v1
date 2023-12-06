@@ -21,8 +21,8 @@ function FoodMonthsCard({post, week, time, color}) {
                     <tr className='bg-orange-300 border-2 border-black'>
                     <th scope="col" className="px-1 py-2 border-r-2 text-center">Day</th>
                     <th scope="col" className="px-1 py-2 border-r-2 text-center">{time}</th>
-                    <th scope="col" className="px-6 py-2 border-r-2 text-center" >Video</th>
-                    <th scope="col" className="px-6 py-2 text-center ">Blog</th>
+                    <th scope="col" className="px-6 py-2  text-center" >Video</th>
+                    {/* <th scope="col" className="px-6 py-2 text-center ">Blog</th> */}
                     
                     </tr>
                 </thead>
@@ -36,16 +36,16 @@ function FoodMonthsCard({post, week, time, color}) {
                                     {p.Reciepe1}
                                 </a>
                             </td>
-                            <td className='px-6 py-2 w-[20px] h-[20px] border-r-2 text-center'> 
+                            <td className='px-6 py-2 w-[20px] h-[20px] text-center'> 
                                 <a href={p.youtubelink} target="_blank" rel="noreferrer">
                                 <img src="../../images/youtube.png" className='w-[35px] h-[35px] rounded-md' loading='lazy'/>
                                 </a>
                             </td>
-                            <td className='px-6 py-2 w-[40px] h-[40px] text-center'> 
+                            {/* <td className='px-6 py-2 w-[40px] h-[40px] text-center'> 
                                
                                 <img src="../../images/article.png" className='w-[35px] h-[35px] rounded-md' loading='lazy'/>
                                 
-                            </td>
+                            </td> */}
                             
                         </tr>     
             ))      
