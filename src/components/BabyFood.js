@@ -2,7 +2,7 @@ import React from 'react';
 import axios from "axios";
 import { useEffect, useState } from "react";
 import baseUrl from '../baseUrl';
-import data1 from '../data/food6month.json'
+import data1 from '../data/food6month.json';
 import FoodMonthsCard from './FoodMonthsCard';
 
 function BabyFood() {
@@ -24,17 +24,12 @@ function BabyFood() {
     });     
 };
  function fetchBlogsData(){
-    //setLoading(true);
     try{
-        console.log("Viren");
-        console.log(data1[0].details);
         setPosts(data1);
-
     }
     catch(err){
       console.log(err);
     }
-    //setLoading(false);
   }
 
   useEffect(() => {
