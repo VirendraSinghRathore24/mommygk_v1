@@ -27,6 +27,9 @@ function Users1() {
 
     
     <div>
+    <div className='flex justify-center text-lg p-2 font-semibold'>
+        6 Month Chart data
+    </div>
         <div >
         
             <div className='flex flex-col gap-y-2 ml-1 mt-6 font-semibold'>

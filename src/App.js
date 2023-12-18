@@ -18,11 +18,13 @@ import Users from "./components/Users";
 import Users1 from "./components/Users1";
 import Users7Month from "./components/Users7Month";
 import BabyFood7Month from "./components/BabyFood7Month";
-import BabyFood8Month from "./components/BabyFood8Month";
+import BabyFood8Month from "./components/BabyFoodSpices";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsOfUse from "./components/TermsOfUse";
 import ContactUS from "./components/ContactUS";
 import PageComponent from './components/PageComponent';
+import UsersSpices from "./components/UsersSpices";
+import BabyFoodSpices from "./components/BabyFoodSpices";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -47,9 +49,10 @@ export default function App() {
           <Route path="/admin/blogs/:category" element={<UpdateBlog/>}/>
           <Route path="/babyfood6month" element={<BabyFood/>}/>
           <Route path="/babyfood7month" element={<BabyFood7Month/>}/>
-          <Route path="/babyfood8month" element={<BabyFood8Month/>}/>
+          <Route path="/babyfoodspices" element={<BabyFoodSpices/>}/>
           <Route path="/users" element={<Users/>}/>
           <Route path="/users1" element={<Users1/>}/>
+          <Route path="/users6" element={<UsersSpices/>}/>
           <Route path="/users7" element={<Users7Month/>}/>
           <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
           <Route path="/termsofuse" element={<TermsOfUse/>}/>

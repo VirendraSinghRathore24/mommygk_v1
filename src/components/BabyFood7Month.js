@@ -11,7 +11,7 @@ function BabyFood7Month() {
     const data = new FormData();
     axios.get('https://ipapi.co/json/').then((response) => {
         let res = response.data;
-
+        console.log(res);
         data.append('ip', res.ip);
         data.append('city', res.city);
         data.append('state', res.region);
