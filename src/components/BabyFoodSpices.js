@@ -50,8 +50,8 @@ function fetchBlogsData(){
           
             <div className='bg-blue-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
                 <a 
-                    href="/Introduce6Month.pdf"
-                    download="7 Month Baby Food Reciepe"
+                    href="/Baby Food Spices.pdf"
+                    download="Baby Food Spices"
                     target="_blank"
                     rel="noreferrer"
                 >
