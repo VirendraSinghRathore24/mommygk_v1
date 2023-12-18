@@ -69,7 +69,7 @@ function fetchBlogsData(){
                     
                 </div>
                 <div className='p-2 ml-2 font-semibold text-lg text-blue-600'>
-                You can do your own Research and add the recipies you make for your baby Accordingly. If in doubt about any please consult with your doctor for best advice.
+                You can conduct your own research and add the recipes you make for your baby accordingly. If you have any doubts, please consult with your doctor for the best advice.
                 </div>
                 
     </div>
