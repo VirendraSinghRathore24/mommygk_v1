@@ -2,7 +2,7 @@ import React from 'react'
 
 function Introduce6MonthCard({post}) {
   return (
-    <div className='flex flex-col gap-y-2 xs:ml-0 xs:mr-0 sm:ml-0 sm:mr-0 md:ml-8 md:mr-8 lg:ml-10 lg:mr-10 xl:ml-12 xl:mr-12 mt-6'>
+    <div className='flex flex-col gap-y-2 xs:ml-0 xs:mr-0 sm:ml-6 sm:mr-6 md:ml-8 md:mr-8 lg:ml-10 lg:mr-10 xl:ml-12 xl:mr-12 mt-6'>
     <div className='overflow-x-auto sm:-mx-6 lg:-mx-8'>
    
     <div className="overflow-hidden">
