@@ -12,7 +12,7 @@ const PageComponent = () => {
                 <script>
                     {
                         `(adsbygoogle=window.adsbygoogle || []).push({
-                            google_ad_client:'ca-pub-2373979360301400',
+                            google_ad_client:'ca-pub-4401844428563263',
                             enable_page_level_ads: true
                         });`
                     }
