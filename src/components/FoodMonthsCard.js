@@ -31,10 +31,14 @@ function FoodMonthsCard({post, week, time, color}) {
             post.map((p, index) => (
                         <tr className=" border-2 border-black">
                             <td className="whitespace-wrap text-[14px] font-medium px-1 py-2 border-r-2 text-center">{p.day}</td>
-                            <td className="whitespace-wrap text-[14px] font-medium px-1 py-2 border-r-2 text-center text-blue-600 underline">
-                                <a href={p.youtubelink} target="_blank" rel="noreferrer">
+                            <td className="whitespace-wrap text-[14px] font-medium px-1 py-2 border-r-2 text-center ">
+                                {
+                                    
+                                    p.youtubelink ? (<div className='text-blue-600 underline'><a href={p.youtubelink} target="_blank" rel="noreferrer">
                                     {p.Reciepe1}
-                                </a>
+                                </a></div>) : (<div>{p.Reciepe1}</div>)
+                                }
+                                
                             </td>
                             
                             <td className='px-6 py-2 w-[20px] h-[20px] text-center'> 
