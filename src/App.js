@@ -48,7 +48,7 @@ export default function App() {
           <Route path="/toys" element={<ToysPage/>}/>
           <Route path="/admin/blogs" element={<BlogList/>}/>
           <Route path="/admin/blogs/:category" element={<UpdateBlog/>}/>
-          <Route path="/foodreciepesvideo" element={<FoodReciepesVideo/>}/>
+          <Route path="/foodrecipesvideo" element={<FoodReciepesVideo/>}/>
           <Route path="/babyfood6month" element={<BabyFood/>}/>
           <Route path="/babyfood7month" element={<BabyFood7Month/>}/>
           <Route path="/babyfoodspices" element={<BabyFoodSpices/>}/>

@@ -42,7 +42,7 @@ function BabyFood() {
     <div>
          <div className='p-4'>
          <div className='flex flex-col items-center'>
-            <h2>Download the PDF file for 6 Month Baby Food Reciepes :</h2>
+            <h2>Download the PDF file for 6 Month Baby Food Recipes :</h2>
             <div className='bg-blue-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
                 <a 
                     href="/6 Month Baby Food Reciepe.pdf"
