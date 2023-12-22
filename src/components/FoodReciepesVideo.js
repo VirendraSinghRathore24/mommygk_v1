@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import data from "../data/foodvideo.json"
 import FoodVideoCard from './FoodVideoCard';
 
 function FoodReciepesVideo() {
     const [posts, setPosts] = useState(data);
-    console.log(data);
+    useEffect(() => {
+        window.scroll(0,0);
+      }, []);
   return (
     <div>
         <p className='text-md font-light py-3 px-7'><strong className='font-semibold text-xl text-richblack-700'>Food Recipes Video :</strong> </p>
