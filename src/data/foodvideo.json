@@ -1,5 +1,10 @@
 [
     {
+        "title" : "Carrot Puree (6 M+)",
+        "imageUrl" : "../../images/carrot.jpeg",
+        "youtubelink" : "https://www.youtube.com/watch?v=4S02boyMtWA"
+    },
+    {
         "title" : "Sweet Potato Puree (6 M+)",
         "imageUrl" : "../../images/sweetpotato.jpeg",
         "youtubelink" : "https://www.youtube.com/watch?v=6AnFbni7aXI"
