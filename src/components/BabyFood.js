@@ -59,7 +59,7 @@ function BabyFood() {
               
                     <div className='flex text-center items-center justify-center bg-red-300 h-8 gap-y-1 text-blue-600 font-semibold'>
                     <marquee>
-                        Currently YouTube link will not work as we are working on it. You can subscribe for updates...
+                        We are working on YouTube Video and meanwhile you can subscribe for updates...
                         </marquee>
                     </div>
 

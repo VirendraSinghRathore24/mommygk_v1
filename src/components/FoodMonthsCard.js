@@ -36,10 +36,14 @@ function FoodMonthsCard({post, week, time, color}) {
                                     {p.Reciepe1}
                                 </a>
                             </td>
+                            
                             <td className='px-6 py-2 w-[20px] h-[20px] text-center'> 
-                                <a href={p.youtubelink} target="_blank" rel="noreferrer">
+                            {
+                                p.youtubelink ? (<a href={p.youtubelink} target="_blank" rel="noreferrer">
                                 <img src="../../images/youtube.png" className='w-[35px] h-[35px] rounded-md' loading='lazy'/>
-                                </a>
+                                </a>) : (<div></div>)
+                            }
+                                
                             </td>
                             {/* <td className='px-6 py-2 w-[40px] h-[40px] text-center'> 
                                

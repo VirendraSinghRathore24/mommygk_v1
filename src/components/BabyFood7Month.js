@@ -58,7 +58,7 @@ function fetchBlogsData(){
                 <div>
                 <div className='flex text-center items-center justify-center bg-red-300 h-8 gap-y-1 text-blue-600 font-semibold'>
                     <marquee>
-                        Currently YouTube link will not work as we are working on it. You can subscribe for updates...
+                    We are working on YouTube Video and meanwhile you can subscribe for updates...
                         </marquee>
                     </div>
                 <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 px-4 py-5 gap-x-10 gap-y-10'>
