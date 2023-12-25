@@ -10,16 +10,16 @@ function Footer() {
             <p className='text-xl text-center font-normal p-2'>To stay connected with Sanju and receive updates on the latest post, you can connect on the following platforms</p>
               <div className='flex justify-evenly gap-x-8 py-2'>
                 <Link to="https://www.instagram.com/mommy_sanju/">
-                <img src='../../images/insta1.jpg' alt='instagram' className='w-[70px] h-[70px] mt-1'/>
+                <img src='../../images/insta1.jpg' alt='instagram' target="_blank" className='w-[70px] h-[70px] mt-1'/>
                 </Link>
                 <Link to="https://www.youtube.com/@MommyGK">
-                <img src='../../images/youtube.png' alt='youtube' className='w-[50px] h-[50px] mt-4'/>
+                <img src='../../images/youtube.png' alt='youtube' target="_blank" className='w-[50px] h-[50px] mt-4'/>
                 </Link>
                 <Link to="https://www.facebook.com/people/Sanju-Shekhawat/100094344244292/?mibextid=LQQJ4d">
-                <img src='../../images/facebook.png' alt='facebook' className='w-[50px] h-[50px] mt-4'/>
+                <img src='../../images/facebook.png' alt='facebook' target="_blank" className='w-[50px] h-[50px] mt-4'/>
                 </Link>
                 <Link to="https://www.linkedin.com/in/sanju-shekhawat-59344b44/">
-                <img src='../../images/linkedin.png' alt='linkedin' className='w-[50px] h-[50px] mt-4'/>
+                <img src='../../images/linkedin.png' alt='linkedin' target="_blank" className='w-[50px] h-[50px] mt-4'/>
                 </Link>
                 
               </div>

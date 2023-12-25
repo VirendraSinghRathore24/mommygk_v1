@@ -1,13 +1,19 @@
 [
     {
+        "title" : "First Week Food (6 M+)",
+        "imageUrl" : "../../images/firstweekfood1.jpeg",
+        "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+        "shortDesc" : "How to prepare first week food for 6+ month baby"
+    },
+    {
         "title" : "Carrot Puree (6 M+)",
-        "imageUrl" : "../../images/carrot.jpeg",
+        "imageUrl" : "../../images/carrot2.jpeg",
         "youtubelink" : "https://www.youtube.com/watch?v=4S02boyMtWA",
         "shortDesc" : "How to prepare carrot puree for 6+ month baby"
     },
     {
         "title" : "Sweet Potato Puree (6 M+)",
-        "imageUrl" : "../../images/sweetpotato.jpeg",
+        "imageUrl" : "../../images/sweetpotato3.jpeg",
         "youtubelink" : "https://www.youtube.com/watch?v=6AnFbni7aXI",
         "shortDesc" : "How to prepare sweet potato food for 6+ month baby"
     }
