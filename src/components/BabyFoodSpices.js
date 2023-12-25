@@ -68,7 +68,7 @@ function fetchBlogsData(){
                 }
                     
                 </div>
-                <div className='p-2 ml-2 font-semibold text-lg text-blue-600'>
+                <div className='flex flex-col items-center font-normal p-5 leading-8 text-[18px] align-baseline text-justify text-blue-600'>
                 You can conduct your own research and add the recipes you make for your baby accordingly. If you have any doubts, please consult with your doctor for the best advice.
                 </div>
                 

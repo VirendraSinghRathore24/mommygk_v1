@@ -49,6 +49,7 @@ function HomePage() {
                 )))
                } 
             </div>
+            <div className='flex flex-col items-center font-normal p-5 leading-8 text-[18px] align-baseline text-justify'>Infused with boundless joy and pure innocence, a baby is the embodiment of love, hope, and the promise of a brighter tomorrow. Each gurgle, every tiny grasp, and the sparkle in their eyes tell a tale of new beginnings and endless possibilities. A baby is a precious gift that graces our lives, teaching us the profound beauty of simplicity and the extraordinary magic found in the ordinary moments. Cherished for their uniqueness and embraced for the unconditional love they bring, babies are a reminder that life's most precious treasures come in the smallest packages.</div>
         </div>
     </div>
   )
