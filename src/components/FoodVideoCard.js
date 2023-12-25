@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
 import { CiPlay1 } from "react-icons/ci";
-
+import { IoPlayCircleOutline } from "react-icons/io5";
 
 function FoodVideoCard({post}) {
     
@@ -28,7 +28,7 @@ function FoodVideoCard({post}) {
 
             <div className='absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     
-                     <CiPlay1 size={50} />
+                     <IoPlayCircleOutline size={100} />
                     
                     
                </div>
