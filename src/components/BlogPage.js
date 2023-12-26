@@ -1,57 +1,56 @@
 import React, { useState, useEffect } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
-import baseUrl from '../baseUrl';
+import data from '../data/blogs.json';
 import Spinner from './Spinner';
 
 function BlogPage() {
 
-    const [post, setPost] = useState([]);
-    const [loading, setLoading] = useState(false);
+  const [posts, setPosts] = useState([]);
+  const [loading, setLoading] = useState(false);
 
-    const location = useLocation();
-    const sidebartitle = location.pathname.split("/").at(-1);
-
-    async function fetchBlogsData(){
-        setLoading(true);
-        try{
+  const location = useLocation();
+  const title = location.pathname.split("/").at(-1).replaceAll("-"," ");
   
-          const result = await fetch(`${baseUrl}/getblog?sidebartitle=${sidebartitle.replace(" ", "-")}`);
-          const data = await result.json();
 
-          setPost(data.data);
-  
-        }
-        catch(err){
-          console.log(err);
-        }
-        setLoading(false);
+  async function fetchBlogsData(){
+      setLoading(true);
+      try{
+          const data1 = data.filter((x) => x.title === title);
+          setPosts(data1[0]);  
       }
-  
-      useEffect(() => {
-        fetchBlogsData();
-      },[])
+      catch(err){
+          console.log(err);
+      }
+      setLoading(false);
+  }
 
+  useEffect(() => {
+      fetchBlogsData();
+      window.scroll(0,0);
+  },[]);
   return (
-    <div className='flex w-full'>
-        
-        <div className='flex flex-col'>
-        {
-          loading ? (<Spinner type={"Loading, "}/>) :
-          (
+    <div>
+    <div className='flex flex-row justify-between'>
+         <p className='text-md font-light py-3 px-5 md:px-2 pointer-events-auto'><strong className='font-semibold'><NavLink to="/"> Home </NavLink><NavLink to={'/blogs'}> / Blogs </NavLink></strong>/ {title} </p>
+         {/* <div className='flex gap-x-2 p-2'>
+            <AiFillLike fontSize="1.75rem" />
+            <AiFillDislike fontSize="1.75rem" />
+         </div> */}
+         </div>
+    <div className='flex flex-col p-8'>
             <div>
-            <p className='p-2 text-[14px]'><strong className='font-semibold '><NavLink to="/"> Home </NavLink>/ <NavLink to="/food"> Food  </NavLink></strong>  / {post.sidebartitle}</p>
-            <div className='flex flex-col p-5'>
-                <p className='font-semibold text-2xl underline'>{post.blogtitle}</p>
-                <div className="text-justify align-baseline leading-8 text-base font-normal text-[17px] py-3">
-                {                
-                    <span dangerouslySetInnerHTML={{__html: post.description}} />
-                }
+                <div  >
+                    <h1 className='font-bold text-[20px] text-blue-500 underline text-center'>{posts.title}</h1>
+                </div>
+                <div className="w-45 text-richblack-700 font-normal text-[17px] text-left">        
+                    <span dangerouslySetInnerHTML={{__html: posts.desc}} />
+                <br/>
                 </div>
             </div>
-            </div>
-          )}
-        </div>
     </div>
+    
+    </div>
+    
   )
 }
 
