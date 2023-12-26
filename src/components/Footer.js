@@ -73,9 +73,9 @@ function Footer() {
         <div className='flex flex-col text-center text-base md:text-left'>
           <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Top Purees</p>
           <div className='flex flex-col gap-y-2'>
+                <a href='/foodrecipesvideo'>Solid Food Guide</a>   
                 <a href='/foodrecipesvideo'>First Week Purees</a>
-                <a href='/foodrecipesvideo'>Carrot Puree</a>
-                <a href='/foodrecipesvideo'>Sweet Potato Puree</a>          
+                <a href='/foodrecipesvideo'>Carrot Puree</a>        
           </div>
         </div>
         
