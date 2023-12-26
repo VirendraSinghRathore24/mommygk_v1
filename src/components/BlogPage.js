@@ -37,12 +37,12 @@ function BlogPage() {
             <AiFillDislike fontSize="1.75rem" />
          </div> */}
          </div>
-    <div className='flex flex-col p-8'>
+    <div className='flex flex-col p-4'>
             <div>
                 <div  >
                     <h1 className='font-bold text-[20px] text-blue-500 underline text-center'>{posts.title}</h1>
                 </div>
-                <div className="w-45 text-richblack-700 font-normal text-[17px] text-left">        
+                <div className="w-45 text-richblack-700 font-normal text-[17px] text-left mt-6">        
                     <span dangerouslySetInnerHTML={{__html: posts.desc}} />
                 <br/>
                 </div>
