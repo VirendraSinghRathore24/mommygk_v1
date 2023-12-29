@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import data from '../data/blogs.json';
+import "./YoutubeEmbed.css";
+import YoutubeEmbed from "./YoutubeEmbed";
 
 function BlogPage() {
 
@@ -45,16 +47,21 @@ function BlogPage() {
                     <span dangerouslySetInnerHTML={{__html: posts.desc1}} />
                
                 </div>
-                <div className='flex justify-center mt-2'>
-                   <iframe title='how' className='w-60 md:w-80 lg:w-96 h-40 md:h-60 lg:h-90' src="https://www.youtube.com/embed/1h-Buyvan-M" frameborder="0" allowfullscreen="" ></iframe>
+                {/* <div className='flex justify-center items-center mt-2  border-2 border-black'>
+                   <iframe title='how' width="80%" height="500%" src="https://www.youtube.com/embed/1h-Buyvan-M" frameborder="0" allowfullscreen="" ></iframe>
+                </div> */}
+                <div>
+                    <YoutubeEmbed embedId='1h-Buyvan-M' />
                 </div>
+
                 <div className="w-45 text-richblack-700 font-normal text-[17px] text-left mt-6 leading-9">        
                     <span dangerouslySetInnerHTML={{__html: posts.desc2}} />
            
                 </div>
-                <div className='flex justify-center'>
-                   <iframe title='first week' className='h-[350px] w-[600px]' src="https://www.youtube.com/embed/T51chIH2NLI" frameborder="0" allowfullscreen="" ></iframe>
+                <div >
+                   <YoutubeEmbed embedId='T51chIH2NLI' />
                 </div>
+                
                 <div className="w-45 text-richblack-700 font-normal text-[17px] text-left mt-6 leading-9">        
                     <span dangerouslySetInnerHTML={{__html: posts.desc3}} />
                 </div>
