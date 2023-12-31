@@ -24,7 +24,6 @@ function BabyFood6MonthHindi() {
   return (
     <div>
          <div className='p-4'>
-         <p className='text-md font-light py-3 px-5 md:px-2 pointer-events-auto'><strong className='font-semibold'><NavLink to="/"> Home </NavLink></strong>/ 6 Month Food Chart in Hindi </p>
          <div className='flex flex-col items-center'>
             <h2>6 महीने के शिशु आहार व्यंजनों की हिंदी में PDF फाइल डाउनलोड करें : </h2>
             <div className='bg-blue-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
