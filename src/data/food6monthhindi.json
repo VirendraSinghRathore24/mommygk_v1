@@ -1,0 +1,458 @@
+[
+    {
+           "week" : "Week 1",
+           "time" : "9 - 11 AM",
+           "color" : 1,
+            "details" :
+            [
+            {          
+                "day" : "Day 1",
+                "Reciepe1" : "गाजर की प्यूरी",
+                "youtubelink" : "https://www.youtube.com/watch?v=4S02boyMtWA",
+                "articlelink" : "",
+                "color" : 1
+            },
+            {
+                "day" : "Day 2",
+                "Reciepe1" : "सेब की प्यूरी",
+                "youtubelink" : "",
+                "articlelink" : "",
+                "color" : 2
+            },
+            {
+                "day" : "Day 3",
+                "Reciepe1" : "केले की प्यूरी",
+                "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+                "articlelink" : "",
+                "color" : 1
+            },
+            {
+                "day" : "Day 4",
+                "Reciepe1" : "चावल का दलिया",
+                "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+                "articlelink" : "",
+                "color" : 2
+            },
+            {
+                "day" : "Day 5",
+                "Reciepe1" : "कद्दू की प्यूरी",
+                "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+                "articlelink" : "",
+                "color" : 1
+            },
+            {
+                "day" : "Day 6",
+                "Reciepe1" : "शकरकंद की प्यूरी",
+                "youtubelink" : "https://www.youtube.com/watch?v=6AnFbni7aXI",
+                "articlelink" : "",
+                "color" : 2
+            },
+            {
+                "day" : "Day 7",
+                "Reciepe1" : "मूंग दाल",
+                "youtubelink" : "",
+                "articlelink" : "",
+                "color" : 1
+            }
+        ]
+        },
+        {
+            "week" : "Week 1",
+            "time" : "2 - 4 PM",
+            "color" : 1,
+             "details" :
+             [
+             {          
+                 "day" : "Day 1",
+                 "Reciepe1" : "गाजर की प्यूरी",
+                 "youtubelink" : "https://www.youtube.com/watch?v=4S02boyMtWA",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "सेब की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "केले की प्यूरी",
+                 "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "चावल का दलिया",
+                 "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "कद्दू की प्यूरी",
+                 "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "शकरकंद की प्यूरी",
+                 "youtubelink" : "https://www.youtube.com/watch?v=6AnFbni7aXI",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "मूंग दाल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+        {
+            "week" : "Week 2",
+            "time" : "9 - 11 AM",
+            "color" : 2,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "नाशपाती प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "ओट्स का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "पपीता प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "चावल का दलिया",
+                 "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "मटर की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "ओट्स + सेब का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "सूजी + केले का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 2",
+            "time" : "2 - 4 PM",
+            "color" : 2,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "नाशपाती प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "ओट्स का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "पपीता प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "चावल का दलिया",
+                 "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "मटर की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "ओट्स + सेब का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "सूजी + केले का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 3",
+            "time" : "9 - 11 AM",
+            "color" : 3,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "खिचड़ी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "ओट्स + गाजर का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "सूजी + केले का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "चावल का दलिया",
+                 "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "पपीता प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "ओट्स + केले का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "पालक + चावल + मूंग दाल खिचड़ी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 3",
+            "time" : "2 - 4 PM",
+            "color" : 3,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "सादा दही",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "कद्दू की प्यूरी",
+                 "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "सेब + नाशपाती की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "ओट्स + गाजर का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "खिचड़ी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "एवोकैडो प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "गाजर + चुकंदर की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 4",
+            "time" : "9 - 11 AM",
+            "color" : 4,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "आलू के साथ खिचड़ी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "सूजी उपमा",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "आलू + मटर की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "पोहा + सेब दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "पालक के साथ खिचड़ी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "ओट्स + गाजर का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "मक्के की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 4",
+            "time" : "2 - 4 PM",
+            "color" : 4,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "गाजर की प्यूरी",
+                 "youtubelink" : "https://www.youtube.com/watch?v=4S02boyMtWA",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "ओट्स + गाजर का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "केले की प्यूरी",
+                 "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "पोहा + सेब दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "कद्दू की प्यूरी",
+                 "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "गाजर + चुकंदर की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "एवोकैडो प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         }
+]
