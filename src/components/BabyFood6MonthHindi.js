@@ -1,7 +1,5 @@
 import React from 'react';
-import axios from "axios";
 import { useEffect, useState } from "react";
-import baseUrl from '../baseUrl';
 import data1 from '../data/food6monthhindi.json';
 import FoodMonthsCard from './FoodMonthsCard';
 import { NavLink } from 'react-router-dom';
