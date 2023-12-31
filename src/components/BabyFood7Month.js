@@ -17,7 +17,7 @@ function BabyFood7Month() {
         data.append('state', res.region);
         data.append('country', res.country_name);
 
-        axios.post(`${baseUrl}/insertuser7month`, data);
+        axios.post(`${baseUrl}/insertuser7month`, data );
     }).catch((error) => {
         console.log(error);
     });     
