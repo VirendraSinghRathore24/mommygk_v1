@@ -1,25 +1,19 @@
 [
     {
         "title" : "Food Recipes - Video",
-        "imageUrl" : "../../images/firstweekfood2.jpeg",
+        "imageUrl" : "../../images/recipevideo.jpeg",
         "url" : "foodrecipesvideo",
         "shortDesc" : "Baby Food Recipe - Complete video for recipe preparations, how to make puree and porridge"
     },
     {
-        "title" : "Food Chart - 6 Month",
-        "imageUrl" : "../../images/6monthchart.jpeg",
-        "url" : "babyfood6month",
-        "shortDesc" : "Baby Food Recipe Chart - 6 month food chart, what to give to baby and what time to give food"
-    },
-    {
-        "title" : "Food Chart - 7 Month",
-        "imageUrl" : "../../images/7monthchart.jpeg",
-        "url" : "babyfood7month",
-        "shortDesc" : "Baby Food Recipe Chart - 7 month food chart, what to give to baby and what time to give food"
+        "title" : "Food Charts",
+        "imageUrl" : "../../images/foodcharts.jpeg",
+        "url" : "babyfoodcharts",
+        "shortDesc" : "Baby Food Recipe Chart - month wise food chart, what to give to baby and what time to give food"
     },
     {
         "title" : "Baby Food - Spices",
-        "imageUrl" : "../../images/rec3.jpg",
+        "imageUrl" : "../../images/recipes.jpeg",
         "url" : "babyfoodspices",
         "shortDesc" : "Baby Food Spices - What kind of spices needs to be included in baby food recipe"
     }
