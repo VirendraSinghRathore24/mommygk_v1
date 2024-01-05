@@ -7,14 +7,14 @@
     },
     {
         "title" : "Food Charts",
-        "imageUrl" : "../../images/foodcharts.JPEG",
+        "imageUrl" : "../../images/menu2.JPEG",
         "url" : "babyfoodcharts",
         "shortDesc" : "Baby Food Recipe Chart - month wise food chart, what to give to baby and what time to give food"
     },
     {
         "title" : "Baby Food - Spices",
-        "imageUrl" : "../../images/recipes.JPEG",
+        "imageUrl" : "../../images/spices1.JPEG",
         "url" : "babyfoodspices",
-        "shortDesc" : "Baby Food Spices - What kind of spices needs to be included in baby food recipe"
+        "shortDesc" : "Baby Food Spices - What kind of spices needs to be included in baby food recipes"
     }
 ]
