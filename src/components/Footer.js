@@ -89,7 +89,7 @@ function Footer() {
         </div>
         </div>
         </div>
-        <div class="text-base text-center border-t border-brColor pt-4">Copyright © 2023 <strong className='text-blue-500'> www.mommygk.com </strong> All Rights Reserved.</div>
+        <div class="text-base text-center border-t border-brColor pt-4">Copyright © 2024 <strong className='text-blue-500'> www.mommygk.com </strong> All Rights Reserved.</div>
         </div>
         
     </div>
