@@ -25,7 +25,7 @@ function BabyFood6MonthHindi() {
     <div>
          <div className='p-4'>
          <div className='flex flex-col items-center'>
-            <h2>6 महीने के शिशु आहार व्यंजनों की हिंदी में PDF फाइल डाउनलोड करें : </h2>
+            <h2>6 महीने के बेबी आहार व्यंजनों की हिंदी में PDF फाइल डाउनलोड करें : </h2>
             <div className='bg-blue-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
                 <a 
                     href="/6 Month Baby Food Reciepe Hindi.pdf"
@@ -42,7 +42,7 @@ function BabyFood6MonthHindi() {
               
                     <div className='flex text-center items-center justify-center bg-red-300 h-8 gap-y-1 text-blue-600 font-semibold'>
                     <marquee>
-                    रेसिपी YouTube पर उपलब्ध हैं और आप अधिक अपडेट के लिए सदस्यता ले सकते हैं...
+                    रेसिपी YouTube पर उपलब्ध हैं और आप अधिक अपडेट के लिए Subscribe कर सकते हैं...
                         </marquee>
                     </div>
 
