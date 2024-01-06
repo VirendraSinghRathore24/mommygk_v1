@@ -67,21 +67,24 @@ function Footer() {
           <div className='flex flex-col gap-y-2'>
                 <a href='/babyfood6month'>6 Month</a>
                 <a href='/babyfood7month'>7 Month</a>
-                <a href='/babyfoodspices'>Food Spices</a>
+                <a href='/babyfood6monthhindi'>6 Month Hindi</a>
+                <a href='/babyfoodspices'>Baby Food Spices</a>
           </div>
         </div>
         <div className='flex flex-col text-center text-base md:text-left'>
           <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Top Purees</p>
           <div className='flex flex-col gap-y-2'>
+                <a href='/foodrecipesvideo'>Carrot Puree</a> 
                 <a href='/foodrecipesvideo'>Solid Food Guide</a>   
                 <a href='/foodrecipesvideo'>First Week Purees</a>
-                <a href='/foodrecipesvideo'>Carrot Puree</a>        
+                <a href='/Blogs'>Baby Food Blogs</a>       
           </div>
         </div>
         
         <div className='flex flex-col text-center text-base md:text-left'>
           <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Services</p>
           <div className='flex flex-col gap-y-2'>
+            <a href='/aboutus'>About us</a>
             <a href='/contactus'>Contact us</a>
             <a href='/privacypolicy'>Privacy Policy</a>
             <a href='/termsofuse'>Terms of use</a>

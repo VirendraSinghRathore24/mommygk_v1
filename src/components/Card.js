@@ -25,7 +25,7 @@ function Card({post}) {
     //         </div>  
             
     // </div>
-    <div className='w-[330px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto'>
+    <div className='w-[330px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto '>
     <NavLink to={`/${post.url}`}>
         <div className='relative '>
             <img className='h-[350px]' src={post.imageUrl} loading='lazy' ></img>
@@ -33,7 +33,7 @@ function Card({post}) {
                 <button className='w-[100px] h-[40px] text-white bg-pink-500 rounded-lg absolute right-2 bottom-[-12px] grid place-items-center font-bold  hover:scale-110 transition duration-300 ease-in'>Explore</button>
             </div>
         </div>
-        <div className='p-4'>
+        <div className='p-4 bg-stone-100 bg-brand '>
             <p className='text-blue-500 font-bold text-xl leading-6'>{post.title}</p>
             <p className=' mt-2'>{post.shortDesc}</p>
         </div>
