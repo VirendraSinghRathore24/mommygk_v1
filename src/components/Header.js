@@ -22,7 +22,7 @@ function Header() {
 
            <Link to="/">
                 {/* <img src="" alt="Logo" width={160} loading='lazy' className="" /> */}
-                <p className="text-white text-xl">Mommy GK</p>
+                <p className="text-white text-xl">MommyGK</p>
            </Link>
 
             {/* <nav>
