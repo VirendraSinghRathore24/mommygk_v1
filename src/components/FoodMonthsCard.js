@@ -20,7 +20,7 @@ function FoodMonthsCard({post, week, time, color}) {
                 <thead className=" font-medium ">
                     <tr className='bg-orange-300 border-2 border-black'>
                     <th scope="col" className="px-1 py-2 border-r-2 text-center">Day</th>
-                    <th scope="col" className="px-1 py-2 border-r-2 text-center">{time}</th>
+                    <th scope="col" className="px-1 py-2 border-r-2 text-center text-blue-800 font-bold text-xl">{time}</th>
                     <th scope="col" className="px-6 py-2  text-center" >Video</th>
                     {/* <th scope="col" className="px-6 py-2 text-center ">Blog</th> */}
                     
