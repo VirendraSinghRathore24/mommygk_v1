@@ -13,7 +13,8 @@ const PageComponent = () => {
                     {
                         `(adsbygoogle=window.adsbygoogle || []).push({
                             google_ad_client:'ca-pub-4401844428563263',
-                            enable_page_level_ads: true
+                            enable_page_level_ads: true,
+                            crossorigin : 'anonymous'
                         });`
                     }
                 </script>
