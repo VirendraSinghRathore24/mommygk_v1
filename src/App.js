@@ -17,6 +17,7 @@ import ReactGA from "react-ga";
 import Users from "./components/Users";
 import Users1 from "./components/Users1";
 import Users7Month from "./components/Users7Month";
+import Users8Month from "./components/Users8Month";
 import BabyFood7Month from "./components/BabyFood7Month";
 import BabyFood8Month from "./components/BabyFood8Month";
 import PrivacyPolicy from "./components/PrivacyPolicy";
@@ -64,6 +65,7 @@ export default function App() {
           <Route path="/users1" element={<Users1/>}/>
           <Route path="/users6" element={<UsersSpices/>}/>
           <Route path="/users7" element={<Users7Month/>}/>
+          <Route path="/users8" element={<Users8Month/>}/>
           <Route path="/blogs" element={<Blogs/>}/>
           <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
           <Route path="/termsofuse" element={<TermsOfUse/>}/>

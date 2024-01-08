@@ -17,7 +17,7 @@ function BabyFood8Month() {
         data.append('state', res.region);
         data.append('country', res.country_name);
 
-        axios.post(`${baseUrl}/insertuser7month`, data );
+        axios.post(`${baseUrl}/insertuser8month`, data );
     }).catch((error) => {
         console.log(error);
     });     
@@ -33,7 +33,7 @@ function fetchBlogsData(){
   }
 
   useEffect(() => {
-    //getGeoInfo();
+    getGeoInfo();
     fetchBlogsData();
     window.scroll(0,0);
   }, []);
