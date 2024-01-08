@@ -50,7 +50,7 @@ function BabyFood6MonthHindi() {
                 <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 px-4 py-1 gap-x-10 gap-y-1'>
                 {
                 posts.map((post, index) => (
-                    <FoodMonthsCard key={index} post={post.details} week={post.week} time={post.time} color={post.color}/>
+                    <FoodMonthsCard key={index} post={post.details} week={post.week} time={post.time} color={post.color} video={true}/>
                 ))
                 }
                 </div>
