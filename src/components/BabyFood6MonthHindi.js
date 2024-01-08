@@ -40,11 +40,14 @@ function BabyFood6MonthHindi() {
         </div>
                 <div>
               
-                    <div className='flex text-center items-center justify-center bg-red-300 h-8 gap-y-1 text-blue-600 font-semibold'>
-                    <marquee>
-                    रेसिपी YouTube पर उपलब्ध हैं और आप अधिक अपडेट के लिए Subscribe कर सकते हैं...
-                        </marquee>
+                <div className='flex flex-col gap-y-12 text-center items-center justify-center'>
+                    
+                    <div className='bg-pink-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
+                        <a href="https://www.youtube.com/@MommyGK" target="_blank">
+                        <button>Click here to Watch Recipe Videos</button>
+                    </a>
                     </div>
+                </div>
 
                
                 <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 px-4 py-1 gap-x-10 gap-y-1'>
