@@ -10,5 +10,11 @@
         "imageUrl" : "../../images/7monthchart.jpeg",
         "url" : "babyfood7month",
         "shortDesc" : "Baby Food Recipe Chart - 7 month food chart, what to give to baby and what time to give food"
+    },
+    {
+        "title" : "Food Chart - 8 Month",
+        "imageUrl" : "../../images/8monthchart.jpeg",
+        "url" : "foodfor8monthbaby",
+        "shortDesc" : "Baby Food Recipe Chart - 8 month food chart, what to give to baby and what time to give food"
     }
 ]
