@@ -44,7 +44,7 @@ function BabyFood6MonthHindi() {
                     
                     <div className='bg-pink-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
                         <a href="https://www.youtube.com/@MommyGK" target="_blank">
-                        <button>Click here to Watch Recipe Videos</button>
+                        <button>रेसिपी Video देखने के लिए यहां क्लिक करें</button>
                     </a>
                     </div>
                 </div>
