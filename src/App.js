@@ -31,6 +31,7 @@ import Blogs from "./components/Blogs";
 import BabyFood6MonthHindi from "./components/BabyFood6MonthHindi";
 import FoodCharts from "./components/FoodCharts";
 import FoodChartsHindi from "./components/FoodChartsHindi";
+import AdsComponent from "./components/AdsComponent";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -71,7 +72,7 @@ export default function App() {
           <Route path="/termsofuse" element={<TermsOfUse/>}/>
       </Routes>
       <Footer/>
-      <>      <PageComponent/>
+      <>      <AdsComponent/>
       </>
 
     </div>
