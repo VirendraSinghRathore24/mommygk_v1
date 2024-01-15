@@ -34,6 +34,7 @@ function Page2() {
           </Link>
           </div>
           <h2 className='mt-8 border-t border-brColor'></h2>
+          <h2 className='mt-4 text-center font-sans uppercase font-bold'>Related Video</h2>
           <div className='mt-8'>
           
               <YoutubeEmbed embedId='1h-Buyvan-M' />
@@ -44,8 +45,10 @@ function Page2() {
               <YoutubeEmbed embedId='T51chIH2NLI' />
                 
           </div>
+
+          <h2 className='mt-4 text-center font-sans uppercase font-bold'>Related Article</h2>
           <div className=' bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto mt-4 mb-6'>
-    <NavLink to={`/blogs/`}>
+    <NavLink to={`/blogs/How-to-start-solid-food`}>
         <div className='relative '>
             <img className='h-[230px]' src="../../images/blog.jpg" loading='lazy' ></img>
            
