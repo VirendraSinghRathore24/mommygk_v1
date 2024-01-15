@@ -72,8 +72,8 @@ export default function App() {
           <Route path="/termsofuse" element={<TermsOfUse/>}/>
       </Routes>
       <Footer/>
-      <>      <AdsComponent/>
-      </>
+      {/* <>      <AdsComponent/>
+      </> */}
 
     </div>
   )
