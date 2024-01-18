@@ -10,7 +10,7 @@ function FoodCharts() {
       }, []);
   return (
     <div>
-        <p className='text-md font-light py-3 px-7'><strong className='font-semibold leading-5 text-richblack-700'>Explore a world of delicious and nutritious possibilities for your little one with our curated collection of baby food recipe videos - </strong> </p>
+        <p className='text-md font-light py-3 px-7'><strong className='font-bold text-2xl leading-5 text-richblack-700 uppercase text-blue-600 underline'>Recipes By Age -</strong> </p>
             <div className='px-7 font-semibold'>View Food Charts in Hindi - <NavLink to={'/babyfoodchartshindi'}><span className='text-blue-600 underline'>Click Here</span></NavLink></div>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 place-items-center gap-y-10 mb-10 mt-4'>
             {
