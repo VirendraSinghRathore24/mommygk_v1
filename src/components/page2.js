@@ -41,7 +41,7 @@ function Page2() {
               <YoutubeEmbed embedId='1h-Buyvan-M' />
                 
           </div>
-          <div className='mt-8'>
+          <div className='mt-8 mb-4'>
           
               <YoutubeEmbed embedId='T51chIH2NLI' />
                 
