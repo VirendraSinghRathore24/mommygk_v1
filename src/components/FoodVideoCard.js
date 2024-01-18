@@ -58,7 +58,7 @@ function FoodVideoCard({post}) {
             </div> */}
        <div>
        <div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-white h-20 w-full'>
-            <p className='text-black font-bold text-xl leading-6 text-center mt-6'>{post.title}</p>
+            <p className='text-blue-600 font-bold text-xl leading-6 text-center mt-6'>{post.title}</p>
         </div>
       
        
