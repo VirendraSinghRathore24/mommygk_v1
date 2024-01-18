@@ -3,24 +3,28 @@
         "title" : "Baby Food - Charts",
         "imageUrl" : "../../images/menu2.JPEG",
         "url" : "babyfoodcharts",
+        "bgcolor" : 1,
         "shortDesc" : "Baby Food Recipe Chart - month wise food chart, what to give to baby and what time to give food"
     },
     {
         "title" : "Food Recipes - Video",
         "imageUrl" : "../../images/recipevideo.JPEG",
         "url" : "foodrecipesvideo",
+        "bgcolor" : 2,
         "shortDesc" : "Baby Food Recipe - Complete video for recipe preparations, how to make puree and porridge"
     },
     {
         "title" : "Baby Food - Spices",
         "imageUrl" : "../../images/spices1.JPEG",
         "url" : "babyfoodspices",
+        "bgcolor" : 3,
         "shortDesc" : "Baby Food Spices - What kind of spices needs to be included in baby food recipes and many more"
     },
     {
         "title" : "Baby Food - Blog",
         "imageUrl" : "../../images/blog4.JPEG",
         "url" : "Blogs",
+        "bgcolor" : "",
         "shortDesc" : "Baby Food Blog - How to start solid food for 6+ month baby, which spices used and many more"
     }
 ]

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import data from "../data/foodcharts.json"
-import Card from './Card';
 import { NavLink } from 'react-router-dom';
+import FoodChartCard from './FoodChartCard';
 
 function FoodCharts() {
     const [posts, setPosts] = useState(data);
@@ -16,7 +16,7 @@ function FoodCharts() {
             {
                 
                 posts.map((post, index) => (
-                    <Card key={index} post={post}/>
+                    <FoodChartCard key={index} post={post}/>
                 ))
                } 
             </div>

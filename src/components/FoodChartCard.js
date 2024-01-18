@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-function Card({post}) {
+function FoodChartCard({post}) {
   return (
     // <div>
     //      <div className='relative pointer-events-auto '>
@@ -33,9 +33,7 @@ function Card({post}) {
                 <button className='w-[100px] h-[40px] text-white bg-pink-500 rounded-lg absolute right-2 bottom-[-12px] grid place-items-center font-bold  hover:scale-110 transition duration-300 ease-in'>Explore</button>
             </div> */}
        <div>
-       <div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-rose-300 h-20 w-full'>
-            <p className='text-black font-bold text-xl leading-6 text-center mt-6'>{post.title}</p>
-        </div>
+       
       
        
         </div>
@@ -45,4 +43,4 @@ function Card({post}) {
   )
 }
 
-export default Card
+export default FoodChartCard

@@ -41,7 +41,7 @@ function Page1() {
             <div>
                 <p className='text-md font-light py-3 px-2'><strong className='italic text-lg text-blue-600 font-semibold'>There is no better feeling in the world than holding your precious child.</strong></p>
             </div>
-            <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-3 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
+            <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-3 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
             {
                 loading ? (<Spinner type={"Loading, "}/>) :(
                 posts.map((post, index) => (

@@ -47,7 +47,7 @@ function Page2() {
                 
           </div>
 
-          <h2 className='mt-4 text-center font-sans uppercase font-bold'>Related Article</h2>
+          {/* <h2 className='mt-4 text-center font-sans uppercase font-bold'>Related Article</h2>
           <div className=' bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto mt-4 mb-6'>
     <NavLink to={`/blogs/How-to-start-solid-food`}>
         <div className='relative '>
@@ -59,7 +59,7 @@ function Page2() {
 
         </div>
         </NavLink>
-    </div>
+    </div> */}
         </div>
         
  
