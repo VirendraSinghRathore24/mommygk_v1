@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 function PopularCard({url, imageUrl, title, color}) {
   return (
     <div className='relative w-[330px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto'>
-    <NavLink to={`/${url}`}>
+    <NavLink to={`${url}`} target='_blank'>
         
             <img className='h-[350px]' src={imageUrl} loading='lazy' ></img>
             {/* <div>
