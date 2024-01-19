@@ -75,11 +75,9 @@ function HomePage() {
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Baby Care Products Checklist</div>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
             <ProductCard url={'/newmomchecklist'} imageUrl={'../../images/newmomchecklist.png'}/>
-            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/J1Q2BDHJSKLX?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/daipers.png'}/>
-            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/2QUS8PMDHPK5I?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/foodplate.png'}/>
-            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/4KWEKW6457P6?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/babyproofing.png'}/>
+            <ProductCard url={'/foodplatecheklist'} imageUrl={'../../images/foodplate.png'}/>
+            <ProductCard url={'/proofingheklist'} imageUrl={'../../images/babyproofing.png'}/>
             </div>
-            <div className='text-red-700 font-mono font-bold'>See More <span className='text-blue-600 underline'><Link to={'https://www.amazon.in/shop/mommygk_sanju'} target='_blank'>Baby Care Products</Link></span></div>
           </div>
          
           </div>
