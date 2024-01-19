@@ -18,7 +18,7 @@ function Page2() {
           <div className='flex gap-x-2 font-light mt-6 '>
             <img src="../../images/sanju2.png" loading='lazy' className='rounded-full w-36 h-36'/>
             <div className='flex flex-col w-[500px] gap-y-2'>
-            <h2 className='text-sm leading-6 align-baseline '><StyledText>I'm Sanju Shekhawat - the recipe developer behind MommyGK. Here you'll find plenty of delicious food recipes and many more. I hope you enjoy exploring!</StyledText></h2>
+            <h2 className='text-sm leading-6 align-baseline'><StyledText>I'm Sanju Shekhawat - the recipe developer behind MommyGK. Here you'll find plenty of delicious food recipes and many more. I hope you enjoy exploring!</StyledText></h2>
             <Link className='text-blue-600 underline font-mono font-bold' to={'/aboutus'}>More about me ?</Link>
             </div>
           </div>
