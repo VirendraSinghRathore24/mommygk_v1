@@ -46,9 +46,9 @@ function Header() {
                 <li><a className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center" href="/Blogs">
                 <span>Blogs</span>
                 </a></li>
-                {/* <li><a className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center" href="/aboutus">
-                <span>About us</span>
-                </a></li>          */}
+                <li><a className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center" href="/toys">
+                <span>Toys</span>
+                </a></li>         
               </ul>
               <div className="flex items-center md:hidden">
               {
@@ -77,7 +77,7 @@ function Header() {
         <li className="text-center"><a class=" text-xl leading-5" href="/babyfoodcharts">Charts</a></li>
         <li className="text-center"><a class=" text-xl leading-5" href="/foodrecipesvideo">Videos</a></li>
         <li className="text-center"><a class="text-xl leading-5" href="/blogs">Blogs</a></li>
-        {/* <li className="text-center"><a class=" text-xl leading-5" href="/aboutus">About us</a></li> */}
+        <li className="text-center"><a class=" text-xl leading-5" href="/toys">Toys</a></li>
         </ul>
        </div>
           ): (<div></div>)
