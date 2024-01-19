@@ -14,7 +14,7 @@ function Page2() {
   return (
 
         <div className='flex flex-col mt-4 gap-x-4 w-[320px] items-left mx-auto '>
-          <h2 className='text-center font-bold'>WELCOME!</h2>
+          <h2 className='text-center font-bold font-mono text-2xl'>WELCOME!</h2>
           <div className='flex gap-x-2 font-light mt-6'>
             <img src="../../images/sanju2.png" loading='lazy' className='rounded-full w-36 h-36'/>
             <h2 className='text-sm leading-6 align-baseline w-[500px]'><StyledText>I'm Sanju Shekhawat - the recipe developer behind MommyGK. Here you'll find plenty of delicious food recipes and many more. I hope you enjoy exploring!</StyledText></h2>
@@ -35,7 +35,7 @@ function Page2() {
           </Link>
           </div>
           <h2 className='mt-8 border-t border-brColor'></h2>
-          <h2 className='mt-4 text-center font-sans uppercase font-bold'>Related Video</h2>
+          <h2 className='mt-4 text-center uppercase font-bold font-mono text-xl'>Related Video</h2>
           <div className='mt-8'>
           
               <YoutubeEmbed embedId='1h-Buyvan-M' />

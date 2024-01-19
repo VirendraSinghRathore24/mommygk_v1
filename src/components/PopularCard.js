@@ -10,10 +10,10 @@ function PopularCard({url, imageUrl, title, color}) {
             {/* <div>
                 <button className='w-[100px] h-[40px] text-white bg-pink-500 rounded-lg absolute right-2 bottom-[-12px] grid place-items-center font-bold  hover:scale-110 transition duration-300 ease-in'>Explore</button>
             </div> */}
-       <div>
+       <div className='font-mono'>
        {
         color === 1 ?  (<div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-stone-300 h-20 w-full'>
-            <p className='text-black font-bold text-xl leading-6 text-center mt-6'>{title}</p>
+            <p className='text-black font-bold text-xl leading-6 text-center mt-6 '>{title}</p>
         </div>) :
         color === 2 ? ( <div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-blue-300 h-20 w-full'>
             <p className='text-black font-bold text-xl leading-6 text-center mt-6'>{title}</p>

@@ -34,7 +34,7 @@ function Card({post}) {
             </div> */}
        <div>
        <div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-rose-300 h-20 w-full'>
-            <p className='text-black font-bold text-xl leading-6 text-center mt-6'>{post.title}</p>
+            <p className='text-black font-bold text-xl leading-6 text-center mt-6 font-mono'>{post.title}</p>
         </div>
       
        

@@ -9,6 +9,7 @@ import { NavLink } from 'react-router-dom';
 import Page1 from './Page1';
 import Page2 from './page2';
 import PopularCard from './PopularCard';
+import ProductCard from './ProductCard';
 
 
 function HomePage() {
@@ -47,19 +48,29 @@ function HomePage() {
         
     </div>
     <div className='w-10/12 mx-auto'>
-    <div className='text-2xl text-red-400 uppercase mt-4 font-mono font-bold'>
+    <div className='text-3xl text-red-700 p-8 uppercase mt-4 font-mono font-bold '>
             Popular Post
 
           </div>
-          <div className=''>
-          <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
-          <PopularCard url={'babyfood6month'} imageUrl={'../../images/foodcharts.JPEG'} title={'6 Month Food Chart'} color={1}/>
-          <PopularCard url={'foodrecipesvideo'} imageUrl={'../../images/solidfood2.jpg'} title={'Solid Food Introduction'} color={2}/>
-          <PopularCard url={'foodrecipesvideo'} imageUrl={'../../images/carrot2.jpeg'} title={'Carrot Recipe Video'} color={3}/>
-          {/* <PopularCard url={'blogs/How-to-start-solid-food'} imageUrl={'../../images/blog.jpg'} title={'How To Start Solid Food Blog'} color={4}/> */}
+            <div >
+              <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-3 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
+              <PopularCard url={'babyfood6month'} imageUrl={'../../images/foodcharts.JPEG'} title={'6 Month Food Chart'} color={1}/>
+              <PopularCard url={'foodrecipesvideo'} imageUrl={'../../images/solidfood2.jpg'} title={'Solid Food Introduction'} color={2}/>
+              <PopularCard url={'foodrecipesvideo'} imageUrl={'../../images/carrot2.jpeg'} title={'Carrot Recipe Video'} color={3}/>
+              {/* <PopularCard url={'blogs/How-to-start-solid-food'} imageUrl={'../../images/blog.jpg'} title={'How To Start Solid Food Blog'} color={4}/> */}
+              </div>
+            </div>
           </div>
+          <div className='w-10/12 mx-auto text-xl p-8 mt-4  font-bold '>
+            <div className='text-3xl uppercase text-red-700 font-mono'>Baby product checklist at Amazon</div>
+            <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
+            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/4KWEKW6457P6?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/babyproofing.png'}/>
+            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/2XZWEA1DZJVI8?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/halfyeartoys.png'}/>
+            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/STXIA7YLY14N?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/1yeartoys.png'}/>
+            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/27UZI465HMI3B?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/12monthstoys.png'}/>
+            </div>
           </div>
-          </div>
+         
           </div>
  
   )
