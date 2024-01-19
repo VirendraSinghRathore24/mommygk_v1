@@ -5,7 +5,7 @@ import Card from './Card';
 import data from "../data/data.json"
 import "./YoutubeEmbed.css";
 import YoutubeEmbed from './YoutubeEmbed';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Page1 from './Page1';
 import Page2 from './page2';
 import PopularCard from './PopularCard';
@@ -61,14 +61,15 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <div className='w-10/12 mx-auto text-xl p-8 mt-4  font-bold '>
-            <div className='text-3xl uppercase text-red-700 font-mono'>Baby product checklist at Amazon</div>
+          <div className='w-10/12 mx-auto text-lg p-8 mt-4  '>
+            <div className='text-3xl uppercase text-red-700 font-mono font-bold '>Baby product checklist at Amazon</div>
             <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
-            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/4KWEKW6457P6?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/babyproofing.png'}/>
+            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/27UZI465HMI3B?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/12monthstoys.png'}/>
             <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/2XZWEA1DZJVI8?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/halfyeartoys.png'}/>
             <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/STXIA7YLY14N?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/1yeartoys.png'}/>
-            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/27UZI465HMI3B?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/12monthstoys.png'}/>
+            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/4KWEKW6457P6?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/babyproofing.png'}/>
             </div>
+            <div className='text-red-700 font-mono font-bold'>See More <span className='text-blue-600 underline'><Link to={'https://www.amazon.in/shop/mommygk_sanju'} target='_blank'>Baby Products</Link></span></div>
           </div>
          
           </div>
