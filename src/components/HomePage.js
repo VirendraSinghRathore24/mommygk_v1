@@ -61,7 +61,7 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <div className='w-10/12 mx-auto text-lg p-8 mt-4  '>
+          <div className='w-10/12 mx-auto text-lg p-8 '>
             <div className='text-3xl uppercase text-red-700 font-mono font-bold '>Baby Toys Checklist</div>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
             <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/1254Y8II0H5FN?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/toys6to12.png'}/>
@@ -71,7 +71,7 @@ function HomePage() {
             </div>
             <div className='text-red-700 font-mono font-bold'>See More <span className='text-blue-600 underline'><Link to={'/toys'}>Baby Toys</Link></span></div>
           </div>
-          <div className='w-10/12 mx-auto text-lg p-8 mt-4  '>
+          <div className='w-10/12 mx-auto text-lg p-8'>
             <div className='text-3xl uppercase text-red-700 font-mono font-bold '>Baby Care Products Checklist</div>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
             <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/2J0J72BX3UILO?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/newmomchecklist.png'}/>

@@ -15,9 +15,12 @@ function Page2() {
 
         <div className='flex flex-col mt-4 gap-x-4 w-[320px] items-left mx-auto '>
           <h2 className='text-center font-bold font-mono text-2xl'>WELCOME!</h2>
-          <div className='flex gap-x-2 font-light mt-6'>
+          <div className='flex gap-x-2 font-light mt-6 '>
             <img src="../../images/sanju2.png" loading='lazy' className='rounded-full w-36 h-36'/>
-            <h2 className='text-sm leading-6 align-baseline w-[500px]'><StyledText>I'm Sanju Shekhawat - the recipe developer behind MommyGK. Here you'll find plenty of delicious food recipes and many more. I hope you enjoy exploring!</StyledText></h2>
+            <div className='flex flex-col w-[500px] gap-y-2'>
+            <h2 className='text-sm leading-6 align-baseline '><StyledText>I'm Sanju Shekhawat - the recipe developer behind MommyGK. Here you'll find plenty of delicious food recipes and many more. I hope you enjoy exploring!</StyledText></h2>
+            <Link className='text-blue-600 underline font-mono font-bold' to={'/aboutus'}>More about me ?</Link>
+            </div>
           </div>
           <h2 className='mt-8 border-t border-brColor'></h2>
           <div className='flex gap-x-6 mt-8 items-center justify-center'>
@@ -39,12 +42,12 @@ function Page2() {
           </div>
           <h2 className='mt-8 border-t border-brColor'></h2>
           {/* <h2 className='mt-4 text-center uppercase font-bold font-mono text-xl'>Related Video</h2> */}
-          <div className='mt-10'>
+          <div className='mt-6'>
           
               <YoutubeEmbed embedId='1h-Buyvan-M' />
                 
           </div>
-          <div className='mt-10 mb-4'>
+          <div className='mt-6 '>
           
               <YoutubeEmbed embedId='T51chIH2NLI' />
                 
