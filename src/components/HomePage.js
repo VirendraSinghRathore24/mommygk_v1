@@ -62,17 +62,17 @@ function HomePage() {
             </div>
           </div>
           <div className='w-10/12 mx-auto text-lg p-8 '>
-            <div className='text-3xl uppercase text-red-700 font-mono font-bold '>Baby Toys Checklist</div>
+            <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold'>Baby Toys Checklist</div>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
-            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/1254Y8II0H5FN?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/toys6to12.png'}/>
-            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/27UZI465HMI3B?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/12monthstoys.png'}/>
-            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/2XZWEA1DZJVI8?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/halfyeartoys.png'}/>
-            <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/STXIA7YLY14N?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/1yeartoys.png'}/>
+            <ProductCard url={'https://www.amazon.in/dp/B074V7RRTG?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B074V7RRTG&asc_item-id=amzn1.ideas.1254Y8II0H5FN&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/piono.png'}/>
+            <ProductCard url={'https://www.amazon.in/dp/B00ADZUNYK?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B00ADZUNYK&asc_item-id=amzn1.ideas.1254Y8II0H5FN&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/rings.png'}/>
+            <ProductCard url={'https://www.amazon.in/dp/B093GTTG3B?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B093GTTG3B&asc_item-id=amzn1.ideas.2XZWEA1DZJVI8&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/balls.png'}/>
+            <ProductCard url={'https://www.amazon.in/dp/B0B975J4GT?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B0B975J4GT&asc_item-id=amzn1.ideas.2XZWEA1DZJVI8&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/abcd.png'}/>
             </div>
             <div className='text-red-700 font-mono font-bold'>See More <span className='text-blue-600 underline'><Link to={'/toys'}>Baby Toys</Link></span></div>
           </div>
           <div className='w-10/12 mx-auto text-lg p-8'>
-            <div className='text-3xl uppercase text-red-700 font-mono font-bold '>Baby Care Products Checklist</div>
+            <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Baby Care Products Checklist</div>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
             <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/2J0J72BX3UILO?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/newmomchecklist.png'}/>
             <ProductCard url={'https://www.amazon.in/shop/mommygk_sanju/list/J1Q2BDHJSKLX?tag=onamzsanjuk03-21&ref_=aip_sf_list_spv_ofs_mixed_d'} imageUrl={'../../images/daipers.png'}/>
