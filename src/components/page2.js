@@ -38,13 +38,13 @@ function Page2() {
           </Link>
           </div>
           <h2 className='mt-8 border-t border-brColor'></h2>
-          <h2 className='mt-4 text-center uppercase font-bold font-mono text-xl'>Related Video</h2>
-          <div className='mt-8'>
+          {/* <h2 className='mt-4 text-center uppercase font-bold font-mono text-xl'>Related Video</h2> */}
+          <div className='mt-10'>
           
               <YoutubeEmbed embedId='1h-Buyvan-M' />
                 
           </div>
-          <div className='mt-8 mb-4'>
+          <div className='mt-10 mb-4'>
           
               <YoutubeEmbed embedId='T51chIH2NLI' />
                 
