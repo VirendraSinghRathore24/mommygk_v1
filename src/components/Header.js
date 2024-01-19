@@ -16,7 +16,7 @@ function Header() {
   }
 
   return (
-    <div>
+    <div className="font-mono">
        <div className="flex top-0 justify-between items-center  mx-auto w-full  h-20 px-5
        bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
 
