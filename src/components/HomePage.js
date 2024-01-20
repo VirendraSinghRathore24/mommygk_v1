@@ -64,19 +64,21 @@ function HomePage() {
           </div>
           <div className='w-10/12 mx-auto text-lg p-8 '>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold'>Baby Toys Checklist</div>
-            <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-3 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
+            <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
             <ProductCard url={'/toys'} imageUrl={'../../images/toys6to12.png'}/>
             <ProductCard url={'/toys'} imageUrl={'../../images/halfyeartoys.png'}/>
             <ProductCard url={'/toys'} imageUrl={'../../images/12monthstoys.png'}/>
+            <ProductCard url={'https://www.amazon.in/dp/B0997BPRM2?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B0997BPRM2&asc_item-id=amzn1.ideas.3JCW80G6YQQ0B&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/s7.png'}/>
             </div>
             <div className='text-red-700 font-mono font-bold'>See More <span className='text-blue-600 underline'><Link to={'/toys'}>Baby Toys</Link></span></div>
           </div>
           <div className='w-10/12 mx-auto text-lg p-8'>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Baby Care Products Checklist</div>
-            <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-3 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
+            <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
             <ProductCard url={'/newmomchecklist'} imageUrl={'../../images/newmomchecklist.png'}/>
             <ProductCard url={'/foodplatecheklist'} imageUrl={'../../images/foodplate.png'}/>
             <ProductCard url={'/proofingheklist'} imageUrl={'../../images/babyproofing.png'}/>
+            <ProductCard url={'https://www.amazon.in/dp/B07DMKJJB4?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B07DMKJJB4&asc_item-id=amzn1.ideas.2J0J72BX3UILO&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/newmom12.png'}/>
             </div>
           </div>
          

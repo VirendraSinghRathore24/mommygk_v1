@@ -35,6 +35,17 @@ function Toys() {
                 <ProductCard url={'https://www.amazon.in/dp/B0B975J4GT?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B0B975J4GT&asc_item-id=amzn1.ideas.27UZI465HMI3B&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/12months1.png'}/>
                 <ProductCard url={'https://www.amazon.in/dp/B0B19TDXBX?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B0B19TDXBX&asc_item-id=amzn1.ideas.2XZWEA1DZJVI8&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/15months4.png'}/>
             </div>
+            <div className='text-2xl uppercase text-red-700 font-mono font-bold '>Stroller, Panda, Car and  More</div>
+            <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
+                <ProductCard url={'https://www.amazon.in/dp/B0CDG7KVS5?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B0CDG7KVS5&asc_item-id=amzn1.ideas.3JCW80G6YQQ0B&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/s1.png'}/>
+                <ProductCard url={'https://www.amazon.in/dp/B0CJHXSQJ8?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B0CJHXSQJ8&asc_item-id=amzn1.ideas.3JCW80G6YQQ0B&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/s2.png'}/>
+                <ProductCard url={'https://www.amazon.in/dp/B00JJJIIE8?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B00JJJIIE8&asc_item-id=amzn1.ideas.3JCW80G6YQQ0B&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/s3.png'}/>
+                <ProductCard url={'https://www.amazon.in/dp/B00JJI6QXO?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B00JJI6QXO&asc_item-id=amzn1.ideas.3JCW80G6YQQ0B&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/s4.png'}/>
+                <ProductCard url={'https://www.amazon.in/dp/B074KG7KJW?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B074KG7KJW&asc_item-id=amzn1.ideas.3JCW80G6YQQ0B&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/s5.png'}/>
+                <ProductCard url={'https://www.amazon.in/dp/B07ZT3LT44?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B07ZT3LT44&asc_item-id=amzn1.ideas.3JCW80G6YQQ0B&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/s6.png'}/>
+                <ProductCard url={'https://www.amazon.in/dp/B0997BPRM2?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B0997BPRM2&asc_item-id=amzn1.ideas.3JCW80G6YQQ0B&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/s7.png'}/>
+                <ProductCard url={'https://www.amazon.in/dp/B0BR5KN82R?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B0BR5KN82R&asc_item-id=amzn1.ideas.3JCW80G6YQQ0B&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/s8.png'}/>
+            </div>
   </div>
   )
 }
