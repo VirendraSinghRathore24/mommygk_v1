@@ -10,6 +10,7 @@ import Page1 from './Page1';
 import Page2 from './page2';
 import PopularCard from './PopularCard';
 import ProductCard from './ProductCard';
+import ProductCard1 from './ProductCard1';
 
 
 function HomePage() {
@@ -79,6 +80,16 @@ function HomePage() {
             </div>
           </div>
          
+
+          <div className='w-10/12 mx-auto text-lg p-8'>
+            <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Our Recent Content at Instagram</div>
+            <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
+            <ProductCard1 url={'https://www.instagram.com/reel/C2P4N4mS0O4/'} imageUrl={'../../images/insta1.png'}/>
+            <ProductCard1 url={'https://www.instagram.com/reel/C0D5z_RSK-_/'} imageUrl={'../../images/insta2.png'}/>
+            <ProductCard1 url={'https://www.instagram.com/reel/C0mQV54yyoZ/'} imageUrl={'../../images/insta3.png'}/>
+            <ProductCard1 url={'https://www.instagram.com/reel/Cz6gU9kSxKP/'} imageUrl={'../../images/insta4.png'}/>
+            </div>
+          </div>
           </div>
  
   )
