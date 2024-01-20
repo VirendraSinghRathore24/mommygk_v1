@@ -60,10 +60,10 @@ function BabyFood() {
                     <div className='flex flex-col gap-y-12 text-center items-center justify-center'>
                     
                         <div className='bg-pink-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
-                        <a href="https://www.youtube.com/@MommyGK" target="_blank">
+                            <a href="https://www.youtube.com/watch?v=T51chIH2NLI" target="_blank">
                             <button>Click here to Watch Recipe Videos</button>
                         </a>
-                    </div>
+                        </div>
                     </div>
                     
                 <div className='mt-8 flex items-center justify-center p-2'>
