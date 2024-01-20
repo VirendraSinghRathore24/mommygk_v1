@@ -73,7 +73,7 @@ function Header() {
             </div>
             {
           !open ? (
-       <div className="absolute left-0 right-0 z-[9998] backdrop-blur-lg pt-[10vh] pb-[8vh] md:hidden pointer-events-auto 
+       <div className="absolute left-0 right-0 z-[9998] backdrop-blur-3xl pt-[10vh] pb-[8vh] md:hidden pointer-events-auto 
        visible">
        
         <ul className="flex flex-col items-center gap-y-6 md:hidden select-none">
