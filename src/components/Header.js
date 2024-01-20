@@ -17,8 +17,11 @@ function Header() {
 
   return (
     <div className="font-mono">
+       {/* <div className="flex top-0 justify-between items-center  mx-auto w-full  h-20 px-5
+       bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"> */}
        <div className="flex top-0 justify-between items-center  mx-auto w-full  h-20 px-5
-       bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+       bg-gradient-to-r from-red-100 via-rose-400 to-yellow-400">
+
 
            <Link to="/">
                 <img src="../../images/logosvg7.PNG" alt="Logo" width={160} loading='lazy' className="" />
