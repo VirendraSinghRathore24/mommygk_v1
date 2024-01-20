@@ -21,8 +21,8 @@ function Header() {
        bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
 
            <Link to="/">
-                {/* <img src="" alt="Logo" width={160} loading='lazy' className="" /> */}
-                <p className="text-white text-xl">MommyGK</p>
+                <img src="../../images/logosvg7.PNG" alt="Logo" width={160} loading='lazy' className="" />
+                {/* <p className="text-white text-xl">MommyGK</p> */}
            </Link>
 
             {/* <nav>
