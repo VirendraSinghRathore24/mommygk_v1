@@ -1,0 +1,7 @@
+Create Favicon Icon :
+1. Create Image using GoDaddy
+2. Crop Image and do cutout using InShot app
+3. Upload cutout image to create SVG file : https://studio.creativefabrica.com/vectorizer
+4. Use SVG file to create Favicon Icon and PNG files: https://realfavicongenerator.net/
+5. Use HTML code in Head tag after title
+6. Upload Favicon images to root directory - inside public directly 
