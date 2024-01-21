@@ -48,7 +48,7 @@ function HomePage() {
          
         
     </div>
-    <div className='bg-gradient-to-r from-blue-50 to-stone-50 mt-4 py-8'>
+    <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-4 py-8'>
     <div className='w-10/12 mx-auto'>
               <div className='text-3xl text-red-700 uppercase font-mono font-bold '>Popular Post</div>
               <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-3 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
