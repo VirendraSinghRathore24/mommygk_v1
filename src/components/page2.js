@@ -36,9 +36,9 @@ function Page2() {
           <Link to="https://pin.it/7sQ0ZCi" target="_blank">
             <img src="../../images/pinterest.svg" loading='lazy' className='w-8 h-8'/>
           </Link>
-          <Link to="https://www.amazon.in/shop/mommygk_sanju" target="_blank">
+          {/* <Link to="https://www.amazon.in/shop/mommygk_sanju" target="_blank">
             <img src="../../images/amazon.svg" loading='lazy' className='w-8 h-8'/>
-          </Link>
+          </Link> */}
           </div>
           <h2 className='mt-8 border-t border-brColor'></h2>
           {/* <h2 className='mt-4 text-center uppercase font-bold font-mono text-xl'>Related Video</h2> */}
