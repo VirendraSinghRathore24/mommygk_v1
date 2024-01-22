@@ -11,6 +11,8 @@ const dotenv = require("dotenv");
 dotenv.config();
 const PORT = process.env.PORT || 4000;
 
+app.use(cors());
+
 app.use(function (req, res, next) {
 	res.setHeader('Access-Control-Allow-Origin', '*');
 	res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
