@@ -1,19 +1,37 @@
-import React, { useEffect } from 'react';
-import data from "../data/contactus.json"
+import React, { useEffect, useState } from 'react';
 
 function PrivacyPolicy() {
+  const [fullName, setFullName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
     useEffect(() => {
         window.scroll(0,0);
       }, []);
+
+      async function sendMessage()
+      {
+        console.log(fullName);
+        const data = new FormData();
+        data.append('fullname', fullName);
+        data.append('email', email);
+        data.append('message', message);
+        //axios.post(`${baseUrl}/contactuser`, data );
+
+        // Message to promt to use and refresh page
+      }
+
+      async function onChangeMethod(e)
+      {
+        const newValue = e.target.value;
+        setFullName(newValue);
+      }
   return (
     <div className='font-mono'>
        <section class=" dark:bg-slate-800" id="contact">
     <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
         <div class="mb-4">
             <div class="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
-                {/* <p class="text-base font-semibold uppercase tracking-wide text-blue-600 dark:text-blue-200">
-                    Contact
-                </p> */}
                 <h2
                     class="font-heading mb-4 font-bold tracking-tight text-blue-600 dark:text-blue-200 text-3xl sm:text-5xl">
                     Get In Touch
@@ -25,10 +43,10 @@ function PrivacyPolicy() {
             <div class="grid md:grid-cols-2">
                 <div class="h-full pr-6">
                     <p class="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">
-                    If you have any inquiries, feedback, or need support, please feel free to contact us through the following channels:
+                    If you have any inquiries or feedback, please feel free to contact us through the following channels:
                     </p>
                     <ul class="mb-6 md:mb-0">
-                        <li class="flex">
+                        {/* <li class="flex">
                             <div class="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -45,7 +63,7 @@ function PrivacyPolicy() {
                                 <p class="text-gray-600 dark:text-slate-400">#14, Bhartiya City, Thanisandra Main Road</p>
                                 <p class="text-gray-600 dark:text-slate-400">Bengaluru, India - 560064</p>
                             </div>
-                        </li>
+                        </li> */}
                         <li class="flex">
                             <div class="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -66,20 +84,20 @@ function PrivacyPolicy() {
                             </div>
                         </li>
                         <li class="flex">
-                            <div class="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                            {/* <div class="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="h-6 w-6">
                                     <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
                                     <path d="M12 7v5l3 3"></path>
                                 </svg>
-                            </div>
-                            <div class="ml-4 mb-4">
+                            </div> */}
+                            {/* <div class="ml-4 mb-4">
                                 <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Working
                                     hours</h3>
                                 <p class="text-gray-600 dark:text-slate-400">Monday - Friday: 10:00 - 18:00</p>
                                 <p class="text-gray-600 dark:text-slate-400">Saturday &amp; Sunday: Holiday</p>
-                            </div>
+                            </div> */}
                         </li>
                     </ul>
                 </div>
@@ -89,18 +107,18 @@ function PrivacyPolicy() {
                         <div class="mb-6">
                             <div class="mx-0 mb-1 sm:mb-4">
                                 <div class="mx-0 mb-1 sm:mb-4">
-                                    <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autocomplete="given-name" placeholder="Your name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name"/>
+                                    <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" value={fullName} onChange={onChangeMethod} autocomplete="given-name" placeholder="Your name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name"/>
                                 </div>
                                 <div class="mx-0 mb-1 sm:mb-4">
-                                    <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autocomplete="email" placeholder="Your email address" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email"/>
+                                    <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" value={email} autocomplete="email" placeholder="Your email address" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email"/>
                                 </div>
                             </div>
                             <div class="mx-0 mb-1 sm:mb-4">
-                                <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
+                                <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" value={message} name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
                             </div>
                         </div>
                         <div class="text-center">
-                            <button type="submit" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
+                            <button type="submit" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0" onClick={sendMessage()}>Send Message</button>
                         </div>
                     </form>
                 </div>
