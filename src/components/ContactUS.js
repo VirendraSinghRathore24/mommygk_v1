@@ -1,31 +1,37 @@
+import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 
 function PrivacyPolicy() {
-  const [fullName, setFullName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const postData = new FormData();
+    postData.append('name', formData.name);
+    postData.append('email', formData.email);
+    postData.append('message', formData.message);
+
+    //axios.post(`${baseUrl}/contactuser`, formData);
+    
+  };
 
     useEffect(() => {
         window.scroll(0,0);
       }, []);
 
-      async function sendMessage()
-      {
-        console.log(fullName);
-        const data = new FormData();
-        data.append('fullname', fullName);
-        data.append('email', email);
-        data.append('message', message);
-        //axios.post(`${baseUrl}/contactuser`, data );
-
-        // Message to promt to use and refresh page
-      }
-
-      async function onChangeMethod(e)
-      {
-        const newValue = e.target.value;
-        //setFullName(newValue);
-      }
   return (
     <div className='font-mono'>
        <section class="" id="contact">
@@ -71,22 +77,22 @@ function PrivacyPolicy() {
                 </div>
                 <div class="card h-fit max-w-6xl p-5 md:p-12" id="form">
                     <h2 class="mb-4 text-2xl font-bold">Send Message</h2>
-                    <form id="contactForm">
+                    <form id="contactForm" onSubmit={handleSubmit}>
                         <div class="mb-6">
                             <div class="mx-0 mb-1 sm:mb-4">
                                 <div class="mx-0 mb-1 sm:mb-4">
-                                    <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" value={fullName} onChange={onChangeMethod} autocomplete="given-name" placeholder="Your name" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name"/>
+                                    <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" value={formData.name} onChange={handleInputChange} autocomplete="given-name" required="true" placeholder="Your name" class="mb-2 w-full rounded-md border py-2 pl-2 pr-4 shadow-md sm:mb-0" name="name"/>
                                 </div>
                                 <div class="mx-0 mb-1 sm:mb-4">
-                                    <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" value={email} autocomplete="email" placeholder="Your email address" class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email"/>
+                                    <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" value={formData.email} onChange={handleInputChange} autocomplete="email"  required="true" placeholder="Your email address" class="mb-2 w-full rounded-md border py-2 pl-2 pr-4 shadow-md sm:mb-0" name="email"/>
                                 </div>
                             </div>
                             <div class="mx-0 mb-1 sm:mb-4">
-                                <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" value={message} name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
+                                <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border  py-2 pl-2 pr-4 shadow-md  sm:mb-0"></textarea>
                             </div>
                         </div>
                         <div class="text-center">
-                            <button type="submit" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0" onClick={sendMessage()}>Send Message</button>
+                            <button type="submit" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
                         </div>
                     </form>
                 </div>
