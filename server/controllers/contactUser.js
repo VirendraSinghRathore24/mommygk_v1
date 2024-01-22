@@ -3,9 +3,9 @@ const contactdb = require("../models/ContactDB");
 
 exports.contactUser = async (req,res) => {
     try{
-        const {fullname, email, message} = req.body;
+        const {name, email, message} = req.body;
 
-        await contactdb.create({"fullname" : fullname, "email" : email, "message" : message});
+        await contactdb.create({"fullname" : name, "email" : email, "message" : message});
         
         res.set('Access-Control-Allow-Origin', '*');
         res.json({

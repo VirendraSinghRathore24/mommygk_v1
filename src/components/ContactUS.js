@@ -1,5 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import baseUrl from '../baseUrl';
+import { toast } from "react-toastify";
 
 function PrivacyPolicy() {
   const [formData, setFormData] = useState({
@@ -24,8 +26,15 @@ function PrivacyPolicy() {
     postData.append('email', formData.email);
     postData.append('message', formData.message);
 
-    //axios.post(`${baseUrl}/contactuser`, formData);
+    axios.post(`${baseUrl}/contactuser`, formData);
+
+    toast.success("Message Sent Successfully !!!");
     
+    setFormData({
+      name : "",
+      email : "",
+      message : ""
+    })
   };
 
     useEffect(() => {
@@ -88,12 +97,13 @@ function PrivacyPolicy() {
                                 </div>
                             </div>
                             <div class="mx-0 mb-1 sm:mb-4">
-                                <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border  py-2 pl-2 pr-4 shadow-md  sm:mb-0"></textarea>
+                                <label for="message" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="message" value={formData.message} onChange={handleInputChange} name="message" cols="30" rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border  py-2 pl-2 pr-4 shadow-md  sm:mb-0"></textarea>
                             </div>
                         </div>
                         <div class="text-center">
                             <button type="submit" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
                         </div>
+                        
                     </form>
                 </div>
             </div>

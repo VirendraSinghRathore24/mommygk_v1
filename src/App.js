@@ -36,6 +36,8 @@ import Toys from "./components/Toys";
 import NewMomChecklist from "./components/NewMomChecklist";
 import FoodPlateChecklist from "./components/FoodPlateChecklist";
 import ProofingChecklist from "./components/ProofingChecklist";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -81,6 +83,7 @@ export default function App() {
       <Footer/>
       <>      <PageComponent/>
       </>
+      <ToastContainer/>
 
     </div>
   )
