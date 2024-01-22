@@ -1,20 +1,23 @@
 [
     {
         "title" : "Food Chart - 6 Month",
-        "imageUrl" : "../../images/6monthchart.jpeg",
+        "imageUrl" : "../../images/food1.jpg",
         "url" : "babyfood6month",
+        "color" : 1,
         "shortDesc" : "Baby Food Recipe Chart - 6 month food chart, what to give to baby and what time to give food"
     },
     {
         "title" : "Food Chart - 7 Month",
-        "imageUrl" : "../../images/7monthchart.jpeg",
+        "imageUrl" : "../../images/food2.jpg",
         "url" : "babyfood7month",
+        "color" : 2,
         "shortDesc" : "Baby Food Recipe Chart - 7 month food chart, what to give to baby and what time to give food"
     },
     {
         "title" : "Food Chart - 8 Month",
-        "imageUrl" : "../../images/8monthchart.jpeg",
+        "imageUrl" : "../../images/food3.jpg",
         "url" : "foodfor8monthbaby",
+        "color" : 3,
         "shortDesc" : "Baby Food Recipe Chart - 8 month food chart, what to give to baby and what time to give food"
     }
 ]

@@ -20,7 +20,7 @@ function FoodCharts() {
                 ))
                } 
             </div>
-            <div className='flex flex-col items-center font-normal p-5 leading-8 text-[18px] align-baseline text-justify'>From first tastes to exciting culinary adventures, our videos provide step-by-step guidance, ensuring that every homemade meal is a delightful and wholesome experience for your baby. Join us on this journey of nourishing your baby's growth and fostering a love for healthy eating from the very beginning. Discover the joy of preparing homemade baby food with our easy-to-follow recipe videos, crafted with care for your little foodie.</div>
+            {/* <div className='flex flex-col items-center font-normal p-5 leading-8 text-[18px] align-baseline text-justify'>From first tastes to exciting culinary adventures, our videos provide step-by-step guidance, ensuring that every homemade meal is a delightful and wholesome experience for your baby. Join us on this journey of nourishing your baby's growth and fostering a love for healthy eating from the very beginning. Discover the joy of preparing homemade baby food with our easy-to-follow recipe videos, crafted with care for your little foodie.</div> */}
         </div>
   )
 }

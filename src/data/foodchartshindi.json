@@ -1,8 +1,9 @@
 [
     {
         "title" : "Food Chart - 6 Month",
-        "imageUrl" : "../../images/6monthhindichart.jpeg",
+        "imageUrl" : "../../images/food1.jpg",
         "url" : "babyfood6monthhindi",
+        "color" : 1,
         "shortDesc" : "Baby Food Recipe Chart - 6 month food chart, what to give to baby and what time to give food"
     }
 ]

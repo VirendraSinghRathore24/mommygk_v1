@@ -22,19 +22,19 @@ function FoodChartsHindi() {
                 ))
                } 
            
-            <div className='relative w-[330px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto '>
+            <div className='relative w-[280px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto '>
                 <NavLink to={`https://www.youtube.com/watch?v=1h-Buyvan-M&t=91s`} target="_blank">
                         
-                            <img className='h-[350px]' src='../../images/solidfood.jpeg' loading='lazy' ></img>
+                            <img className='h-[300px]' src='../../images/solidfood.jpeg' loading='lazy' ></img>
                             <div className='absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>  
                                 <IoPlayCircleOutline size={100} />
                             </div>
                 </NavLink>
             </div>
-            <div className='relative w-[330px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto '>
+            <div className='relative w-[280px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto '>
                 <NavLink to={`https://www.youtube.com/watch?v=T51chIH2NLI`} target="_blank">
                         
-                            <img className='h-[350px]' src='../../images/babyfood6monthyoutube.jpeg' loading='lazy' ></img>
+                            <img className='h-[300px]' src='../../images/babyfood6monthyoutube.jpeg' loading='lazy' ></img>
                             <div className='absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>  
                                 <IoPlayCircleOutline size={100} />
                             </div>
