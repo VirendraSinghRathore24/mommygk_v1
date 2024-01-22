@@ -21,13 +21,14 @@ function Header() {
        bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"> */}
        <div className="flex top-0 justify-between items-center  mx-auto w-full  h-20 px-5
        bg-gradient-to-r from-red-100 via-rose-400 to-yellow-400">
-
-
-           <Link to="/">
-                <img src="../../images/logosvg11.png" alt="Logo" width={160} loading='lazy' className="" />
-                {/* <p className="text-white text-xl">MommyGK</p> */}
-           </Link>
-
+       <Link to="/">
+           <div className="flex">
+           
+                  <img src="../../images/logosvg12.svg" alt="Logo" width={60} loading='lazy'/>
+            
+            <div className="mt-4 text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-black to-red-500">MommyGK</div>
+           </div>
+        </Link>
             {/* <nav>
               <ul className="flex gap-x-6">
                 <li><NavLink to="/">Home</NavLink></li>
