@@ -9,7 +9,7 @@ function Blogs() {
       }, []);
     
   return (
-    <div>
+    <div className='font-mono'>
         <div className='text-xl text-center font-semibold mt-4'>
             Baby Food Blogs
         </div>

@@ -43,10 +43,10 @@ function FoodVideoCard({post}) {
     //     </div>
     //     </Link>
     // </div>
-    <div className='relative w-[330px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto '>
+    <div className='relative w-[280px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto '>
    <Link to={`${post.youtubelink}`} target="_blank">
         
-            <img className='' src={post.imageUrl} loading='lazy' ></img>
+            <img className='h-[300]' src={post.imageUrl} loading='lazy' ></img>
             <div className='absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     
                    <IoPlayCircleOutline size={100} />
@@ -57,9 +57,22 @@ function FoodVideoCard({post}) {
                 <button className='w-[100px] h-[40px] text-white bg-pink-500 rounded-lg absolute right-2 bottom-[-12px] grid place-items-center font-bold  hover:scale-110 transition duration-300 ease-in'>Explore</button>
             </div> */}
        <div>
-       <div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-white h-20 w-full'>
-            <p className='text-blue-600 font-bold text-xl leading-6 text-center mt-6'>{post.title}</p>
-        </div>
+       <div className='font-mono text-xl'>
+       {
+        post.color === 1 ?  (<div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-rose-300 h-20 w-full'>
+            <p className='text-black font-bold text-center mt-6 '>{post.title}</p>
+        </div>) :
+        post.color === 2 ? ( <div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-blue-300 h-20 w-full'>
+            <p className='text-black font-bold text-center mt-6'>{post.title}</p>
+        </div>) :
+        post.color === 3 ? ( <div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-lime-300 h-20 w-full'>
+            <p className='text-black font-bold text-center mt-6'>{post.title}</p>
+        </div>) :
+        ( <div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-green-300 h-20 w-full'>
+            <p className='text-black font-bold text-center mt-6'>{post.title}</p>
+        </div>)
+       }
+     </div>
       
        
         </div>

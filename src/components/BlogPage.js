@@ -41,7 +41,7 @@ function BlogPage() {
     <div className='flex flex-col p-4'>
             <div>
                 <div>
-                    <h1 className='font-bold text-[20px] text-blue-500 underline text-center'>{posts.title}</h1>
+                    <h1 className='font-bold text-2xl text-blue-600 text-center'>{posts.title}</h1>
                 </div>
                 <div className="w-45 text-richblack-700 font-normal text-[17px] text-left mt-6 leading-9">        
                     <span dangerouslySetInnerHTML={{__html: posts.desc1}} />
