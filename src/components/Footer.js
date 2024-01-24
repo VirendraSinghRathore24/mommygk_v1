@@ -7,6 +7,13 @@ function Footer() {
         <div className='relative min-h[280px] w-full overflow-hidden bg-brand py-8 px-8 text-blue-500 bg-stone-50 border-2 shadow-md'>
         <div className='max-w-maxScreen mx-auto'>
         <div className='flex flex-col items-center md:items-start gap-4 md:flex-row md:justify-around md:gap-0 my-6'>
+        <div className='flex flex-col text-center text-base md:text-left'>
+          <div className='flex flex-col gap-y-2 items-center'>
+          <img src="../../images/logosvg12.svg" alt="Logo" width={55} loading='lazy'/>
+          <div className="font-mono text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-stone-800">MommyGK</div>
+          <div>The Ultimate Guide For Baby Growth</div>
+          </div>
+        </div>
         <div className='flex flex-col text-center text-base '>
           <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Get in touch</p>
           <div className='flex gap-x-4'>
