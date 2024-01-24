@@ -7,7 +7,7 @@ function PopularCard({url, imageUrl, title, color}) {
     <NavLink to={`${url}`} target='_blank'>
         
        <img className='h-[350px]' src={imageUrl} loading='lazy' ></img>
-       <div className='font-mono'>
+       <div className='font-mono hover:scale-110 transition duration-300 ease-in'>
        {
         color === 1 ?  (<div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-stone-300 h-20 w-full'>
             <p className='text-black font-bold text-xl leading-6 text-center mt-6 '>{title}</p>
