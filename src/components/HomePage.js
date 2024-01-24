@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Spinner from "../components/Spinner"
 import baseUrl from '../baseUrl'
-import Card from './Card';
 import data from "../data/data.json"
 import "./YoutubeEmbed.css";
 import YoutubeEmbed from './YoutubeEmbed';
@@ -11,6 +9,7 @@ import Page2 from './page2';
 import PopularCard from './PopularCard';
 import ProductCard from './ProductCard';
 import ProductCard1 from './ProductCard1';
+import { InstagramEmbed } from 'react-social-media-embed';
 
 
 function HomePage() {
@@ -39,7 +38,7 @@ function HomePage() {
 
   return (
    <div>
-    <div className='mx-auto w-10/12 flex flex-col lg:flex-row xl:flex-row'>
+    <div className='mx-auto w-10/12 flex flex-wrap '>
        
 
           <Page1/>
@@ -59,7 +58,7 @@ function HomePage() {
               </div>
           </div>
           </div>
-          <div className='w-10/12 mx-auto text-lg p-8 '>
+          <div className='w-10/12 mx-auto text-lg py-8 '>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold'>Baby Toys Checklist</div>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
             <ProductCard url={'/toys'} imageUrl={'../../images/toys6to12.png'}/>
@@ -70,7 +69,7 @@ function HomePage() {
             <div className='text-red-700 font-mono font-bold'>See More <span className='text-blue-600 underline'><Link to={'/toys'}>Baby Toys</Link></span></div>
           </div>
           <div className='bg-gradient-to-r from-stone-50 to-blue-50'>
-          <div className='w-10/12 mx-auto text-lg p-8'>
+          <div className='w-10/12 mx-auto text-lg py-8'>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Baby Care Products Checklist</div>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
             <ProductCard url={'/newmomchecklist'} imageUrl={'../../images/newmomchecklist.png'}/>
@@ -81,15 +80,18 @@ function HomePage() {
           </div>
           </div>
           
-          <div className='w-10/12 mx-auto text-lg p-8'>
+          <div className='w-10/12 mx-auto text-lg py-8'>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Our Recent Content at Instagram</div>
-            <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
-            <ProductCard1 url={'https://www.instagram.com/reel/C2P4N4mS0O4/'} imageUrl={'../../images/insta1.png'}/>
-            <ProductCard1 url={'https://www.instagram.com/reel/C0D5z_RSK-_/'} imageUrl={'../../images/insta2.png'}/>
-            <ProductCard1 url={'https://www.instagram.com/reel/C0mQV54yyoZ/'} imageUrl={'../../images/insta3.png'}/>
-            <ProductCard1 url={'https://www.instagram.com/reel/Cz6gU9kSxKP/'} imageUrl={'../../images/insta4.png'}/>
+            <div className='flex flex-wrap gap-x-8 gap-y-4 justify-evenly mt-8'>
+              <div ><InstagramEmbed url="https://www.instagram.com/p/C1bO42oS8I9/" /></div>
+              <div ><InstagramEmbed url="https://www.instagram.com/p/CurOGQBSHST/?img_index=1" /></div>
+              <div ><InstagramEmbed url="https://www.instagram.com/p/CxqSr6-yGzD/?img_index=1" /></div>
+              
             </div>
+            
           </div>
+
+          
           </div>
  
   )
