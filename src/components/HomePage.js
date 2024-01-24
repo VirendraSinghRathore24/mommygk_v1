@@ -41,8 +41,8 @@ function HomePage() {
     <div className='mx-auto w-10/12 flex flex-col lg:flex-row xl:flex-row'>
        
 
-          {/* <Page1/>
-          <Page2/> */}
+          <Page1/>
+          <Page2/>
 
          
         
