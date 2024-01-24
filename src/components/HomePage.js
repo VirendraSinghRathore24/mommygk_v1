@@ -80,7 +80,7 @@ function HomePage() {
           </div>
           </div>
           
-          <div className='w-10/12 mx-auto text-lg py-8'>
+          {/* <div className='w-10/12 mx-auto text-lg py-8'>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Our Recent Content at Instagram</div>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
               <div ><InstagramEmbed url="https://www.instagram.com/p/C1bO42oS8I9/" /></div>
@@ -88,7 +88,7 @@ function HomePage() {
               <div ><InstagramEmbed url="https://www.instagram.com/p/CxqSr6-yGzD/?img_index=1" /></div> 
             </div>
             
-          </div>
+          </div> */}
 
           
           </div>
