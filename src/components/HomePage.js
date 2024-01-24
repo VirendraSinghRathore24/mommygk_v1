@@ -39,22 +39,18 @@ function HomePage() {
   return (
    <div>
     <div className='mx-auto w-10/12 flex flex-col lg:flex-row xl:flex-row'>
-       
-
           <Page1/>
           <Page2/>
-
-         
-        
     </div>
-    <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-4 py-8'>
+    
+    {/* <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-4 py-8'>
     <div className='w-10/12 mx-auto'>
               <div className='text-3xl text-red-700 uppercase font-mono font-bold '>Popular Post</div>
               <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-3 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
               <PopularCard url={'/babyfood6month'} imageUrl={'../../images/foodcharts.JPEG'} title={'6 Month Food Chart'} color={1}/>
               <PopularCard url={'https://www.youtube.com/watch?v=1h-Buyvan-M&t=91s'} imageUrl={'../../images/solidfood2.jpg'} title={'Solid Food Introduction'} color={2}/>
               <PopularCard url={'https://www.youtube.com/watch?v=4S02boyMtWA'} imageUrl={'../../images/carrot2.jpeg'} title={'Carrot Recipe Video'} color={3}/>
-              {/* <PopularCard url={'blogs/How-to-start-solid-food'} imageUrl={'../../images/blog.jpg'} title={'How To Start Solid Food Blog'} color={4}/> */}
+              
               </div>
           </div>
           </div>
@@ -78,7 +74,7 @@ function HomePage() {
             <ProductCard url={'https://www.amazon.in/dp/B07DMKJJB4?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B07DMKJJB4&asc_item-id=amzn1.ideas.2J0J72BX3UILO&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/newmom12.png'}/>
             </div>
           </div>
-          </div>
+          </div> */}
           
           {/* <div className='w-10/12 mx-auto text-lg py-8'>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Our Recent Content at Instagram</div>
