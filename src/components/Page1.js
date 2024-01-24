@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Spinner from "../components/Spinner"
 import baseUrl from '../baseUrl'
 import Card from './Card';
+import './Page1.css'
 import data from "../data/data.json"
 import "./YoutubeEmbed.css";
 import YoutubeEmbed from './YoutubeEmbed';
@@ -39,7 +40,7 @@ function Page1() {
         
         <div className=''>
             <div>
-                <p className='text-md font-light py-3 px-2'><strong className=' text-lg text-blue-600 font-bold font-mono'>There is no better feeling in the world than holding your precious child.</strong></p>
+                <h1 className='text-md font-light py-3 px-2'><strong className=' text-xl text-blue-600 font-bold googlefont'>There is no better feeling in the world than holding your precious child.</strong></h1>
             </div>
             <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-3 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
             {

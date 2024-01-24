@@ -1,5 +1,6 @@
 import { useState } from "react";
-import {Link, NavLink} from "react-router-dom"
+import {Link, NavLink} from "react-router-dom";
+import './Page1.css';
 
 function Header() {
 
@@ -16,7 +17,7 @@ function Header() {
   }
 
   return (
-    <div className="font-mono">
+    <div className="googlefont">
        {/* <div className="flex top-0 justify-between items-center  mx-auto w-full  h-20 px-5
        bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"> */}
        <div className="flex top-0 justify-between items-center  mx-auto w-full  h-20 px-5
@@ -24,7 +25,7 @@ function Header() {
        <Link to="/">
            <div className="flex">
                   <img src="../../images/logosvg12.svg" alt="Logo" width={55} loading='lazy'/>
-                  <div className="mt-3 text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-stone-800">MommyGK</div>
+                  <div className="font-mono mt-3 text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-stone-800">MommyGK</div>
            </div>
         </Link>
             {/* <nav>
