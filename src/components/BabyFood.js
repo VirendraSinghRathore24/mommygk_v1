@@ -76,14 +76,6 @@ function BabyFood() {
                 ))
                 }
                 </div>
-                <div className='flex flex-col items-center font-normal p-5 leading-8 text-[18px] align-baseline text-justify'>Navigating the world of introducing solids to your 6-month-old is an exciting journey, and our Baby 6-Month Food Chart is here to guide you every step of the way. Carefully crafted to meet the nutritional needs of your growing little one, our chart offers a comprehensive guide to introducing a variety of age-appropriate foods. From nutrient-rich purees to soft, easily digestible textures, our chart provides a roadmap for creating a balanced and diverse diet tailored to your baby's developmental stage. Join us in fostering healthy eating habits and savoring the joyous milestones as your baby explores a colorful palette of flavors and textures on the path to nourishment and growth.</div>
-                    {/* <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 px-10 py-5 gap-x-10 gap-y-10'>
-                            <img src="../../images/Week1.png" loading='lazy' className=' rounded-md'/>
-                            <img src="../../images/Week2.png" loading='lazy' className=' rounded-md'/>
-                            <img src="../../images/Week3.png" loading='lazy' className=' rounded-md'/>
-                            <img src="../../images/Week4.png" loading='lazy' className=' rounded-md'/>
-                        
-                    </div> */}
                 </div>
     </div>
   )

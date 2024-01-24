@@ -75,14 +75,6 @@ function fetchBlogsData(){
                 ))
                 }
                 </div>
-                <div className='flex flex-col items-center font-normal p-5 leading-8 text-[18px] align-baseline text-justify'>Embark on the delightful culinary journey with our Baby 7-Month Food Chart, thoughtfully designed to support your little one's growing appetite and nutritional needs. Tailored for the unique developmental stage of a 7-month-old, our chart introduces a diverse range of flavors and textures, providing a roadmap for the exciting transition to more advanced solids. From introducing new fruits and vegetables to incorporating soft proteins, our chart encourages a balanced and wholesome diet, nurturing your baby's taste buds and fostering a love for nutritious eating. Join us in celebrating the joys of nourishing your 7-month-old through this comprehensive and easy-to-follow food chart, ensuring each meal is a delightful adventure in healthy growth and development.</div>
-                    {/* <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 px-4 py-5 gap-x-10 gap-y-10'>
-                            <img src="../../images/Week1_7.png" loading='lazy' className=' rounded-md'/>
-                            <img src="../../images/Week2_7.png" loading='lazy' className=' rounded-md'/>
-                            <img src="../../images/Week3_7.png" loading='lazy' className=' rounded-md'/>
-                            <img src="../../images/Week4_7.png" loading='lazy' className=' rounded-md'/>
-                        
-                    </div> */}
                 </div>
                 
     </div>
