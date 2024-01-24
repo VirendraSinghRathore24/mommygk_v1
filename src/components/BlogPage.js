@@ -3,7 +3,7 @@ import { NavLink, useLocation } from 'react-router-dom'
 import data from '../data/blogs.json';
 import "./YoutubeEmbed.css";
 import YoutubeEmbed from "./YoutubeEmbed";
-
+import './Page1.css';
 function BlogPage() {
 
   const [posts, setPosts] = useState([]);
@@ -30,7 +30,7 @@ function BlogPage() {
       window.scroll(0,0);
   },[]);
   return (
-    <div className='font-mono'>
+    <div className='googlefont'>
     <div className='flex flex-row justify-between'>
          <p className='text-md font-light py-3 px-5 md:px-2 pointer-events-auto'><strong className='font-semibold'><NavLink to="/"> Home </NavLink><NavLink to={'/blogs'}> / Blogs </NavLink></strong>/ {title} </p>
          {/* <div className='flex gap-x-2 p-2'>
