@@ -1,7 +1,35 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { toast } from "react-toastify";
 
 function Footer() {
+  const [formData, setFormData] = useState({
+    email: ''
+  });
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const postData = new FormData();
+    postData.append('email', formData.email);
+
+    //axios.post(`${baseUrl}/subscribe`, postData);
+
+    toast.success("Thanks for the Subscribe !!!");
+    
+    setFormData({
+      email : ""
+    })
+  };
+
   return (
     <div>
         <div className='relative min-h[280px] w-full overflow-hidden bg-brand py-8 px-8 text-blue-500 bg-stone-50 border-2 shadow-md'>
@@ -14,7 +42,7 @@ function Footer() {
           <div>The Ultimate Guide For Baby Growth</div>
           </div>
         </div>
-        <div className='flex flex-col text-center text-base '>
+        <div className='flex flex-col text-center text-base items-center'>
           <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Get in touch</p>
           <div className='flex gap-x-4'>
               
@@ -35,6 +63,14 @@ function Footer() {
               
                
         </div>
+        <div className='flex mt-8'>Subscribe for our latest updates</div>
+        <form className='flex mt-2' onSubmit={handleSubmit}>
+        <div className="mx-0 mb-1 sm:mb-4">
+            <label for="email" className="pb-1 text-xs uppercase tracking-wider"></label>
+            <input type="email" id="email" autocomplete="email"  required="true" placeholder="Your email address" value={formData.email} onChange={handleInputChange} className="mb-2 w-full  border py-2 pl-2 pr-4 h-10 sm:mb-0" name="email"/>
+        </div>
+          <button type="submit" className="flex items-center justify-center w-[100px] h-10 bg-blue-600 text-white  font-lg ">Subscribe</button>
+        </form>
         </div>
         <div className='flex flex-col text-center text-base md:text-left'>
           <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Food Charts</p>
