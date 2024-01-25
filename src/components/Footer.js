@@ -50,17 +50,17 @@ function Footer() {
           <div className='flex flex-col gap-y-2'>
                 <a href='/babyfood6month'>6 Month</a>
                 <a href='/babyfood7month'>7 Month</a>
-                <a href='/babyfood6monthhindi'>6 Month Hindi</a>
+                <a href='/foodfor8monthbaby'>8 Month</a>
                 <a href='/babyfoodspices'>Baby Food Spices</a>
           </div>
         </div>
         <div className='flex flex-col text-center text-base md:text-left'>
-          <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Top Purees</p>
+          <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Top Posts</p>
           <div className='flex flex-col gap-y-2'>
-                <a href='/foodrecipesvideo'>Carrot Puree</a> 
-                <a href='/foodrecipesvideo'>Solid Food Guide</a>   
-                <a href='/foodrecipesvideo'>First Week Purees</a>
-                <a href='/Blogs'>Baby Food Blogs</a>       
+                <a href='/babyfoodcharts'>Food Charts</a> 
+                <a href='/foodrecipesvideo'>Recipe Videos</a>
+                <a href='/toys'>Toys Checklist</a> 
+                <a href='/newmomchecklist'>New Mom Checklist</a>   
           </div>
         </div>
         
@@ -97,10 +97,9 @@ function Footer() {
         <div className='flex mt-8'>Subscribe for our latest updates</div>
         <form className='flex mt-2' onSubmit={handleSubmit}>
         <div className="mx-0 mb-1 sm:mb-4">
-            <label for="email" className="pb-1 text-xs uppercase tracking-wider"></label>
-            <input type="email" id="email" autocomplete="email"  required="true" placeholder="Your email address" value={formData.email} onChange={handleInputChange} className="mb-2 w-full  border py-2 pl-2 pr-4 h-10 sm:mb-0" name="email"/>
+            <input type="email" id="email" autocomplete="email"  required="true" placeholder="Your email address" value={formData.email} onChange={handleInputChange} className="mb-2 w-full border py-2 pl-2 pr-4 h-10 sm:mb-0" name="email"/>
         </div>
-          <button type="submit" className="flex items-center justify-center w-[100px] h-10 bg-blue-600 text-white  font-lg ">Subscribe</button>
+          <button type="submit" className="flex items-center justify-center w-[100px] h-10 bg-blue-600 text-white font-lg ">Subscribe</button>
         </form>
         </div>
         </div>
