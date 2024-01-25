@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { toast } from "react-toastify";
+import axios from 'axios';
+import baseUrl from '../baseUrl';
 
 function Footer() {
   const [formData, setFormData] = useState({
@@ -21,7 +23,7 @@ function Footer() {
     const postData = new FormData();
     postData.append('email', formData.email);
 
-    //axios.post(`${baseUrl}/subscribe`, postData);
+    axios.post(`${baseUrl}/subscribe`, postData);
 
     toast.success("Thanks for the Subscribe !!!");
     
