@@ -7,49 +7,49 @@
             [
             {          
                 "day" : "Day 1",
-                "Reciepe1" : "Poha Porridge",
+                "Reciepe1" : "पोहा दलिया",
                 "youtubelink" : "",
                 "articlelink" : "",
                 "color" : 1
             },
             {
                 "day" : "Day 2",
-                "Reciepe1" : "Broken Wheat (Daliya) Porridge",
+                "Reciepe1" : "गेहूं का दलिया",
                 "youtubelink" : "",
                 "articlelink" : "",
                 "color" : 2
             },
             {
                 "day" : "Day 3",
-                "Reciepe1" : "Ragi Porridge",
+                "Reciepe1" : "रागी दलिया",
                 "youtubelink" : "",
                 "articlelink" : "",
                 "color" : 1
             },
             {
                 "day" : "Day 4",
-                "Reciepe1" : "Rice Porridge",
+                "Reciepe1" : "चावल का दलिया",
                 "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
                 "articlelink" : "",
                 "color" : 2
             },
             {
                 "day" : "Day 5",
-                "Reciepe1" : "Vegetable Khichdi",
+                "Reciepe1" : "सब्जी खिचड़ी",
                 "youtubelink" : "",
                 "articlelink" : "",
                 "color" : 1
             },
             {
                 "day" : "Day 6",
-                "Reciepe1" : "Moong + Masoor + Carrot Porridge",
+                "Reciepe1" : "मूंग + मसूर + गाजर का दलिया",
                 "youtubelink" : "",
                 "articlelink" : "",
                 "color" : 2
             },
             {
                 "day" : "Day 7",
-                "Reciepe1" : "Ragi + Banana Porridge",
+                "Reciepe1" : "रागी + केले का दलिया",
                 "youtubelink" : "",
                 "articlelink" : "",
                 "color" : 1
@@ -64,49 +64,49 @@
              [
              {          
                  "day" : "Day 1",
-                 "Reciepe1" : "Carrot Puree",
+                 "Reciepe1" : "गाजर की प्यूरी",
                  "youtubelink" : "https://www.youtube.com/watch?v=4S02boyMtWA",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 2",
-                 "Reciepe1" : "Apple Puree",
+                 "Reciepe1" : "सेब की प्यूरी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 3",
-                 "Reciepe1" : "Pumpkin Puree",
+                 "Reciepe1" : "कद्दू की प्यूरी",
                  "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 4",
-                 "Reciepe1" : "Apple + Beetroot + Carrot Puree",
+                 "Reciepe1" : "सेब + चुकंदर + गाजर प्यूरी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 5",
-                 "Reciepe1" : "Pumpkin Puree",
+                 "Reciepe1" : "कद्दू की प्यूरी",
                  "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 6",
-                 "Reciepe1" : "Sweetpotato Puree",
+                 "Reciepe1" : "शकरकंद की प्यूरी",
                  "youtubelink" : "https://www.youtube.com/watch?v=6AnFbni7aXI",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 7",
-                 "Reciepe1" : "Rice + Pumpkin Porridge",
+                 "Reciepe1" : "चावल + कद्दू प्यूरी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
@@ -121,49 +121,49 @@
              [
              {
                  "day" : "Day 1",
-                 "Reciepe1" : "Oats + Banana Porridge",
+                 "Reciepe1" : "ओट्स + केला दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 2",
-                 "Reciepe1" : "Suji Upma",
+                 "Reciepe1" : "सूजी उपमा",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 3",
-                 "Reciepe1" : "Broken Wheat (Daliya) + Pumpkin Porridge",
+                 "Reciepe1" : "गेहूं + कद्दू दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 4",
-                 "Reciepe1" : "Rice + Potato + Moong Daal Khichdi",
+                 "Reciepe1" : "चावल + आलू + मूंग दाल की खिचड़ी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 5",
-                 "Reciepe1" : "Ragi + Apple Porridge",
+                 "Reciepe1" : "रागी + सेब दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 6",
-                 "Reciepe1" : "Oats + Apple Porridge",
+                 "Reciepe1" : "ओट्स + सेब का दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 7",
-                 "Reciepe1" : "Suji + Banana Porridge",
+                 "Reciepe1" : "सूजी + केले का दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
@@ -178,49 +178,49 @@
              [
              {
                  "day" : "Day 1",
-                 "Reciepe1" : "Apple + Pears Puree",
+                 "Reciepe1" : "सेब + नाशपाती प्यूरी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 2",
-                 "Reciepe1" : "Oats Porridge",
+                 "Reciepe1" : "ओट्स का दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 3",
-                 "Reciepe1" : "Papaya Puree",
+                 "Reciepe1" : "पपीता प्यूरी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 4",
-                 "Reciepe1" : "Mashed Avocado",
+                 "Reciepe1" : "मसला हुआ एवोकैडो",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 5",
-                 "Reciepe1" : "Kiwi Puree",
+                 "Reciepe1" : "कीवी प्यूरी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 6",
-                 "Reciepe1" : "Tomato Rice Porridge",
+                 "Reciepe1" : "टमाटर चावल दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 7",
-                 "Reciepe1" : "Apple + Beetroot + Carrot Puree",
+                 "Reciepe1" : "सेब + चुकंदर + गाजर प्यूरी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
@@ -235,49 +235,49 @@
              [
              {
                  "day" : "Day 1",
-                 "Reciepe1" : "Khichdi",
+                 "Reciepe1" : "खिचड़ी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 2",
-                 "Reciepe1" : "Oats + Carrot Porridge",
+                 "Reciepe1" : "ओट्स + गाजर का दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 3",
-                 "Reciepe1" : "Suji + Banana Porridge",
+                 "Reciepe1" : "सूजी + केले का दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 4",
-                 "Reciepe1" : "Rice Porridge",
+                 "Reciepe1" : "चावल का दलिया",
                  "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 5",
-                 "Reciepe1" : "Vegetable Oats Porridge",
+                 "Reciepe1" : "सब्जी ओट्स दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 6",
-                 "Reciepe1" : "Oats + Banana Porridge",
+                 "Reciepe1" : "ओट्स + केले का दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 7",
-                 "Reciepe1" : "Spinach + Rice + Moong Daal Porridge",
+                 "Reciepe1" : "पालक + चावल + मूंग दाल खिचड़ी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
@@ -292,49 +292,49 @@
              [
              {
                  "day" : "Day 1",
-                 "Reciepe1" : "Mashed Rice + Curd Porridge",
+                 "Reciepe1" : "मसला हुआ चावल + दही दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 2",
-                 "Reciepe1" : "Instant Poha Mix + Mashed Banana",
+                 "Reciepe1" : "पोहा मिक्स + मसला हुआ केला",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 3",
-                 "Reciepe1" : "Apple + Pears Puree",
+                 "Reciepe1" : "सेब + नाशपाती की प्यूरी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 4",
-                 "Reciepe1" : "Oats + Carrot Porridge",
+                 "Reciepe1" : "ओट्स + गाजर का दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 5",
-                 "Reciepe1" : "Instant Poha Mix + Mashed Banana",
+                 "Reciepe1" : "पोहा मिक्स + मसला हुआ केला",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 6",
-                 "Reciepe1" : "Instant Makhana Mix + Apple",
+                 "Reciepe1" : "मखाना मिक्स + सेब",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 7",
-                 "Reciepe1" : "Instant Puffed Rice Mix + Sweetpotato Puree",
+                 "Reciepe1" : "मुरमुरे का मिश्रण + शकरकंद की प्यूरी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
@@ -349,49 +349,49 @@
              [
              {
                  "day" : "Day 1",
-                 "Reciepe1" : "Vegetable Daliya",
+                 "Reciepe1" : "सब्जी दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 2",
-                 "Reciepe1" : "Ragi + Banana Porridge",
+                 "Reciepe1" : "रागी + केले का दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 3",
-                 "Reciepe1" : "Instant Poha Mix + Mashed Banana",
+                 "Reciepe1" : "पोहा मिक्स + मसला हुआ केला",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 4",
-                 "Reciepe1" : "Poha + Apple Porridge",
+                 "Reciepe1" : "पोहा + सेब दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 5",
-                 "Reciepe1" : "Sweetpotato Puree",
+                 "Reciepe1" : "शकरकंद की प्यूरी",
                  "youtubelink" : "https://www.youtube.com/watch?v=6AnFbni7aXI",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 6",
-                 "Reciepe1" : "Oats + Carrot Porridge",
+                 "Reciepe1" : "ओट्स + गाजर का दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 7",
-                 "Reciepe1" : "Rice + Corn Porridge",
+                 "Reciepe1" : "चावल + मक्के का दलिया",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
@@ -406,49 +406,49 @@
              [
              {
                  "day" : "Day 1",
-                 "Reciepe1" : "Apple + Beetroot + Carrot Puree",
+                 "Reciepe1" : "सेब + चुकंदर + गाजर प्यूरी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 2",
-                 "Reciepe1" : "Soft Veggie Tikki",
+                 "Reciepe1" : "मुलायम सब्जी टिक्की",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 3",
-                 "Reciepe1" : "Beans + Carrot + Potato Puree",
+                 "Reciepe1" : "बीन्स + गाजर + आलू प्यूरी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 4",
-                 "Reciepe1" : "Broken Wheat (Daliya) + Curd",
+                 "Reciepe1" : "गेहूं दलिया + दही",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 5",
-                 "Reciepe1" : "Rice + Pumpkin Porridge",
+                 "Reciepe1" : "चावल + कद्दू प्यूरी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1
              },
              {
                  "day" : "Day 6",
-                 "Reciepe1" : "Carrot + Beetroot Puree",
+                 "Reciepe1" : "गाजर + चुकंदर की प्यूरी",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 2
              },
              {
                  "day" : "Day 7",
-                 "Reciepe1" : "Instant Makhana Mix + Apple",
+                 "Reciepe1" : "मखाना मिक्स + सेब",
                  "youtubelink" : "",
                  "articlelink" : "",
                  "color" : 1

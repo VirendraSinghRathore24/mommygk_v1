@@ -1,10 +1,9 @@
 import React from 'react';
 import { useEffect, useState } from "react";
-import data1 from '../data/food6monthhindi.json';
+import data1 from '../data/food7monthhindi.json';
 import FoodMonthsCard from './FoodMonthsCard';
-import { NavLink } from 'react-router-dom';
 
-function BabyFood6MonthHindi() {
+function BabyFood7MonthHindi() {
     const [posts, setPosts] = useState([]);
 
  function fetchBlogsData(){
@@ -25,11 +24,11 @@ function BabyFood6MonthHindi() {
     <div>
          <div className='p-4'>
          <div className='flex flex-col items-center'>
-            <h2>6 महीने के बेबी फ़ूड की हिंदी में PDF फाइल डाउनलोड करें : </h2>
+            <h2>7 महीने के बेबी फ़ूड की हिंदी में PDF फाइल डाउनलोड करें : </h2>
             <div className='bg-blue-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
                 <a 
-                    href="/6 Month Baby Food Reciepe Hindi.pdf"
-                    download="6 Month Baby Food Reciepe in Hindi"
+                    href="/7 Month Baby Food Recipe Hindi.pdf"
+                    download="7 Month Baby Food Recipe Hindi"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -64,4 +63,4 @@ function BabyFood6MonthHindi() {
   )
 }
 
-export default BabyFood6MonthHindi
+export default BabyFood7MonthHindi
