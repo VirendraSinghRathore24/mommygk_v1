@@ -37,7 +37,7 @@ function HomePage() {
       },[])
 
   return (
-   <div>
+   <div className=''>
     <div className='mx-auto w-10/12 flex flex-wrap '>
        
 
@@ -58,7 +58,7 @@ function HomePage() {
               </div>
           </div>
           </div>
-          <div className='w-10/12 mx-auto text-lg py-8 '>
+          <div className='w-10/12 mx-auto text-2xl py-8 '>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold'>Baby Toys Checklist</div>
             <div className='flex flex-wrap gap-y-4 justify-evenly mt-8'>
             <ProductCard url={'/toys'} imageUrl={'../../images/toys6to12.png'}/>
@@ -69,7 +69,7 @@ function HomePage() {
             <div className='text-red-700 font-mono font-bold mt-4'>See More <span className='text-blue-600 underline'><Link to={'/toys'}>Baby Toys</Link></span></div>
           </div>
           <div className='bg-gradient-to-r from-stone-50 to-blue-50'>
-          <div className='w-10/12 mx-auto text-lg py-8'>
+          <div className='w-10/12 mx-auto text-2xl py-8'>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Baby Care Products Checklist</div>
             <div className='flex flex-wrap gap-y-4 justify-evenly mt-8'>
             <ProductCard url={'/newmomchecklist'} imageUrl={'../../images/newmomchecklist.png'}/>
@@ -80,7 +80,7 @@ function HomePage() {
           </div>
           </div>
           
-          <div className='w-10/12 mx-auto text-lg py-8'>
+          <div className='w-10/12 mx-auto text-2xl py-8'>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Our Recent Content at Instagram</div>
             <div className='flex flex-wrap gap-y-4 justify-evenly mt-8'>
               <div ><InstagramEmbed url="https://www.instagram.com/p/C1bO42oS8I9/" /></div>
