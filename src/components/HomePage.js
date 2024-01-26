@@ -51,9 +51,9 @@ function HomePage() {
     <div className='w-10/12 mx-auto'>
               <div className='text-3xl text-red-700 uppercase font-mono font-bold '>Popular Post</div>
               <div className='flex flex-wrap gap-y-10 justify-evenly mt-8'>
-              <PopularCard url={'/babyfood6month'} imageUrl={'../../images/foodcharts.JPEG'} title={'6 Month Food Chart'} color={1}/>
-              <PopularCard url={'https://www.youtube.com/watch?v=1h-Buyvan-M&t=91s'} imageUrl={'../../images/solidfood2.jpg'} title={'Solid Food Introduction'} color={2}/>
-              <PopularCard url={'https://www.youtube.com/watch?v=4S02boyMtWA'} imageUrl={'../../images/carrot2.jpeg'} title={'Carrot Recipe Video'} color={3}/>
+              <PopularCard url={'https://www.youtube.com/watch?v=4S02boyMtWA'} imageUrl={'../../images/carrot11.png'} title={'Carrot Recipe'} color={3}/>
+              <PopularCard url={'https://www.youtube.com/watch?v=T51chIH2NLI'} imageUrl={'../../images/firstweekfood1.jpeg'} title={'First Week Food'} color={1}/>
+              <PopularCard url={'https://www.youtube.com/watch?v=1h-Buyvan-M&t=91s'} imageUrl={'../../images/solidfood21.jpg'} title={'Solid Food Introduction'} color={2}/>
               {/* <PopularCard url={'blogs/How-to-start-solid-food'} imageUrl={'../../images/blog.jpg'} title={'How To Start Solid Food Blog'} color={4}/> */}
               </div>
           </div>
