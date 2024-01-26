@@ -81,6 +81,8 @@ function Header() {
         <li className="text-center"><a class=" text-xl leading-5" href="/foodrecipesvideo">Videos</a></li>
         <li className="text-center"><a class="text-xl leading-5" href="/blogs">Blogs</a></li>
         <li className="text-center"><a class=" text-xl leading-5" href="/toys">Toys</a></li>
+        <li className="text-center"><a class=" text-xl leading-5" href="/aboutus">About us</a></li>
+        <li className="text-center"><a class=" text-xl leading-5" href="/contactus">Contact us</a></li>
         </ul>
        </div>
           ): (<div></div>)
