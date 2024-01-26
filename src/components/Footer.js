@@ -69,8 +69,8 @@ function Footer() {
           <div className='flex flex-col gap-y-2'>
             <a href='/aboutus'>About us</a>
             <a href='/contactus'>Contact us</a>
-            <a href='/privacypolicy'>Privacy Policy</a>
             <a href='/termsofuse'>Terms of use</a>
+            <a href='/privacypolicy'>Privacy Policy</a>
          </div>
         </div>
         <div className='flex flex-col text-center text-base items-center'>
