@@ -69,6 +69,7 @@ function HomePage() {
               {/* <PopularCard url={'blogs/How-to-start-solid-food'} imageUrl={'../../images/blog.jpg'} title={'How To Start Solid Food Blog'} color={4}/> */}
             </div>
           </div>
+          {/* <div className='bg-gradient-to-r from-stone-50 to-blue-50'>
           <div className='w-10/12 mx-auto text-lg py-8 '>
             <div className='text-2xl md:text-3xl uppercase text-red-700 font-mono font-bold'>Baby Toys Checklist</div>
             <div className='flex flex-wrap gap-y-4 justify-evenly mt-8'>
@@ -79,6 +80,7 @@ function HomePage() {
             </div>
             <div className='text-red-700 font-mono font-bold mt-4'>See More <span className='text-blue-600 underline'><Link to={'/toys'}>Baby Toys</Link></span></div>
           </div>
+          </div> */}
           <div className='bg-gradient-to-r from-stone-50 to-blue-50'>
           <div className='w-10/12 mx-auto text-lg py-8'>
             <div className='text-2xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Baby Care Checklist</div>
@@ -86,7 +88,8 @@ function HomePage() {
             <ProductCard url={'/newmomchecklist'} imageUrl={'../../images/newmomchecklist.png'}/>
             <ProductCard url={'/foodplatecheklist'} imageUrl={'../../images/foodplate.png'}/>
             <ProductCard url={'/proofingheklist'} imageUrl={'../../images/babyproofing.png'}/>
-            <ProductCard url={'https://www.amazon.in/dp/B07DMKJJB4?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B07DMKJJB4&asc_item-id=amzn1.ideas.2J0J72BX3UILO&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/newmom12.png'}/>
+            <ProductCard url={'/toys'} imageUrl={'../../images/toys6to12.png'}/>
+            {/* <ProductCard url={'https://www.amazon.in/dp/B07DMKJJB4?linkCode=ssc&tag=onamzsanjuk03-21&creativeASIN=B07DMKJJB4&asc_item-id=amzn1.ideas.2J0J72BX3UILO&ref_=aip_sf_list_spv_ofs_mixed_d_asin'} imageUrl={'../../images/newmom12.png'}/> */}
             </div>
           </div>
           </div>
