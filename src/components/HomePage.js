@@ -51,7 +51,7 @@ function HomePage() {
     </div>
     <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-4 py-8'>
           <div className='w-10/12 mx-auto'>
-            <div className='text-3xl text-red-700 uppercase font-mono font-bold '>Popular Recipe Posts</div>
+            <div className='text-2xl md:text-3xl text-red-700 uppercase font-mono font-bold '>Popular Recipe Posts</div>
             <div className='flex flex-wrap gap-y-10 justify-evenly mt-8'>
               <PopularCard url={'https://www.youtube.com/watch?v=4S02boyMtWA'} imageUrl={'../../images/carrot11.png'} title={'Carrot Recipe'} color={3}/>
               <PopularCard url={'https://www.youtube.com/watch?v=T51chIH2NLI'} imageUrl={'../../images/firstweekfood11.jpeg'} title={'First Week Food'} color={1}/>
