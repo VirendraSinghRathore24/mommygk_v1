@@ -10,7 +10,7 @@ function Page2() {
   return (
 
         <div className='flex flex-col mt-4 gap-x-4 w-[320px] items-left mx-auto '>
-          <h2 className='text-center font-bold font-mono text-2xl'>WELCOME!</h2>
+          <h2 className='text-center font-semibold googlefont text-2xl'>WELCOME!</h2>
           <div className='flex gap-x-2 font-light mt-6 '>
             <img src="../../images/newpic.png" loading='lazy' className='rounded-full w-36 h-36'/>
             <div className='flex flex-col w-[500px] gap-y-2'>
