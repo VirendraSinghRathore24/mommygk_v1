@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { toast } from "react-toastify";
 import axios from 'axios';
 import baseUrl from '../baseUrl';
+import "./Page1.css";
 
 function Footer() {
   const [formData, setFormData] = useState({
@@ -40,7 +41,7 @@ function Footer() {
         <div className='flex flex-col text-center text-base md:text-left'>
           <div className='flex flex-col gap-y-2 items-center'>
           <img src="../../images/logosvg12.svg" alt="Logo" width={55} loading='lazy'/>
-          <div className="font-mono text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-stone-800">MommyGK</div>
+          <div className="googlefont text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-stone-800">MommyGK</div>
           <div>The Ultimate Guide For Baby Growth</div>
           </div>
         </div>

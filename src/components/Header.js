@@ -25,7 +25,7 @@ function Header() {
        <Link to="/">
            <div className="flex">
                   <img src="../../images/logosvg12.svg" alt="Logo" width={55} loading='lazy'/>
-                  <div className="font-mono mt-3 text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-stone-800">MommyGK</div>
+                  <div className="mt-3 text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-stone-800">MommyGK</div>
            </div>
         </Link>
             {/* <nav>
