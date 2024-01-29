@@ -93,6 +93,23 @@ function HomePage() {
             </div>
           </div>
           </div>
+
+          <div className=''>
+          <div className='w-10/12 mx-auto text-lg py-8'>
+            <div className='text-2xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Important Tips</div>
+             <div className='flex flex-wrap gap-x-4 mt-8 -mb-[150px] justify-evenly'>
+              <div className='w-[350px] h-[350px] -mb-[140px]'>
+                <YoutubeEmbed embedId='oJUkcs5NV3k' />
+              </div>
+              <div className='w-[350px] h-[350px] -mb-[140px]'>
+                <YoutubeEmbed embedId='mur1w_hUkeU' />
+              </div>
+              <div className='w-[350px] h-[350px] -mb-[40px]'>
+                <YoutubeEmbed embedId='dy0hiCzO_zI' />
+              </div>
+            </div>
+          </div>
+          </div>
           
           <div className='w-10/12 mx-auto text-2xl py-8'>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Our Recent Content at Instagram</div>
