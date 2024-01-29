@@ -36,7 +36,7 @@
             {
                 "day" : "Day 5",
                 "Reciepe1" : "Vegetable Khichdi",
-                "youtubelink" : "",
+                "youtubelink" : "https://www.youtube.com/watch?v=4kbMveydEhU",
                 "articlelink" : "",
                 "color" : 1
             },
@@ -129,7 +129,7 @@
              {
                  "day" : "Day 2",
                  "Reciepe1" : "Suji Upma",
-                 "youtubelink" : "",
+                 "youtubelink" : "https://www.youtube.com/watch?v=wowYUgoXzy8",
                  "articlelink" : "",
                  "color" : 2
              },
