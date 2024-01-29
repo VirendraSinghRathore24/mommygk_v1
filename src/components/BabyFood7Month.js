@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import baseUrl from '../baseUrl';
 import FoodMonthsCard from './FoodMonthsCard';
 import data1 from '../data/food7month.json'
+import { Link } from 'react-router-dom';
 
 function BabyFood7Month() {
     const [posts, setPosts] = useState([]);
@@ -40,6 +41,7 @@ function fetchBlogsData(){
 
   return (
     <div>
+    <p className='p-2'><strong><Link to="/">Home</Link> </strong> / <strong><Link to="/babyfoodcharts">Food Charts</Link> </strong> / 7 Month</p>
          <div className='p-4'>
          <div className='flex flex-col items-center'>
             <h2>Download the PDF file for 7 Month Baby Food Recipes :</h2>

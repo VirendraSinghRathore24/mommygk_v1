@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import baseUrl from '../baseUrl';
 import data1 from '../data/food6month.json';
 import FoodMonthsCard from './FoodMonthsCard';
+import { Link } from 'react-router-dom';
 
 function BabyFood() {
     const [posts, setPosts] = useState([]);
@@ -40,6 +41,7 @@ function BabyFood() {
 
   return (
     <div>
+     <p className='p-2'><strong><Link to="/">Home</Link> </strong> / <strong><Link to="/babyfoodcharts">Food Charts</Link> </strong> / 6 Month</p>
          <div className='p-4'>
          <div className='flex flex-col items-center'>
             <h2>Download the PDF file for 6 Month Baby Food Recipes :</h2>

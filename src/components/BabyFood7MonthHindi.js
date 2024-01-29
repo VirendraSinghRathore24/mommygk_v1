@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useState } from "react";
 import data1 from '../data/food7monthhindi.json';
 import FoodMonthsCard from './FoodMonthsCard';
+import { Link } from 'react-router-dom';
 
 function BabyFood7MonthHindi() {
     const [posts, setPosts] = useState([]);
@@ -22,6 +23,7 @@ function BabyFood7MonthHindi() {
 
   return (
     <div>
+    <p className='p-2'><strong><Link to="/">Home</Link> </strong> / <strong><Link to="/babyfoodchartshindi">Food Charts</Link> </strong> / 7 Month Hindi</p>
          <div className='p-4'>
          <div className='flex flex-col items-center'>
             <h2>7 महीने के बेबी फ़ूड की हिंदी में PDF फाइल डाउनलोड करें : </h2>
