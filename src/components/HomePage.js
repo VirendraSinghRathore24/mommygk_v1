@@ -104,25 +104,23 @@ function HomePage() {
               <div className='w-[350px] h-[350px] -mb-[140px]'>
                 <YoutubeEmbed embedId='mur1w_hUkeU' />
               </div>
-              <div className='w-[350px] h-[350px] -mb-[40px]'>
+              <div className='w-[350px] h-[350px]'>
                 <YoutubeEmbed embedId='dy0hiCzO_zI' />
               </div>
             </div>
           </div>
           </div>
           
+          <div className='bg-gradient-to-r from-stone-50 to-blue-50'>
           <div className='w-10/12 mx-auto text-2xl py-8'>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Our Recent Content at Instagram</div>
             <div className='flex flex-wrap gap-y-4 justify-evenly mt-8'>
               <div ><InstagramEmbed url="https://www.instagram.com/p/C1bO42oS8I9/" /></div>
               <div ><InstagramEmbed url="https://www.instagram.com/p/CurOGQBSHST/?img_index=1" /></div>
               <div ><InstagramEmbed url="https://www.instagram.com/p/CxqSr6-yGzD/?img_index=1" /></div>
-              
-              
             </div>
-            
           </div>
-
+          </div>
           
           </div>
  
