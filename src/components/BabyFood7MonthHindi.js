@@ -44,7 +44,7 @@ function BabyFood7MonthHindi() {
                 <div className='flex flex-col gap-y-12 text-center items-center justify-center'>
                     
                     <div className='bg-pink-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
-                        <a href="https://www.youtube.com/watch?v=T51chIH2NLI" target="_blank">
+                        <a href="https://www.youtube.com/watch?v=T51chIH2NLI" target="_blank" rel="noreferrer">
                         <button>Click here to Watch Reciepe Videos</button>
                     </a>
                     </div>
