@@ -39,11 +39,13 @@ function Footer() {
         <div className='max-w-maxScreen mx-auto'>
         <div className='flex flex-col items-center md:items-start gap-4 md:flex-row md:justify-around md:gap-0 my-6'>
         <div className='flex flex-col text-center text-base md:text-left'>
+        <a href='/'>
           <div className='flex flex-col gap-y-2 items-center'>
           <img src="../../images/logosvg12.svg" alt="Logo" width={55} loading='lazy'/>
           <div className="googlefont text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-stone-800">MommyGK</div>
           <div>The Ultimate Guide For Baby Growth</div>
           </div>
+          </a>
         </div>
         
         <div className='flex flex-col text-center text-base md:text-left'>
