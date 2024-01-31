@@ -3,14 +3,11 @@ import baseUrl from '../baseUrl'
 import data from "../data/data.json"
 import "./YoutubeEmbed.css";
 import YoutubeEmbed from './YoutubeEmbed';
-import { Link, NavLink } from 'react-router-dom';
 import Page1 from './Page1';
 import Page2 from './page2';
 import PopularCard from './PopularCard';
 import ProductCard from './ProductCard';
-import ProductCard1 from './ProductCard1';
 import { InstagramEmbed } from 'react-social-media-embed';
-import FoodVideoCard from './FoodVideoCard';
 import PopularCard1 from './PopularCard1';
 
 

@@ -67,8 +67,8 @@ function fetchBlogsData(){
                         </div>
                     </div>
                 <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 px-4 py-5 gap-x-10 gap-y-10'>
-                     <img src="../../images/All71.png" loading='lazy' className=' w-[600px] h-[500px] rounded-md'/>
-                     <img src="../../images/All72.png" loading='lazy' className=' w-[600px] h-[500px] rounded-md'/>
+                     <img src="../../images/All71.png" loading='lazy' alt='All1' className=' w-[600px] h-[500px] rounded-md'/>
+                     <img src="../../images/All72.png" loading='lazy' alt='All2' className=' w-[600px] h-[500px] rounded-md'/>
                 </div>
                 <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 px-4 py-1 gap-x-10 gap-y-1'>
                 {

@@ -69,7 +69,7 @@ function BabyFood() {
                     </div>
                     
                 <div className='mt-8 flex items-center justify-center p-2'>
-                     <img src="../../images/All1.png" loading='lazy' className=' rounded-md'/>
+                     <img src="../../images/All1.png" loading='lazy' alt='All' className=' rounded-md'/>
                 </div>
                 <div className='grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 px-4 py-1 gap-x-10 gap-y-1'>
                 {

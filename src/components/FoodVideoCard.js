@@ -47,7 +47,7 @@ function FoodVideoCard({post}) {
     <div className='relative w-[280px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto '>
    <Link to={`${post.youtubelink}`} target="_blank">
         
-            <img className='h-[300]' src={post.imageUrl} loading='lazy' ></img>
+            <img className='h-[300]' src={post.imageUrl} loading='lazy' alt='image' ></img>
             <div className='absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                     
                    <IoPlayCircleOutline size={100} />
