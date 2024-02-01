@@ -48,7 +48,7 @@ function HomePage() {
     </div>
     <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-4 py-8'>
           <div className='w-10/12 mx-auto'>
-            <div className='text-2xl md:text-3xl text-red-700 uppercase font-mono font-bold '>Popular Recipe Posts</div>
+            <div className='text-2xl md:text-3xl text-black uppercase font-bold justify-center flex gap-x-2'>Popular <span className='text-green-700'> Recipe Posts</span></div>
             <div className='flex flex-wrap gap-y-10 justify-evenly mt-8'>
               <PopularCard url={'https://www.youtube.com/watch?v=4S02boyMtWA'} imageUrl={'../../images/carrot11.png'} title={'Carrot Recipe'} color={3}/>
               <PopularCard url={'https://www.youtube.com/watch?v=T51chIH2NLI'} imageUrl={'../../images/firstweekfood11.jpeg'} title={'First Week Food'} color={1}/>
@@ -58,7 +58,7 @@ function HomePage() {
           </div>
           </div>
           <div className='w-10/12 mx-auto text-lg mt-4 py-8'>
-            <div className='text-2xl md:text-3xl text-red-700 uppercase font-mono font-bold '>Popular Food Charts</div>
+            <div className='text-2xl md:text-3xl text-red-700 uppercase font-bold flex justify-center gap-x-2'>Popular <span className='text-green-700'>Food Charts</span></div>
             <div className='flex flex-wrap gap-y-10 justify-evenly mt-8'>
               <PopularCard1 url={'/babyfood6month'} imageUrl={'../../images/food1.jpg'} title={'6 Month'} color={3}/>
               <PopularCard1 url={'/babyfood7month'} imageUrl={'../../images/food2.jpg'} title={'7 Month'} color={1}/>
@@ -80,7 +80,7 @@ function HomePage() {
           </div> */}
           <div className='bg-gradient-to-r from-stone-50 to-blue-50'>
           <div className='w-10/12 mx-auto text-lg py-8'>
-            <div className='text-2xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Baby Care Checklist</div>
+            <div className='text-2xl md:text-3xl uppercase text-green-700 flex justify-center gap-x-2 font-bold '>Baby Care <span className='text-black'>Checklist</span></div>
             <div className='flex flex-wrap gap-y-4 justify-evenly mt-8'>
             <ProductCard url={'/newmomchecklist'} imageUrl={'../../images/newmomchecklist.png'}/>
             <ProductCard url={'/foodplatecheklist'} imageUrl={'../../images/foodplate.png'}/>
@@ -93,7 +93,7 @@ function HomePage() {
 
           <div className=''>
           <div className='w-10/12 mx-auto text-lg py-8'>
-            <div className='text-2xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Important Tips</div>
+            <div className='text-2xl md:text-3xl uppercase text-black flex justify-center gap-x-2 font-bold '>Important <span className='text-red-700'>Tips</span></div>
              <div className='flex flex-wrap gap-x-4 mt-8 -mb-[150px] justify-evenly'>
               <div className='w-[350px] h-[350px] -mb-[140px]'>
                 <YoutubeEmbed embedId='oJUkcs5NV3k' />
@@ -110,7 +110,7 @@ function HomePage() {
           
           <div className='bg-gradient-to-r from-stone-50 to-blue-50'>
           <div className='w-10/12 mx-auto text-2xl py-8'>
-            <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 font-mono font-bold '>Our Recent Content at Instagram</div>
+            <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 flex justify-center gap-x-2 font-bold '>Posts at <span class='text-green-700'>Instagram</span></div>
             <div className='flex flex-wrap gap-y-4 justify-evenly mt-8'>
               <div ><InstagramEmbed url="https://www.instagram.com/p/C1bO42oS8I9/" /></div>
               <div ><InstagramEmbed url="https://www.instagram.com/p/CurOGQBSHST/?img_index=1" /></div>
