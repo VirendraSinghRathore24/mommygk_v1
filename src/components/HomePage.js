@@ -9,31 +9,17 @@ import PopularCard from './PopularCard';
 import ProductCard from './ProductCard';
 import { InstagramEmbed } from 'react-social-media-embed';
 import PopularCard1 from './PopularCard1';
+import Faq from './Faq';
+
 
 
 function HomePage() {
     const [loading, setLoading] = useState(false);
     const [posts, setPosts] = useState(data);
-
-    async function fetchBlogsData(){
-        setLoading(true);
-        try{
-  
-          const result = await fetch(`${baseUrl}/cards`);
-          const data = await result.json();
-           
-          setPosts(data.data);
-  
-        }
-        catch(err){
-          console.log(err);
-        }
-        setLoading(false);
-      }
-      
-      useEffect(() => {
-       // fetchBlogsData();
-      },[])
+    const [isExpanded1, setExpanded1] = useState(false)
+    const [isExpanded2, setExpanded2] = useState(false)
+    const [isExpanded3, setExpanded3] = useState(false)
+    const [isExpanded4, setExpanded4] = useState(false)
 
   return (
    <div className=''>
@@ -119,6 +105,14 @@ function HomePage() {
           </div>
           </div>
           
+          <div className='w-10/12 mx-auto py-8 flex flex-col gap-y-4'>
+            <div className='text-3xl font-bold'>Frequently asked questions</div>
+            <div className='border-b-2 border-stone-200 mt-8'></div>
+              <Faq isExpanded={isExpanded1} setExpanded={setExpanded1} title={"When to start solid food for baby?"} desc={"Solid food can be started 6 month onwards."}/>
+              <Faq isExpanded={isExpanded2} setExpanded={setExpanded2} title={"Do you have a mobile application?"} desc={"Currently we don't have any mobile application."}/>
+              <Faq isExpanded={isExpanded3} setExpanded={setExpanded3} title={"Do you have recipe videos?"} desc={"Yes we have recipe videos available on our youtube channel and link is available on footer."}/>
+              <Faq isExpanded={isExpanded4} setExpanded={setExpanded4} title={"Is 6 month baby food chart enough?"} desc={"Yes, It is sufficient and If you have any further questions then please feel free to send us a message using Contact us option."}/>
+          </div>
           </div>
  
   )
