@@ -54,10 +54,10 @@ function PrivacyPolicy() {
                 
             </div>
         </div>
-        <div class="flex items-stretch justify-center">
+        <div class="flex items-stretch justify-center googlefontpoppins">
             <div class="grid md:grid-cols-2">
                 <div class="h-full pr-6">
-                    <p class="mt-3 mb-12 text-lg ">
+                    <p class="mt-3 mb-12 text-lg">
                     If you have any inquiries or feedback, please feel free to contact us through the following channels:
                     </p>
                     <ul class="mb-6 md:mb-0">

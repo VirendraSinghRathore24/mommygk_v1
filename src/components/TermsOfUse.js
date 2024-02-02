@@ -6,7 +6,7 @@ function TermsOfUse() {
         window.scroll(0,0);
       }, []);
   return (
-    <div className='p-5 font-mono'>
+    <div className='p-5'>
         <div className='flex justify-center text-[24px] font-semibold'>Terms of Use</div>
         <div className="w-45 text-richblack-700 font-normal text-[17px] text-left py-3">
                 {               

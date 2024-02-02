@@ -11,8 +11,8 @@ function BlogCard({post}) {
                 <button className='w-[100px] h-[40px] text-white bg-pink-500 rounded-lg absolute right-2 bottom-[-12px] grid place-items-center font-bold  hover:scale-110 transition duration-300 ease-in'>Explore</button>
             </div>
         </div>
-        <div className='p-4'>
-            <p className='text-blue-500 font-bold text-lg leading-6'>{post.title}</p>
+        <div className='p-4 googlefontpoppins'>
+            <p className='text-blue-500 font-extrabold text-lg leading-6'>{post.title}</p>
             <p className=' mt-2'>{post.shortDesc}</p>
         </div>
         </NavLink>
