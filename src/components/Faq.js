@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import "./Page1.css"
 
 function Faq({isExpanded, setExpanded, title, desc}) {
 

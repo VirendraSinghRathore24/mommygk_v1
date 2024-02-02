@@ -10,6 +10,7 @@ import ProductCard from './ProductCard';
 import { InstagramEmbed } from 'react-social-media-embed';
 import PopularCard1 from './PopularCard1';
 import Faq from './Faq';
+import "./Page1.css"
 
 
 
@@ -106,7 +107,7 @@ function HomePage() {
           </div>
           
           <div className='w-10/12 mx-auto py-8 flex flex-col gap-y-4'>
-            <div className='text-3xl font-bold'>Frequently asked questions</div>
+            <div className='text-3xl font-extrabold googlefontpoppins'>Frequently asked questions</div>
             <div className='border-b-2 border-stone-200 mt-8'></div>
               <Faq isExpanded={isExpanded1} setExpanded={setExpanded1} title={"When to start solid food for baby?"} desc={"Solid food can be started 6 month onwards."}/>
               <Faq isExpanded={isExpanded2} setExpanded={setExpanded2} title={"Do you have a mobile application?"} desc={"Currently we don't have any mobile application."}/>
