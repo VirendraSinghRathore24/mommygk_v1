@@ -14,7 +14,7 @@ function Page2() {
           <div className='flex gap-x-2 font-light mt-6 '>
             <img src="../../images/newpic.png" loading='lazy' className='rounded-full w-36 h-36'/>
             <div className='flex flex-col w-[500px] gap-y-2'>
-            <p className='text-[14px] leading-6 align-baseline googlefont'>I'm Sanju Shekhawat - Here you'll find plenty of delicious recipes and many more. I hope you enjoy exploring!</p>
+            <p className='text-[14px] leading-6 align-baseline googlefontpoppins'>I'm Sanju Shekhawat - Here you'll find plenty of delicious recipes and many more. I hope you enjoy exploring!</p>
             <Link className='text-blue-600 underline font-mono font-bold' to={'/aboutus'}>More about me ?</Link>
             </div>
           </div>
@@ -38,12 +38,12 @@ function Page2() {
           </div>
           <h2 className='mt-8 border-t border-brColor'></h2>
           {/* <h2 className='mt-4 text-center uppercase font-bold font-mono text-xl'>Related Video</h2> */}
-          <div className='mt-6'>
+          <div className='mt-10'>
           
               <YoutubeEmbed embedId='1h-Buyvan-M' />
                 
           </div>
-          <div className='mt-6 '>
+          <div className='mt-10'>
           
               <YoutubeEmbed embedId='T51chIH2NLI' />
                 

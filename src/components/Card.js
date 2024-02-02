@@ -25,16 +25,16 @@ function Card({post}) {
     //         </div>  
             
     // </div>
-    <div className='relative w-[310px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto '>
+    <div className='relative w-[280px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto '>
     <NavLink to={`/${post.url}`}>
         
-            <img className='h-[350px]' src={post.imageUrl} loading='lazy' alt='image' ></img>
+            <img className='h-[320px]' src={post.imageUrl} loading='lazy' alt='image' ></img>
             {/* <div>
                 <button className='w-[100px] h-[40px] text-white bg-pink-500 rounded-lg absolute right-2 bottom-[-12px] grid place-items-center font-bold  hover:scale-110 transition duration-300 ease-in'>Explore</button>
             </div> */}
        <div>
-       <div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-rose-300 h-20 w-full'>
-            <p className='text-black font-bold text-xl leading-6 text-center mt-6 font-mono'>{post.title}</p>
+       <div className='absolute bottom-4 px-4 text-left text-wrap bg-rose-300 h-20 w-full'>
+            <p className='text-black font-bold text-xl leading-6 text-center mt-6 googlefont'>{post.title}</p>
         </div>
       
        
