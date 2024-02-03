@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./Page1.css"
 
-function Faq({isExpanded, setExpanded, title, desc}) {
+function Faq({isExpanded, setExpanded, isLastFaq, title, desc}) {
 
   return (
     <div className='googlefontpoppins'>
@@ -17,7 +17,10 @@ function Faq({isExpanded, setExpanded, title, desc}) {
               isExpanded ? (<div className='mr-8 mt-2 text-md'>{desc}</div>) : (<div></div>)
              }
             </div>
-            <div className='border-b border-brColor'></div>
+            {
+              !isLastFaq ? (<div className='border-b border-brColor'></div>) : (<div></div>)
+            }
+            
     </div>
     
   )

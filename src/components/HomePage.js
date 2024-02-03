@@ -53,6 +53,23 @@ function HomePage() {
           </div>
           </div>
 
+          {/* <div className='mt-14 bg-rose-50 p-10'>
+            <div className='flex justify-between w-10/12 mx-auto text-cyan-600'>
+              <div className='flex flex-col items-center'>
+                <div className='text-5xl'>33K+</div>
+                <div className='text-5xl'>Instagram</div>
+              </div>
+              <div className='flex flex-col items-center'>
+                <div className='text-5xl'>2K+</div>
+                <div className='text-5xl'>YouTube</div>
+              </div>
+              <div className='flex flex-col items-center'>
+                <div className='text-5xl'>4M+</div>
+                <div className='text-5xl'>Instagram Reels</div>
+              </div>
+            </div>
+          </div> */}
+
           <div className=''>
           <div className='w-10/12 mx-auto text-lg py-8 mt-10'>
             <div className='text-2xl md:text-3xl uppercase text-black flex justify-center gap-x-2 font-bold '>Important <span className='text-red-700'>Tips</span></div>
@@ -84,10 +101,10 @@ function HomePage() {
           <div className='w-9/12 mx-auto py-8 flex flex-col gap-y-4 mt-10'>
             <div className='text-3xl font-extrabold googlefontpoppins flex justify-center'>Frequently asked questions</div>
             <div className='border-b-2 border-stone-200 mt-8'></div>
-              <Faq isExpanded={isExpanded1} setExpanded={setExpanded1} title={"When to start solid food for baby?"} desc={"Solid food can be started 6 month onwards."}/>
-              <Faq isExpanded={isExpanded2} setExpanded={setExpanded2} title={"Do you have a mobile application?"} desc={"Currently we don't have any mobile application."}/>
-              <Faq isExpanded={isExpanded3} setExpanded={setExpanded3} title={"Do you have recipe videos?"} desc={"Yes we have recipe videos available on our youtube channel and link is available on footer."}/>
-              <Faq isExpanded={isExpanded4} setExpanded={setExpanded4} title={"Is 6 month baby food chart enough?"} desc={"Yes, It is sufficient and If you have any further questions then please feel free to send us a message using Contact us option."}/>
+              <Faq isExpanded={isExpanded1} setExpanded={setExpanded1} isLastFaq={false} title={"When to start solid food for baby?"} desc={"Solid food can be started 6 month onwards."}/>
+              <Faq isExpanded={isExpanded2} setExpanded={setExpanded2} isLastFaq={false} title={"Do you have a mobile application?"} desc={"Currently we don't have any mobile application."}/>
+              <Faq isExpanded={isExpanded3} setExpanded={setExpanded3} isLastFaq={false} title={"Do you have recipe videos?"} desc={"Yes we have recipe videos available on our youtube channel and link is available on footer."}/>
+              <Faq isExpanded={isExpanded4} setExpanded={setExpanded4} isLastFaq={true} title={"Is 6 month baby food chart enough?"} desc={"Yes, It is sufficient and If you have any further questions then please feel free to send us a message using Contact us option."}/>
           </div>
           </div>
  
