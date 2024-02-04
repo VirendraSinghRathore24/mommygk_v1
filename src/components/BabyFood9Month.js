@@ -63,13 +63,13 @@ function fetchBlogsData(){
                 }
                 </div>
                 </div>
-                <div className='text-base text-center border-t border-brColor pt-4 flex flex-wrap justify-evenly'>
+                {/* <div className='text-base text-center border-t border-brColor pt-4 flex flex-wrap justify-evenly'>
                 
                         <ChartSuggestionCard url={'babyfood6monthhindi'} imageUrl={'../../images/food1.jpg'} title={'फूड चार्ट - 6 महीने'}/>
                         <ChartSuggestionCard url={'babyfood6month'} imageUrl={'../../images/food2.jpg'} title={'Food Chart - 6 Month'}/>
                         <ChartSuggestionCard url={'foodfor8monthbaby'} imageUrl={'../../images/food3.jpg'} title={'Food Chart - 8 Month'}/>
                     
-                </div>
+                </div> */}
                 
     </div>
   )
