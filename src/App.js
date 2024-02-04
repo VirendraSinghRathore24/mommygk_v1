@@ -39,6 +39,7 @@ import ProofingChecklist from "./components/ProofingChecklist";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import BabyFood7MonthHindi from "./components/BabyFood7MonthHindi";
+import BabyFood9Month from "./components/BabyFood9Month";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -70,6 +71,7 @@ export default function App() {
           <Route path="/babyfood7month" element={<BabyFood7Month/>}/>
           <Route path="/babyfoodspices" element={<BabyFoodSpices/>}/>
           <Route path="/foodfor8monthbaby" element={<BabyFood8Month/>}/>
+          <Route path="/babyfood9month" element={<BabyFood9Month/>}/>
           <Route path="/newmomchecklist" element={<NewMomChecklist/>}/>
           <Route path="/foodplatecheklist" element={<FoodPlateChecklist/>}/>
           <Route path="/proofingheklist" element={<ProofingChecklist/>}/>
