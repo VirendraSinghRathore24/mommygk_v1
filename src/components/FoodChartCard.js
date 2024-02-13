@@ -40,6 +40,9 @@ function FoodChartCard({post}) {
         post.color === 1 ? ( <div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-lime-300 h-20 w-full'>
             <p className='text-black font-bold text-center mt-6'>{post.title}</p>
         </div>) :
+        post.color === 4 ? ( <div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-gray-300 h-20 w-full'>
+            <p className='text-black font-bold text-center mt-6'>{post.title}</p>
+        </div>) :
         ( <div className='absolute text-white bottom-4 px-4 text-left text-wrap bg-green-300 h-20 w-full'>
             <p className='text-black font-bold text-center mt-6'>{post.title}</p>
         </div>)
