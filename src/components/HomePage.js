@@ -46,18 +46,18 @@ function HomePage() {
           <div className='flex flex-wrap justify-evenly mt-10 bg-indigo-500 gap-y-4 mx-auto'>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
               <div className='text-5xl font-extrabold'>35K+</div>
-              <div className='text-2xl'>Followers</div>
-              <NavLink className='text-2xl underline' to={'https://www.instagram.com/mommy_sanju/'} target="_blank">on Instagram</NavLink>
+              <div className='text-2xl font-semibold'>Followers</div>
+              <NavLink className='text-2xl font-semibold underline' to={'https://www.instagram.com/mommy_sanju/'} target="_blank">on Instagram</NavLink>
             </div>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
               <div className='text-5xl font-extrabold'>4M+</div>
-              <div className='text-2xl'>Reel</div>
-              <NavLink className='text-2xl underline' to={'https://www.instagram.com/p/C0D5z_RSK-_/'} target="_blank">on Instagram</NavLink>
+              <div className='text-2xl font-semibold'>Reel</div>
+              <NavLink className='text-2xl font-semibold underline' to={'https://www.instagram.com/p/C0D5z_RSK-_/'} target="_blank">on Instagram</NavLink>
             </div>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
               <div className='text-5xl font-extrabold'>1K+</div>
-              <div className='text-2xl'>Subscribers</div>
-              <NavLink className='text-2xl underline' to={'https://www.youtube.com/@MommyGK'} target="_blank">on YouTube</NavLink>
+              <div className='text-2xl font-semibold'>Subscribers</div>
+              <NavLink className='text-2xl font-semibold underline' to={'https://www.youtube.com/@MommyGK'} target="_blank">on YouTube</NavLink>
             </div>
           </div>
           
