@@ -55,7 +55,7 @@ function HomePage() {
               <NavLink className='text-2xl font-semibold underline' to={'https://www.instagram.com/p/C0D5z_RSK-_/'} target="_blank">on Instagram</NavLink>
             </div>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
-              <div className='text-5xl font-extrabold'>1K+</div>
+              <div className='text-5xl font-extrabold'>1320+</div>
               <div className='text-2xl font-semibold'>Subscribers</div>
               <NavLink className='text-2xl font-semibold underline' to={'https://www.youtube.com/@MommyGK'} target="_blank">on YouTube</NavLink>
             </div>
