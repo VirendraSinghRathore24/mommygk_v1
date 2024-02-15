@@ -43,7 +43,7 @@ function HomePage() {
             </div>
           </div>
 
-          <div className='flex flex-wrap justify-evenly mt-10 bg-indigo-500 gap-y-4 mx-auto'>
+          <div className='bg-indigo-500 grid xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-3 place-items-center gap-y-4 gap-x-4 mb-10 mt-8'>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
               <div className='text-5xl font-extrabold'>35K+</div>
               <div className='text-2xl font-semibold'>Followers</div>
