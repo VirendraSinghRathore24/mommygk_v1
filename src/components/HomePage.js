@@ -10,6 +10,7 @@ import { InstagramEmbed } from 'react-social-media-embed';
 import PopularCard1 from './PopularCard1';
 import Faq from './Faq';
 import "./Page1.css";
+import { NavLink } from 'react-router-dom';
 
 function HomePage() {
     const [isExpanded1, setExpanded1] = useState(false)
@@ -41,6 +42,26 @@ function HomePage() {
               <PopularCard1 url={'/foodfor8monthbaby'} imageUrl={'../../images/food3.jpg'} title={'8 Month'} color={2}/>
             </div>
           </div>
+
+          <div className='flex flex-wrap justify-evenly mt-10 bg-indigo-500 gap-y-4 mx-auto'>
+            <div className='flex flex-col items-center text-white gap-y-2 p-4'>
+              <div className='text-5xl font-extrabold'>35K+</div>
+              <div className='text-2xl'>Followers</div>
+              <NavLink className='text-2xl underline' to={'https://www.instagram.com/mommy_sanju/'} target="_blank">on Instagram</NavLink>
+            </div>
+            <div className='flex flex-col items-center text-white gap-y-2 p-4'>
+              <div className='text-5xl font-extrabold'>4M+</div>
+              <div className='text-2xl'>Reel</div>
+              <NavLink className='text-2xl underline' to={'https://www.instagram.com/p/C0D5z_RSK-_/'} target="_blank">on Instagram</NavLink>
+            </div>
+            <div className='flex flex-col items-center text-white gap-y-2 p-4'>
+              <div className='text-5xl font-extrabold'>1K+</div>
+              <div className='text-2xl'>Subscribers</div>
+              <NavLink className='text-2xl underline' to={'https://www.youtube.com/@MommyGK'} target="_blank">on YouTube</NavLink>
+            </div>
+          </div>
+          
+
           <div className='bg-gradient-to-r from-stone-50 to-blue-50'>
           <div className='w-10/12 mx-auto text-lg py-8 mt-10'>
             <div className='text-2xl md:text-3xl uppercase text-green-700 flex justify-center gap-x-2 font-bold '>Baby Care <span className='text-black'>Checklist</span></div>
