@@ -124,7 +124,7 @@ function HomePage() {
           </div>
           </div>
           
-          <div className='w-9/12 mx-auto py-8 flex flex-col gap-y-4 mt-10'>
+          <div id='faq' className='w-9/12 mx-auto py-8 flex flex-col gap-y-4 mt-10'>
             <div className='text-3xl font-extrabold googlefontpoppins flex justify-center'>Frequently asked questions</div>
             <div className='border-b-2 border-stone-200 mt-8'></div>
               <Faq isExpanded={isExpanded1} setExpanded={setExpanded1} isLastFaq={false} title={"When to start solid food for baby?"} desc={"Solid food can be started 6 month onwards."}/>
