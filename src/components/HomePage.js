@@ -48,20 +48,20 @@ function HomePage() {
             <div className='w-10/12 mx-auto grid xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5 3xl:grid-cols-5 place-items-center gap-y-4 gap-x-4 mb-10 p-10'>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
               <div className='text-5xl font-extrabold text-orange-300'>35K+</div>
-              <div className='text-2xl font-semibold googlefontpoppins text-white'>Followers</div>
-              <NavLink className='text-2xl font-semibold underline googlefontpoppins text-white' to={'https://www.instagram.com/mommy_sanju/'} target="_blank">on Instagram</NavLink>
+              <div className='text-2xl googlefontpoppins text-white'>Followers</div>
+              <NavLink className='text-2xl underline googlefontpoppins text-white' to={'https://www.instagram.com/mommy_sanju/'} target="_blank">on Instagram</NavLink>
             </div>
             <div className='border-r-2 border-white h-full'></div>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
               <div className='text-5xl font-extrabold text-orange-300'>4M+</div>
-              <div className='text-2xl font-semibold googlefontpoppins text-white'>Reel</div>
-              <NavLink className='text-2xl font-semibold underline googlefontpoppins text-white' to={'https://www.instagram.com/p/C0D5z_RSK-_/'} target="_blank">on Instagram</NavLink>
+              <div className='text-2xl googlefontpoppins text-white'>Reel</div>
+              <NavLink className='text-2xl underline googlefontpoppins text-white' to={'https://www.instagram.com/p/C0D5z_RSK-_/'} target="_blank">on Instagram</NavLink>
             </div>
             <div className='border-r-2 border-white h-full'></div>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
               <div className='text-5xl font-extrabold text-orange-300'>1320+</div>
-              <div className='text-2xl font-semibold googlefontpoppins text-white'>Subscribers</div>
-              <NavLink className='text-2xl font-semibold underline googlefontpoppins text-white' to={'https://www.youtube.com/@MommyGK'} target="_blank">on YouTube</NavLink>
+              <div className='text-2xl googlefontpoppins text-white'>Subscribers</div>
+              <NavLink className='text-2xl underline googlefontpoppins text-white' to={'https://www.youtube.com/@MommyGK'} target="_blank">on YouTube</NavLink>
             </div>
             </div>
           </div>
