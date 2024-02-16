@@ -43,7 +43,7 @@ function HomePage() {
             </div>
           </div>
 
-          <div className='color'>
+          <div className='color mt-10'>
           <div className='w-10/12 mx-auto flex justify-center p-6 text-white text-3xl googlefontpoppins'>Helping The New Moms Journey</div>
             <div className='w-10/12 mx-auto grid xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5 3xl:grid-cols-5 place-items-center gap-y-4 gap-x-4 mb-10 p-10'>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
