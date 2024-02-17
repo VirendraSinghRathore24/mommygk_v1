@@ -11,6 +11,7 @@ import PopularCard1 from './PopularCard1';
 import Faq from './Faq';
 import "./Page1.css";
 import { NavLink } from 'react-router-dom';
+import Slider1 from './Slider1';
 
 function HomePage() {
     const [isExpanded1, setExpanded1] = useState(false)
@@ -116,10 +117,8 @@ function HomePage() {
           <div className='bg-gradient-to-r from-stone-50 to-blue-50'>
           <div className='w-10/12 mx-auto text-2xl py-8 mt-10'>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 flex justify-center gap-x-2 font-bold '>Posts at <span class='text-green-700'>Instagram</span></div>
-            <div className='flex flex-wrap gap-y-8 justify-evenly mt-14'>
-              <div ><InstagramEmbed url="https://www.instagram.com/p/C1bO42oS8I9/" /></div>
-              <div ><InstagramEmbed url="https://www.instagram.com/p/C3b5rAgSipX/" /></div>
-              <div ><InstagramEmbed url="https://www.instagram.com/p/CxqSr6-yGzD/?img_index=1" /></div>
+            <div className='mt-14'>
+              <Slider1/>
             </div>
           </div>
           </div>
