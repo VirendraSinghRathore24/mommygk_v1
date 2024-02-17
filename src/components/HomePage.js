@@ -44,7 +44,7 @@ function HomePage() {
           </div>
 
           <div className='color mt-10'>
-          <div className='w-10/12 mx-auto flex justify-center p-6 text-white text-3xl googlefontpoppins'>Helping The New Moms Journey</div>
+          <div className='w-10/12 mx-auto flex justify-center p-6 text-white text-3xl text-center googlefontpoppins'>Helping The New Moms Journey</div>
             <div className='w-10/12 mx-auto grid xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5 3xl:grid-cols-5 place-items-center gap-y-4 gap-x-4 mb-10 p-10'>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
               <div className='text-5xl font-extrabold text-orange-300'>35K+</div>
@@ -125,7 +125,7 @@ function HomePage() {
           </div>
           
           <div id='faq' className='w-9/12 mx-auto py-8 flex flex-col gap-y-4 mt-10'>
-            <div className='text-3xl font-extrabold googlefontpoppins flex justify-center'>Frequently asked questions</div>
+            <div className='text-3xl font-extrabold googlefontpoppins flex justify-center text-center'>Frequently asked questions</div>
             <div className='border-b-2 border-stone-200 mt-8'></div>
               <Faq isExpanded={isExpanded1} setExpanded={setExpanded1} isLastFaq={false} title={"When to start solid food for baby?"} desc={"Solid food can be started 6 month onwards."}/>
               <Faq isExpanded={isExpanded2} setExpanded={setExpanded2} isLastFaq={false} title={"Do you have a mobile application?"} desc={"Currently we don't have any mobile application."}/>
