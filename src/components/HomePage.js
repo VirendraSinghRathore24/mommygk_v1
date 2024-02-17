@@ -118,7 +118,7 @@ function HomePage() {
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 flex justify-center gap-x-2 font-bold '>Posts at <span class='text-green-700'>Instagram</span></div>
             <div className='flex flex-wrap gap-y-8 justify-evenly mt-14'>
               <div ><InstagramEmbed url="https://www.instagram.com/p/C1bO42oS8I9/" /></div>
-              <div ><InstagramEmbed url="https://www.instagram.com/p/CurOGQBSHST/?img_index=1" /></div>
+              <div ><InstagramEmbed url="https://www.instagram.com/p/C3b5rAgSipX/" /></div>
               <div ><InstagramEmbed url="https://www.instagram.com/p/CxqSr6-yGzD/?img_index=1" /></div>
             </div>
           </div>
