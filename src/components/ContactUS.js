@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import baseUrl from '../baseUrl';
 import { toast } from "react-toastify";
 
-function PrivacyPolicy() {
+function ContactUS() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -114,4 +114,4 @@ function PrivacyPolicy() {
   )
 }
 
-export default PrivacyPolicy
+export default ContactUS
