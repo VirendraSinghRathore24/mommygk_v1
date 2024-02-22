@@ -1,6 +1,7 @@
 import { useState } from "react";
 import {Link, NavLink} from "react-router-dom";
 import './Page1.css';
+import './Header.css';
 
 function Header() {
 
@@ -40,18 +41,21 @@ function Header() {
 
             <nav className="flex  max-w-maxScreen">
               <ul className="hidden items-center gap-x-6 md:flex">
-                <li><a className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center" href="/babyfoodcharts">
+              <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/" end>
+                <span>Home</span>
+                </NavLink></li>
+                <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/babyfoodcharts">
                 <span>Charts</span>
-                </a></li>
-                <li><a className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center" href="/foodrecipesvideo">
+                </NavLink></li>
+                <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/foodrecipesvideo">
                 <span>Videos</span>
-                </a></li>
-                <li><a className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center" href="/Blogs">
+                </NavLink></li>
+                <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/Blogs">
                 <span>Blogs</span>
-                </a></li>
-                <li><a className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center" href="/toys">
+                </NavLink></li>
+                <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/toys">
                 <span>Toys</span>
-                </a></li>        
+                </NavLink></li>        
               </ul>
               <div className="flex items-center md:hidden">
               {
