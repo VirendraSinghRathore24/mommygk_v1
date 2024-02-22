@@ -45,7 +45,7 @@ function Header() {
             </nav> */}
 
             <nav className="flex  max-w-maxScreen">
-              <ul className="hidden items-center gap-x-6 md:flex">
+              <ul className="hidden items-center gap-x-2 md:flex">
               <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/" end>
                 <span>Home</span>
                 </NavLink></li>

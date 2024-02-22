@@ -60,7 +60,7 @@ function HomePage() {
             </div>
             <div className='border-r-2 border-white h-full'></div>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
-              <div className='text-5xl font-extrabold text-orange-300'>1356+</div>
+              <div className='text-5xl font-extrabold text-orange-300'>1368+</div>
               <div className='text-2xl googlefontpoppins text-white'>Subscribers</div>
               <NavLink className='text-2xl underline googlefontpoppins text-white' to={'https://www.youtube.com/@MommyGK'} target="_blank">on YouTube</NavLink>
             </div>
