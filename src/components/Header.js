@@ -19,6 +19,9 @@ function Header() {
 
   return (
     <div className="googlefont">
+     <div className="flex top-0 w-full px-5 justify-center items-center color">
+          <div className='text-white text-center p-4 text-lg'>We are now 40K+ at Instagram, Thanks for the love and support !!!</div>
+     </div>
        {/* <div className="flex top-0 justify-between items-center  mx-auto w-full  h-20 px-5
        bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"> */}
        <div className="flex top-0 justify-between items-center  mx-auto w-full  h-20 px-5
