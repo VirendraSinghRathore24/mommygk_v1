@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function PopularCard1({url, imageUrl, title, color}) {
   return (
-    <div>
+    <div className='hover:scale-110 transition duration-300 ease-in'>
         <NavLink to={`${url}`}>
             <div className='relative w-[220px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto'>
                 <img className='h-[220px]' src={imageUrl} loading='lazy' alt='image'/>

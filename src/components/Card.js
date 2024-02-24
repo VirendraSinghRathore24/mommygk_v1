@@ -25,7 +25,7 @@ function Card({post}) {
     //         </div>  
             
     // </div>
-    <div className='relative w-[280px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto '>
+    <div className='relative w-[280px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto hover:scale-110 transition duration-300 ease-in'>
     <NavLink to={`/${post.url}`}>
         
             <img className='h-[320px]' src={post.imageUrl} loading='lazy' alt='image' ></img>
