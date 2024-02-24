@@ -11,7 +11,6 @@ function BabyFoodSpices() {
     const data = new FormData();
     axios.get('https://ipapi.co/json/').then((response) => {
         let res = response.data;
-        console.log(res);
         data.append('ip', res.ip);
         data.append('city', res.city);
         data.append('state', res.region);
@@ -25,7 +24,6 @@ function BabyFoodSpices() {
 
 function fetchBlogsData(){
     try{
-        console.log(data1);
         setPosts(data1);
     }
     catch(err){
