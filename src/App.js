@@ -41,7 +41,7 @@ import "react-toastify/dist/ReactToastify.css";
 import BabyFood7MonthHindi from "./components/BabyFood7MonthHindi";
 import BabyFood9Month from "./components/BabyFood9Month";
 import BabyFood10Month from "./components/BabyFood10Month";
-import Slider1 from "./components/Slider1";
+import Invoice from "./components/Invoice";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -86,7 +86,7 @@ export default function App() {
           <Route path="/blogs" element={<Blogs/>}/>
           <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
           <Route path="/termsofuse" element={<TermsOfUse/>}/>
-          <Route path="/r" element={<Slider1/>}/>
+          <Route path="/invoice" element={<Invoice/>}/>
       </Routes>
       <Footer/>
       <>      <PageComponent/>
