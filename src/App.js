@@ -43,6 +43,7 @@ import BabyFood9Month from "./components/BabyFood9Month";
 import BabyFood10Month from "./components/BabyFood10Month";
 import Invoice from "./components/Invoice";
 import Subscribers from "./components/admin/Subscribers";
+import BananaRecipe from "./components/Blogs/BananaRecipe";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -88,6 +89,7 @@ export default function App() {
           <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
           <Route path="/termsofuse" element={<TermsOfUse/>}/>
           <Route path="/admin/subscibers" element={<Subscribers/>}/>
+          <Route path="/blogs/bananarecipefor6monthbaby" element={<BananaRecipe/>}/>
           <Route path="/invoice" element={<Invoice/>}/>
       </Routes>
       <Footer/>
