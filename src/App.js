@@ -88,7 +88,7 @@ export default function App() {
           <Route path="/baby-food-recipes" element={<Blogs/>}/>
           <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
           <Route path="/termsofuse" element={<TermsOfUse/>}/>
-          <Route path="/admin/subscibers" element={<Subscribers/>}/>
+          <Route path="/admin/subscribers" element={<Subscribers/>}/>
           <Route path="/baby-food-recipes/:month/:recipe" element={<RecipePage/>}/>
           <Route path="/recipe" element={<RecipeCard/>}/>
           <Route path="/invoice" element={<Invoice/>}/>
