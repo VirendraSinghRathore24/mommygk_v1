@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
-import axios from "axios";
 import { useEffect } from "react";
-import baseUrl from '../baseUrl';
 import FoodMonthsCard from './FoodMonthsCard';
 import data1 from '../data/food9month.json'
 import { Link } from 'react-router-dom';
-import ChartSuggestionCard from './ChartSuggestionCard';
 
 function BabyFood9Month() {
     const [posts, setPosts] = useState([]);
@@ -26,10 +23,10 @@ function fetchBlogsData(){
 
   return (
     <div>
-    <p className='p-2'><strong><Link to="/">Home</Link> </strong> / <strong><Link to="/babyfoodcharts">Food Charts</Link> </strong> / 9 Month</p>
+    <p className='p-2'><strong><Link to="/">Home</Link> </strong> / <strong><Link to="/babyfoodcharts">Food Charts</Link> </strong> / 9 Month Baby Food Chart</p>
          <div className='p-4'>
          <div className='flex flex-col items-center'>
-            <h2>9 Month Baby Food Chart</h2>
+            <h2 className='text-xl poppins-medium'>9 Month Baby Food Chart</h2>
             <div className='bg-blue-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
                 <a 
                     href="/9 Month Baby Food Reciepe.pdf"
@@ -46,7 +43,7 @@ function fetchBlogsData(){
                 <div className='flex flex-col gap-y-12 text-center items-center justify-center'>
                     
                         <div className='bg-pink-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
-                            <a href="https://www.youtube.com/@MommyGK" target="_blank">
+                            <a href="https://www.youtube.com/@MommyGK" target="_blank" rel='noreferrer'>
                             <button>Click here to Watch Recipe Videos</button>
                         </a>
                         </div>
