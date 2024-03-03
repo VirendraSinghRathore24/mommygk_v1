@@ -6,7 +6,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 function RecipeCard({post}) {
   return (
     <div className='hover:scale-110 transition duration-300 ease-in'>
-        <NavLink to={`/blogs/${post.month.replaceAll(" ","-")}/${post.name}`}>
+        <NavLink to={`/baby-food-recipes/${post.month.replaceAll(" ","-")}/${post.name}`}>
                     <div className='relative w-[220px] bg-bgDark bg-opacity-80 rounded-full overflow-hidden shadow-lg pointer-events-auto'>
                         <LazyLoadImage src={post.img1} alt="img" height="auto" width="100%" />
                     </div>

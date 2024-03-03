@@ -36,9 +36,9 @@ function HomePage() {
           <div className='w-10/12 mx-auto text-lg mt-10 py-8'>
             <div className='text-2xl md:text-3xl text-red-700 uppercase font-bold flex justify-center gap-x-2'>Popular <span className='text-green-700'>Food Charts</span></div>
             <div className='flex flex-wrap gap-y-10 justify-evenly mt-14'>
-              <PopularCard1 url={'/babyfood6month'} imageUrl={'../../images/foodcharts.JPEG'} title={'6 Month'} color={3}/>
-              <PopularCard1 url={'/babyfood7month'} imageUrl={'../../images/food1.jpg'} title={'7 Month'} color={1}/>
-              <PopularCard1 url={'/foodfor8monthbaby'} imageUrl={'../../images/food3.jpg'} title={'8 Month'} color={2}/>
+              <PopularCard1 url={'/babyfoodcharts/6-month-baby-food-chart'} imageUrl={'../../images/foodcharts.JPEG'} title={'6 Month'} color={3}/>
+              <PopularCard1 url={'/babyfoodcharts/7-month-baby-food-chart'} imageUrl={'../../images/food1.jpg'} title={'7 Month'} color={1}/>
+              <PopularCard1 url={'/babyfoodcharts/8-month-baby-food-chart'} imageUrl={'../../images/food3.jpg'} title={'8 Month'} color={2}/>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ function HomePage() {
           <div className='w-10/12 mx-auto flex justify-center p-6 text-white text-3xl text-center googlefontpoppins'>Helping The New Moms Journey</div>
             <div className='w-10/12 mx-auto grid xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5 3xl:grid-cols-5 place-items-center gap-y-4 gap-x-4 mb-10 p-10'>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
-              <div className='text-5xl font-extrabold text-orange-300'>48K+</div>
+              <div className='text-5xl font-extrabold text-orange-300'>49K+</div>
               <div className='text-2xl googlefontpoppins text-white'>Followers</div>
               <NavLink className='text-2xl hover:underline hover:text-indigo-400 googlefontpoppins text-white' to={'https://www.instagram.com/mommy_sanju/'} target="_blank">on Instagram</NavLink>
             </div>
@@ -58,7 +58,7 @@ function HomePage() {
             </div>
             <div className='border-r-2 border-white h-full'></div>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
-              <div className='text-5xl font-extrabold text-orange-300'>1404+</div>
+              <div className='text-5xl font-extrabold text-orange-300'>1417+</div>
               <div className='text-2xl googlefontpoppins text-white'>Subscribers</div>
               <NavLink className='text-2xl hover:underline hover:text-indigo-400 googlefontpoppins text-white' to={'https://www.youtube.com/@MommyGK'} target="_blank">on YouTube</NavLink>
             </div>

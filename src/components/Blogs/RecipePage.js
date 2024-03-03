@@ -35,7 +35,7 @@ function RecipePage() {
         <div className='mt-8'>
             <div className='text-xl mt-10'>{post.desc} </div>
             <div className='flex flex-wrap justify-between mt-10 gap-y-4'>
-              <div className='mt-4'>
+              <div className='mt-4 w-full sm:w-8/12 mx-auto'>
                     <div>
                         <div className='text-2xl poppins-medium'>Ingredients:</div>
                         <div className='p-4 text-xl'>{post.ingredients}</div>

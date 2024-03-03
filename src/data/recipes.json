@@ -1,7 +1,7 @@
 [
     {
-        "name" : "Banana-Recipe",
-        "month" : "6 Month Baby Food",
+        "name" : "banana-puree",
+        "month" : "6 month baby food recipes",
         "title" : "Banana puree for 6 Months Baby | How to prepare Banana puree for Baby",
         "desc" : "Bananas are one of the best first foods for babies and highly recommended by doctors. The other best thing is you do not need to do a lot of preparation to do this.",
         "ingredients" : "1. Banana",
@@ -12,8 +12,8 @@
         "youtubelink" : "o7jowZawW0o"
     },
     {
-        "name" : "Carrot-Recipe",
-        "month" : "6 Month Baby Food",
+        "name" : "carrot-puree",
+        "month" : "6 month baby food recipes",
         "title" : "Carrot puree for 6 Months Baby | How to prepare Carrot puree for Baby",
         "desc" : "Carrot are one of the best first foods for babies and highly recommended by doctors. The other best thing is you do not need to do a lot of preparation to do this.",
         "ingredients" : "1. Carrot",
@@ -24,8 +24,8 @@
         "youtubelink" : "4S02boyMtWA"
     },
     {
-        "name" : "Sweetpotato-Recipe",
-        "month" : "6 Month Baby Food",
+        "name" : "sweetpotato-puree",
+        "month" : "6 month baby food recipes",
         "title" : "Sweetpotato puree for 6 Months Baby | How to prepare Sweetpotato puree for Baby",
         "desc" : "Sweetpotato are one of the best first foods for babies and highly recommended by doctors. The other best thing is you do not need to do a lot of preparation to do this.",
         "ingredients" : "1. Sweetpotato",
@@ -36,8 +36,8 @@
         "youtubelink" : "6AnFbni7aXI"
     },
     {
-        "name" : "Pumpkin-Recipe",
-        "month" : "6 Month Baby Food",
+        "name" : "pumpkin-puree",
+        "month" : "6 month baby food recipes",
         "title" : "Pumpkin puree for 6 Months Baby | How to prepare Pumpkin puree for Baby",
         "desc" : "Pumpkin are one of the best first foods for babies and highly recommended by doctors. The other best thing is you do not need to do a lot of preparation to do this.",
         "ingredients" : "1. Pumpkin",

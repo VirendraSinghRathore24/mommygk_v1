@@ -66,17 +66,17 @@ export default function App() {
           <Route path="/toys" element={<Toys/>}/>
           <Route path="/admin/blogs" element={<BlogList/>}/>
           <Route path="/admin/blogs/:category" element={<UpdateBlog/>}/>
-          <Route path="/foodrecipesvideo" element={<FoodReciepesVideo/>}/>
+          <Route path="/baby-food-recipes-video" element={<FoodReciepesVideo/>}/>
           <Route path="/babyfoodcharts" element={<FoodCharts/>}/>
           <Route path="/babyfoodchartshindi" element={<FoodChartsHindi/>}/>
-          <Route path="/babyfood6month" element={<BabyFood/>}/>
-          <Route path="/babyfood6monthhindi" element={<BabyFood6MonthHindi/>}/>
-          <Route path="/babyfood7monthhindi" element={<BabyFood7MonthHindi/>}/>
-          <Route path="/babyfood7month" element={<BabyFood7Month/>}/>
+          <Route path="/babyfoodcharts/6-month-baby-food-chart" element={<BabyFood/>}/>
+          <Route path="/babyfoodcharts/6-month-baby-food-chart-hindi" element={<BabyFood6MonthHindi/>}/>
+          <Route path="/babyfoodcharts/7-month-baby-food-chart-hindi" element={<BabyFood7MonthHindi/>}/>
+          <Route path="/babyfoodcharts/7-month-baby-food-chart" element={<BabyFood7Month/>}/>
           <Route path="/babyfoodspices" element={<BabyFoodSpices/>}/>
-          <Route path="/foodfor8monthbaby" element={<BabyFood8Month/>}/>
-          <Route path="/babyfood9month" element={<BabyFood9Month/>}/>
-          <Route path="/babyfood10month" element={<BabyFood10Month/>}/>
+          <Route path="/babyfoodcharts/8-month-baby-food-chart" element={<BabyFood8Month/>}/>
+          <Route path="/babyfoodcharts/9-month-baby-food-chart" element={<BabyFood9Month/>}/>
+          <Route path="/babyfoodcharts/10-month-baby-food-chart" element={<BabyFood10Month/>}/>
           <Route path="/newmomchecklist" element={<NewMomChecklist/>}/>
           <Route path="/foodplatecheklist" element={<FoodPlateChecklist/>}/>
           <Route path="/proofingheklist" element={<ProofingChecklist/>}/>
@@ -85,11 +85,11 @@ export default function App() {
           <Route path="/users6" element={<UsersSpices/>}/>
           <Route path="/users7" element={<Users7Month/>}/>
           <Route path="/users8" element={<Users8Month/>}/>
-          <Route path="/blogs" element={<Blogs/>}/>
+          <Route path="/baby-food-recipes" element={<Blogs/>}/>
           <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
           <Route path="/termsofuse" element={<TermsOfUse/>}/>
           <Route path="/admin/subscibers" element={<Subscribers/>}/>
-          <Route path="/blogs/:month/:recipe" element={<RecipePage/>}/>
+          <Route path="/baby-food-recipes/:month/:recipe" element={<RecipePage/>}/>
           <Route path="/recipe" element={<RecipeCard/>}/>
           <Route path="/invoice" element={<Invoice/>}/>
       </Routes>

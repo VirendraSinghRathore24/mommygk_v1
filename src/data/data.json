@@ -9,7 +9,7 @@
     {
         "title" : "Food Recipes - Video",
         "imageUrl" : "../../images/recipevideo.JPEG",
-        "url" : "foodrecipesvideo",
+        "url" : "baby-food-recipes-video",
         "bgcolor" : 2,
         "shortDesc" : "Baby Food Recipe - Complete video for recipe preparations, how to make puree and porridge"
     },
@@ -23,7 +23,7 @@
     {
         "title" : "Food Recipes - Blog",
         "imageUrl" : "../../images/blog4.JPEG",
-        "url" : "Blogs",
+        "url" : "baby-food-recipes",
         "bgcolor" : "",
         "shortDesc" : "Baby Food Blog - How to start solid food for 6+ month baby, which spices used and many more"
     }

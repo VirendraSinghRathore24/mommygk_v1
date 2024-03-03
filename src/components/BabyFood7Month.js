@@ -45,7 +45,7 @@ function fetchBlogsData(){
     <p className='p-2'><strong><Link to="/">Home</Link> </strong> / <strong><Link to="/babyfoodcharts">Food Charts</Link> </strong> / 7 Month</p>
          <div className='p-4'>
          <div className='flex flex-col items-center'>
-            <h2>Download the PDF file for 7 Month Baby Food Recipes :</h2>
+            <h2>7 Month Baby Food Chart</h2>
             <div className='bg-blue-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
                 <a 
                     href="/7 Month Baby Food Reciepe.pdf"
@@ -79,13 +79,13 @@ function fetchBlogsData(){
                 }
                 </div>
                 </div>
-                <div className='text-base text-center border-t border-brColor pt-4 flex flex-wrap justify-evenly'>
+                {/* <div className='text-base text-center border-t border-brColor pt-4 flex flex-wrap justify-evenly'>
                 
                         <ChartSuggestionCard url={'babyfood6monthhindi'} imageUrl={'../../images/food1.jpg'} title={'फूड चार्ट - 6 महीने'}/>
                         <ChartSuggestionCard url={'babyfood6month'} imageUrl={'../../images/food2.jpg'} title={'Food Chart - 6 Month'}/>
                         <ChartSuggestionCard url={'foodfor8monthbaby'} imageUrl={'../../images/food3.jpg'} title={'Food Chart - 8 Month'}/>
                     
-                </div>
+                </div> */}
                 
     </div>
   )

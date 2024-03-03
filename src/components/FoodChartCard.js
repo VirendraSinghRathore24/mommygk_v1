@@ -26,7 +26,7 @@ function FoodChartCard({post}) {
             
     // </div>
     <div className='relative w-[280px] bg-bgDark bg-opacity-80 rounded-lg overflow-hidden shadow-lg pointer-events-auto '>
-    <NavLink to={`/${post.url}`}>
+    <NavLink to={`/babyfoodcharts/${post.url}`}>
         
       <img className='h-[300px]' src={post.imageUrl} loading='lazy' alt='image' ></img>
       <div className='font-mono text-xl'>

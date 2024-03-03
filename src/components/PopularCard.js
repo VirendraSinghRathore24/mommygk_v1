@@ -9,13 +9,7 @@ function PopularCard({url, imageUrl, title, color}) {
     <div className='hover:scale-110 transition duration-300 ease-in'>
         <NavLink to={`${url}`} target='_blank'>
             <div className='relative w-[220px] bg-bgDark bg-opacity-80 rounded-full overflow-hidden shadow-lg pointer-events-auto'>
-            <LazyLoadImage
-            src={imageUrl} // the source of the image
-            alt="img" // alternative text for the image
-            // effect used when the image is loading (optional)
-            height="auto" // height of the image (optional)
-            width="100%" // width of the image (optional)
-        />
+                <LazyLoadImage src={imageUrl} alt="img" height="auto" width="100%" />
                 {/* <img className='h-[220px]' src={imageUrl} loading='lazy' alt='image'></img> */}
                 <div className='absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'> 
                    <IoPlayCircleOutline size={100} />
