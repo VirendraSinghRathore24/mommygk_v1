@@ -16,7 +16,10 @@ function Header() {
   {
     setOpen(true);
   }
-
+async function onClickHandler(e)
+{
+  setOpen(true);
+}
   return (
     <div className="googlefont">
      <div className="flex top-0 w-full px-5 justify-center items-center color">
@@ -52,10 +55,10 @@ function Header() {
                 <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/babyfoodcharts">
                 <span>Charts</span>
                 </NavLink></li>
-                <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/foodrecipesvideo">
+                <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/baby-food-recipes-video">
                 <span>Videos</span>
                 </NavLink></li>
-                <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/Blogs">
+                <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/baby-food-recipes">
                 <span>Blogs</span>
                 </NavLink></li>
                 <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/toys">
@@ -85,14 +88,13 @@ function Header() {
        <div className="absolute left-0 right-0 z-[9998] backdrop-blur-3xl pt-[10vh] pb-[8vh] md:hidden pointer-events-auto 
        visible">
        
-        <ul className="flex flex-col items-center gap-y-6 md:hidden select-none">
-        <li className="text-center"><a class=" text-xl leading-5" href="/babyfoodcharts">Charts</a></li>
-        <li className="text-center"><a class=" text-xl leading-5" href="/foodrecipesvideo">Videos</a></li>
-        <li className="text-center"><a class="text-xl leading-5" href="/blogs">Blogs</a></li>
-        <li className="text-center"><a class=" text-xl leading-5" href="/toys">Toys</a></li>
-        <li className="text-center"><a class=" text-xl leading-5" href="/aboutus">About us</a></li>
-        <li className="text-center"><a class=" text-xl leading-5" href="/contactus">Contact us</a></li>
-        <li className="text-center"><a class=" text-xl leading-5" href="/#faq">FAQ</a></li>
+        <ul className="flex flex-col items-center gap-y-6 md:hidden select-none text-xl">
+        <li className="text-center"><NavLink class="leading-5" to="/babyfoodcharts" onClick={onClickHandler}>Charts</NavLink></li>
+        <li className="text-center"><NavLink class=" text-xl leading-5" to="/baby-food-recipes-video" onClick={onClickHandler}>Videos</NavLink></li>
+        <li className="text-center"><NavLink class="text-xl leading-5" to="/baby-food-recipes" onClick={onClickHandler}>Blogs</NavLink></li>
+        <li className="text-center"><NavLink class=" text-xl leading-5" to="/toys" onClick={onClickHandler}>Toys</NavLink></li>
+        <li className="text-center"><NavLink class=" text-xl leading-5" to="/aboutus" onClick={onClickHandler}>About us</NavLink></li>
+        <li className="text-center"><NavLink class=" text-xl leading-5" to="/contactus" onClick={onClickHandler}>Contact us</NavLink></li>
         </ul>
        </div>
           ): (<div></div>)
