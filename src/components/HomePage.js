@@ -36,7 +36,7 @@ function HomePage() {
           <div className='w-10/12 mx-auto text-lg mt-10 py-8'>
             <div className='text-2xl md:text-3xl text-red-700 uppercase font-bold flex justify-center gap-x-2'>Popular <span className='text-green-700'>Food Charts</span></div>
             <div className='flex flex-wrap gap-y-10 justify-evenly mt-14'>
-              <PopularCard1 url={'/babyfood6month'} imageUrl={'../../images/food2.jpg'} title={'6 Month'} color={3}/>
+              <PopularCard1 url={'/babyfood6month'} imageUrl={'../../images/foodcharts.JPEG'} title={'6 Month'} color={3}/>
               <PopularCard1 url={'/babyfood7month'} imageUrl={'../../images/food1.jpg'} title={'7 Month'} color={1}/>
               <PopularCard1 url={'/foodfor8monthbaby'} imageUrl={'../../images/food3.jpg'} title={'8 Month'} color={2}/>
             </div>
