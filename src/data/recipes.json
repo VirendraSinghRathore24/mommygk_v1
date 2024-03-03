@@ -1,0 +1,50 @@
+[
+    {
+        "name" : "Banana-Recipe",
+        "month" : "6 Month Baby Food",
+        "title" : "Banana puree for 6 Months Baby | How to prepare Banana puree for Baby",
+        "desc" : "Bananas are one of the best first foods for babies and highly recommended by doctors. The other best thing is you do not need to do a lot of preparation to do this.",
+        "ingredients" : "1. Banana",
+        "desc2" : "How to prepare the banana puree:",
+        "desc3" : "<div>1. Take a fully cooked/Ripened Banana and mash it with the fork until it purees smoothly.</div> <div>2. Thanks for all you need to do and it's ready to serve the baby.</div> <div>3. Sereve the puree immediately to baby.</div>",
+        "img1" : "../../../images/banana_puree.png",
+        "desc4" : "Watch this video to see how to prepare:",
+        "youtubelink" : "o7jowZawW0o"
+    },
+    {
+        "name" : "Carrot-Recipe",
+        "month" : "6 Month Baby Food",
+        "title" : "Carrot puree for 6 Months Baby | How to prepare Carrot puree for Baby",
+        "desc" : "Carrot are one of the best first foods for babies and highly recommended by doctors. The other best thing is you do not need to do a lot of preparation to do this.",
+        "ingredients" : "1. Carrot",
+        "desc2" : "How to prepare the carrot puree:",
+        "desc3" : "<div>1. Wash and peel the carrot thoroughly and Cut the carrot into thin slices.</div><div>2. Take a steamer and cook the carrot until mashed easily.</div><div>3. Mash the steamed carrot or you can Griend if you want the puree.</div><div>4. Let the puree cool down completely before serving to baby.</div><div>5. This puree can be stored for 2-3 days in fridge in air-tight container but it's always best to prepare fresh.</div><div>6. You can adjust the consistency by adding formula milk/breastmilk or warm water.</div>",
+        "img1" : "../../../images/carrot11.png",
+        "desc4" : "Watch this video to see how to prepare:",
+        "youtubelink" : "4S02boyMtWA"
+    },
+    {
+        "name" : "Sweetpotato-Recipe",
+        "month" : "6 Month Baby Food",
+        "title" : "Sweetpotato puree for 6 Months Baby | How to prepare Sweetpotato puree for Baby",
+        "desc" : "Sweetpotato are one of the best first foods for babies and highly recommended by doctors. The other best thing is you do not need to do a lot of preparation to do this.",
+        "ingredients" : "1. Sweetpotato",
+        "desc2" : "How to prepare the Sweetpotato puree:",
+        "desc3" : "<div>1. Wash and peel the Sweetpotato thoroughly and Cut the Sweetpotato into thin slices.</div><div>2. Take a steamer and cook the carrot until mashed easily.</div><div>3. Mash the steamed carrot or you can Griend if you want the puree.</div><div>4. Let the puree cool down completely before serving to baby.</div><div>5. This puree can be stored for 2-3 days in fridge in air-tight container but it's always best to prepare fresh.</div><div>6. You can adjust the consistency by adding formula milk/breastmilk or warm water.</div>",
+        "img1" : "../../../images/sweetpotato7.jpeg",
+        "desc4" : "Watch this video to see how to prepare:",
+        "youtubelink" : "6AnFbni7aXI"
+    },
+    {
+        "name" : "Pumpkin-Recipe",
+        "month" : "6 Month Baby Food",
+        "title" : "Pumpkin puree for 6 Months Baby | How to prepare Pumpkin puree for Baby",
+        "desc" : "Pumpkin are one of the best first foods for babies and highly recommended by doctors. The other best thing is you do not need to do a lot of preparation to do this.",
+        "ingredients" : "1. Pumpkin",
+        "desc2" : "How to prepare the Pumpkin puree:",
+        "desc3" : "<div>1. Wash and peel the Pumpkin thoroughly and Cut the Pumpkin into thin slices.</div><div>2. Take a steamer and cook the carrot until mashed easily.</div><div>3. Mash the steamed carrot or you can Griend if you want the puree.</div><div>4. Let the puree cool down completely before serving to baby.</div><div>5. This puree can be stored for 2-3 days in fridge in air-tight container but it's always best to prepare fresh.</div><div>6. You can adjust the consistency by adding formula milk/breastmilk or warm water.</div>",
+        "img1" : "../../../images/sweetpotato7.jpeg",
+        "desc4" : "Watch this video to see how to prepare:",
+        "youtubelink" : ""
+    }
+]

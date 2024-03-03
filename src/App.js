@@ -7,7 +7,6 @@ import BlogPage from "./components/BlogPage"
 import InsertBlog from "./components/admin/InsertBlog";
 import AboutUS from "./components/AboutUS";
 import ClothsPage from "./components/ClothsPage";
-import ToysPage from "./components/ToysPage";
 import InsertCategoryCard from "./components/admin/InsertCategoryCard";
 import Footer from "./components/Footer";
 import BlogList from "./components/admin/BlogList";
@@ -43,9 +42,8 @@ import BabyFood9Month from "./components/BabyFood9Month";
 import BabyFood10Month from "./components/BabyFood10Month";
 import Invoice from "./components/Invoice";
 import Subscribers from "./components/admin/Subscribers";
-import BananaRecipe from "./components/Blogs/BananaRecipe";
-import CarrotRecipe from "./components/Blogs/CarrotRecipe";
-import SweetpotatoRecipe from "./components/Blogs/SweetpotatoRecipe";
+import RecipeCard from "./components/Blogs/RecipePage";
+import RecipePage from "./components/Blogs/RecipePage";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -91,9 +89,8 @@ export default function App() {
           <Route path="/privacypolicy" element={<PrivacyPolicy/>}/>
           <Route path="/termsofuse" element={<TermsOfUse/>}/>
           <Route path="/admin/subscibers" element={<Subscribers/>}/>
-          <Route path="/blogs/bananarecipefor6monthbaby" element={<BananaRecipe/>}/>
-          <Route path="/blogs/carrotrecipefor6monthbaby" element={<CarrotRecipe/>}/>
-          <Route path="/blogs/sweetpotatorecipefor6monthbaby" element={<SweetpotatoRecipe/>}/>
+          <Route path="/blogs/:month/:recipe" element={<RecipePage/>}/>
+          <Route path="/recipe" element={<RecipeCard/>}/>
           <Route path="/invoice" element={<Invoice/>}/>
       </Routes>
       <Footer/>
