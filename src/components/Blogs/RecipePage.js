@@ -3,7 +3,7 @@ import "../YoutubeEmbed.css";
 import YoutubeEmbed from "../YoutubeEmbed";
 import '../google-poppins-font.css';
 import data from '../../data/recipes.json';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function RecipePage() {
     const [post, setPost] = useState([]);
@@ -30,7 +30,10 @@ function RecipePage() {
       }, []);
 
   return (
+    <div>
+    <p className='p-2'><strong><Link to="/">Home</Link> </strong> / <strong><Link to="/baby-food-recipes">6 Month Baby Food Recipes</Link> </strong> / {post.name} </p>
     <div className='w-full sm:w-10/12 mx-auto googlefontpoppins py-3 p-5'>
+    
         <div className='mt-12 text-3xl sm:text-4xl poppins-regular text-blue-600 text-center sm:text-left'>{post.title}</div>
         <div className='mt-8'>
             <div className='text-xl mt-10'>{post.desc} </div>
@@ -62,6 +65,7 @@ function RecipePage() {
             }
             
         </div>
+    </div>
     </div>
   )
 }
