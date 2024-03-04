@@ -14,7 +14,7 @@ function RecipePage() {
      function fetchBlogsData(){
         try{
             
-          const data1 = data.filter((x) => x.name === recipeName);
+          const data1 = data.filter((x) => x.name.toLowerCase() === recipeName);
           console.log(data1[0]);
 
             setPost(data1[0]);
@@ -35,7 +35,7 @@ function RecipePage() {
         <div className='mt-8'>
             <div className='text-xl mt-10'>{post.desc} </div>
             <div className='flex flex-wrap justify-between mt-10 gap-y-4'>
-              <div className='mt-4 w-full sm:w-8/12 mx-auto'>
+              <div className='mt-4 w-full md:w-9/12 mx-auto'>
                     <div>
                         <div className='text-2xl poppins-medium'>Ingredients:</div>
                         <div className='p-4 text-xl'>{post.ingredients}</div>
@@ -47,7 +47,7 @@ function RecipePage() {
               </div>
 
                 <div className='w-full sm:w-3/12 mx-auto flex justify-center mb-10'>
-                    <img src={post.img1} loading='lazy' alt='profile' className='w-[200px] sm:w-[300px] h-[200px] sm:h-[300px] rounded-lg'/>
+                    <img src={post.img1} loading='lazy' alt='profile' className='w-[200px] md:w-[300px] h-[200px] md:h-[300px] rounded-lg'/>
                 </div>
             </div>
             {

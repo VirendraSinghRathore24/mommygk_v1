@@ -122,7 +122,7 @@ function HomePage() {
           </div>
           
           <div id='faq' className='w-9/12 mx-auto py-8 flex flex-col gap-y-4 mt-10'>
-            <div className='text-3xl font-extrabold googlefontpoppins flex justify-center text-center'>Frequently asked questions</div>
+            <div className='text-3xl poppins-regular flex justify-center text-center'>Frequently asked questions</div>
             <div className='border-b-2 border-stone-200 mt-8'></div>
               <Faq isExpanded={isExpanded1} setExpanded={setExpanded1} isLastFaq={false} title={"When to start solid food for baby?"} desc={"Solid food can be started 6 month onwards."}/>
               <Faq isExpanded={isExpanded2} setExpanded={setExpanded2} isLastFaq={false} title={"Do you have a mobile application?"} desc={"Currently we don't have any mobile application."}/>
