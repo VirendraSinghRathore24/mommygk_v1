@@ -11,7 +11,7 @@ function Page2() {
         <div className='flex flex-col mt-4 gap-x-4 w-[320px] items-left mx-auto '>
           <h2 className='text-center font-semibold googlefont text-2xl'>WELCOME!</h2>
           <div className='flex gap-x-2 font-light mt-6 '>
-            <LazyLoadImage src="../../images/newpic.png" loading='lazy' alt='sanju' className='rounded-full w-36 h-36'/>
+            <LazyLoadImage src="../../images/newpic.webp" loading='lazy' alt='sanju' className='rounded-full w-36 h-36'/>
             <div className='flex flex-col w-[500px] gap-y-2'>
             <p className='text-[14px] leading-6 align-baseline googlefontpoppins'>I'm Sanju Shekhawat - Here you'll find plenty of delicious recipes and many more. I hope you enjoy exploring!</p>
             <Link className='text-blue-600 underline font-mono font-bold' to={'/aboutus'}>More about me ?</Link>

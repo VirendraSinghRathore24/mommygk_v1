@@ -27,18 +27,18 @@ function HomePage() {
           <div className='w-10/12 mx-auto'>
             <div className='text-2xl md:text-3xl text-black uppercase font-bold justify-center flex gap-x-2'>Popular <span className='text-green-700'> Recipe Posts</span></div>
             <div className='flex flex-wrap gap-y-10 justify-evenly mt-14'>
-              <PopularCard url={'https://www.youtube.com/watch?v=1h-Buyvan-M&t=91s'} imageUrl={'../../images/sweetpotato7.jpeg'} title={'Solid Food Introduction'} color={2}/>
-              <PopularCard url={'https://www.youtube.com/watch?v=4S02boyMtWA'} imageUrl={'../../images/carrot11.png'} title={'Carrot Recipe'} color={3}/>
-              <PopularCard url={'https://www.youtube.com/watch?v=T51chIH2NLI'} imageUrl={'../../images/banana_puree.png'} title={'First Week Food'} color={1}/>
+              <PopularCard url={'https://www.youtube.com/watch?v=1h-Buyvan-M&t=91s'} imageUrl={'../../images/sweetpotato7.webp'} title={'Solid Food Introduction'} color={2}/>
+              <PopularCard url={'https://www.youtube.com/watch?v=4S02boyMtWA'} imageUrl={'../../images/carrot11.webp'} title={'Carrot Recipe'} color={3}/>
+              <PopularCard url={'https://www.youtube.com/watch?v=T51chIH2NLI'} imageUrl={'../../images/banana_puree.webp'} title={'First Week Food'} color={1}/>
             </div>
           </div>
           </div>
           <div className='w-10/12 mx-auto text-lg mt-10 py-8'>
             <div className='text-2xl md:text-3xl text-red-700 uppercase font-bold flex justify-center gap-x-2'>Popular <span className='text-green-700'>Food Charts</span></div>
             <div className='flex flex-wrap gap-y-10 justify-evenly mt-14'>
-              <PopularCard1 url={'/babyfoodcharts/6-month-baby-food-chart'} imageUrl={'../../images/foodcharts.JPEG'} title={'6 Month'} color={3}/>
-              <PopularCard1 url={'/babyfoodcharts/7-month-baby-food-chart'} imageUrl={'../../images/food1.jpg'} title={'7 Month'} color={1}/>
-              <PopularCard1 url={'/babyfoodcharts/8-month-baby-food-chart'} imageUrl={'../../images/food3.jpg'} title={'8 Month'} color={2}/>
+              <PopularCard1 url={'/babyfoodcharts/6-month-baby-food-chart'} imageUrl={'../../images/foodcharts.webp'} title={'6 Month'} color={3}/>
+              <PopularCard1 url={'/babyfoodcharts/7-month-baby-food-chart'} imageUrl={'../../images/food1.webp'} title={'7 Month'} color={1}/>
+              <PopularCard1 url={'/babyfoodcharts/8-month-baby-food-chart'} imageUrl={'../../images/food3.webp'} title={'8 Month'} color={2}/>
             </div>
           </div>
 

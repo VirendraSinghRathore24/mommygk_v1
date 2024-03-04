@@ -23,7 +23,7 @@ function AboutUS() {
         </div>
 
         <div className='p-5'>
-            <img src='../../images/newpic1.png' loading='lazy' alt='profile' className='w-[320px] h-[360px] rounded-lg'/>
+            <img src='../../images/newpic1.webp' loading='lazy' alt='profile' className='w-[320px] h-[400px] rounded-lg'/>
        </div>
     </div>
     
