@@ -8,3 +8,14 @@
         height: 10px;
         color: white;
     }
+
+    .blink_me 
+    {
+        animation: blinker 1s infinite;
+    }
+      
+    @keyframes blinker {
+        from { opacity: 1.0; }
+        50% { opacity: 0.7; }
+        to { opacity: 1.0; }
+    }
