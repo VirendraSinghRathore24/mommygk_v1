@@ -44,6 +44,7 @@ import Invoice from "./components/Invoice";
 import Subscribers from "./components/admin/Subscribers";
 import RecipeCard from "./components/Blogs/RecipePage";
 import RecipePage from "./components/Blogs/RecipePage";
+import PageNotFound from "./components/PageNotFound";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -92,6 +93,7 @@ export default function App() {
           <Route path="/baby-food-recipes/:month/:recipe" element={<RecipePage/>}/>
           <Route path="/recipe" element={<RecipeCard/>}/>
           <Route path="/invoice" element={<Invoice/>}/>
+          <Route path="*" element={<PageNotFound/>}/>
       </Routes>
       <Footer/>
       <>      <PageComponent/>
