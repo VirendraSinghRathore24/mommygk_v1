@@ -3,9 +3,7 @@ import { useLocation } from 'react-router-dom';
 
 function PageNotFound() {
     const location = useLocation();
-    //const session = location.search.split("?").at(-1);
     const invalidUrl = "https://mommygk.com" + location.pathname;
-    console.log(invalidUrl);
 
   return (
     <div>

@@ -52,13 +52,13 @@ function HomePage() {
             </div>
             <div className='border-r-2 border-white h-full'></div>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
-              <div className='text-5xl font-extrabold text-orange-300'>4M+</div>
-              <div className='text-2xl googlefontpoppins text-white'>Reel</div>
+              <div className='text-5xl font-extrabold text-orange-300'>5M+</div>
+              <div className='text-2xl googlefontpoppins text-white'>Reel Views</div>
               <NavLink className='text-2xl hover:underline hover:text-indigo-400 googlefontpoppins text-white' to={'https://www.instagram.com/p/C0D5z_RSK-_/'} target="_blank">on Instagram</NavLink>
             </div>
             <div className='border-r-2 border-white h-full'></div>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
-              <div className='text-5xl font-extrabold text-orange-300'>1425+</div>
+              <div className='text-5xl font-extrabold text-orange-300'>1427+</div>
               <div className='text-2xl googlefontpoppins text-white'>Subscribers</div>
               <NavLink className='text-2xl hover:underline hover:text-indigo-400 googlefontpoppins text-white' to={'https://www.youtube.com/@MommyGK'} target="_blank">on YouTube</NavLink>
             </div>
