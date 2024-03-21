@@ -1,0 +1,686 @@
+[
+    {
+           "week" : "Week 1",
+           "time" : "Breakfast",
+           "color" : 1,
+            "details" :
+            [
+            {          
+                "day" : "Day 1",
+                "Reciepe1" : "मखाने + केले का दलिया",
+                "youtubelink" : "",
+                "articlelink" : "",
+                "color" : 1
+            },
+            {
+                "day" : "Day 2",
+                "Reciepe1" : "सेब + ओट्स दलिया",
+                "youtubelink" : "",
+                "articlelink" : "",
+                "color" : 2
+            },
+            {
+                "day" : "Day 3",
+                "Reciepe1" : "रागी + केला दलिया",
+                "youtubelink" : "",
+                "articlelink" : "",
+                "color" : 1
+            },
+            {
+                "day" : "Day 4",
+                "Reciepe1" : "चावल + शकरकंद दलिया",
+                "youtubelink" : "",
+                "articlelink" : "",
+                "color" : 2
+            },
+            {
+                "day" : "Day 5",
+                "Reciepe1" : "ओट्स + केला + इलायची  + काजू पाउडर दलिया",
+                "youtubelink" : "",
+                "articlelink" : "",
+                "color" : 1
+            },
+            {
+                "day" : "Day 6",
+                "Reciepe1" : "मूंग + मसूर + गाजर का दलिया",
+                "youtubelink" : "",
+                "articlelink" : "",
+                "color" : 2
+            },
+            {
+                "day" : "Day 7",
+                "Reciepe1" : "सेब सूजी दलिया",
+                "youtubelink" : "",
+                "articlelink" : "",
+                "color" : 1
+            }
+        ]
+        },
+        {
+            "week" : "Week 1",
+            "time" : "Lunch",
+            "color" : 1,
+             "details" :
+             [
+             {          
+                 "day" : "Day 1",
+                 "Reciepe1" : "दही चावल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "दाल चावल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "रोटी दाल में चूरी हुई",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "रोटी दही में चूरी हुई",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "मटर चावल मसला हुआ",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "उबले राजमा की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "चना की प्यूरी + जीरा पाउडर",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 1",
+            "time" : "Dinner",
+            "color" : 1,
+             "details" :
+             [
+             {          
+                 "day" : "Day 1",
+                 "Reciepe1" : "दाल चावल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "सब्जी वाली खिचड़ी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "कद्दू की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "सब्जियों की प्यूरी या सूप",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "कद्दू की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "शकरकंद की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "ब्रोकोली + गाजर का सूप/प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+        {
+            "week" : "Week 2",
+            "time" : "Breakfast",
+            "color" : 2,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "क्विनोआ दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "सेब + चावल का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "सेब + सूजी दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "डोसा",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "स्ट्रॉबेरी + ओट्स दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "ब्लूबेरी + ओट्स दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "केला + रागी दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 2",
+            "time" : "Lunch",
+            "color" : 2,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "रसम चावल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "दही + गेहूं का दलिया + जीरा + काली मिर्च पाउडर",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "केला + रागी दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "कद्दू चावल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "रोटी दाल में चूरी हुई",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "मटर + चावल मसला हुआ",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "कद्दू + चावल दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 2",
+            "time" : "Dinner",
+            "color" : 2,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "पालक मूंग दाल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "शकरकंद + चावल दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "स्वीट कॉर्न सूप/प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "कद्दू चावल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "टमाटर का सूप",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "सूजी दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "सब्जियों की प्यूरी या सूप",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 3",
+            "time" : "Breakfast",
+            "color" : 3,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "गेहूं का दलिया + बादाम पाउडर + सेब की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "अंडा भुर्जी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "रागी पैनकेक",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "ओट्स + केला पैनकेक",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "नरम आमलेट",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "नाशपाती + चुकंदर + बीन्स प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "जौ का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 3",
+            "time" : "Lunch",
+            "color" : 3,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "आलू चावल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "मटर चावल मसला हुआ",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "पनीर चावल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "बाजरे का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "रागी दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "अंडा चावल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "रोटी दही में चूरी हुई",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 3",
+            "time" : "Dinner",
+            "color" : 3,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "गाजर की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "पालक मूंग दाल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "मसले हुए मटर",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "सेब + चुकंदर + गाजर (एबीसी) प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "टमाटर का सूप",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "उबली हुई ब्रोकोली",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "चावल + कद्दू दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 4",
+            "time" : "Breakfast",
+            "color" : 4,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "सेब + रागी दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "सेब + ओट्स दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "मखाना दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "गेहूं का दलिया + बादाम पाउडर + सेब की प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "अंडा भुर्जी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "रागी + केला + चुटकीभर दालचीनी  का  पैनकेक",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "ओट्स + सेब + चुटकीभर दालचीनी पाउडर पैनकेक",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 4",
+            "time" : "Lunch",
+            "color" : 4,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "रोटी दाल में चूरी हुई",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "दाल चावल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "केला + रागी दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "राजमा को उबाल कर मैश कर लीजिये",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "दही चावल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "रसम चावल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "दही + गेहूं का दलिया + जीरा + काली मिर्च पाउडर",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         },
+         {
+            "week" : "Week 4",
+            "time" : "Dinner",
+            "color" : 4,
+             "details" :
+             [
+             {
+                 "day" : "Day 1",
+                 "Reciepe1" : "दाल चावल",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 2",
+                 "Reciepe1" : "सब्जी वाली खिचड़ी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 3",
+                 "Reciepe1" : "पोहा दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 4",
+                 "Reciepe1" : "मुरमुरे चावल का दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 5",
+                 "Reciepe1" : "इलायची पाउडर + बादाम + गेहूं दलिया",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             },
+             {
+                 "day" : "Day 6",
+                 "Reciepe1" : "एवोकैडो मसला हुआ",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 2
+             },
+             {
+                 "day" : "Day 7",
+                 "Reciepe1" : "ब्रोकोली + गाजर का सूप/प्यूरी",
+                 "youtubelink" : "",
+                 "articlelink" : "",
+                 "color" : 1
+             }
+         ]
+         }
+]
