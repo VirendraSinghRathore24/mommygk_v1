@@ -78,7 +78,7 @@ function ContactUS() {
                                 <h3 class="mb-2 text-lg font-medium leading-6 ">Contact
                                 </h3>
                                 
-                                <p class="">Email: inquiry@mommygk.com</p>
+                                <p class="">Email: momofrudransh@gmail.com</p>
                             </div>
                         </li>
                         
