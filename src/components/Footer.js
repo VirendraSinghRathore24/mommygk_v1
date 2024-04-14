@@ -107,7 +107,7 @@ function Footer() {
         </div>
         </div>
         </div>
-        <div class="text-base text-center border-t border-brColor pt-4 text-blue-600">Copyright © 2024 MommyGK. All Rights Reserved.</div>
+        <div class="text-center border-t border-brColor pt-4 font-bold text-lg text-blue-600">Made with ❤️ in India</div>
         </div>
         
     </div>
