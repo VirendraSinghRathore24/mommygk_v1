@@ -33,8 +33,8 @@ function Page2() {
           </Link>
           </div>
           <h2 className='mt-8 border-t border-brColor'></h2>
-          <div className='mt-10'><YoutubeEmbed embedId='1h-Buyvan-M' /></div>
-          <div className='mt-10'><YoutubeEmbed embedId='T51chIH2NLI' /></div>
+          <div className='mt-10'><YoutubeEmbed embedId='1h-Buyvan-M?autoplay=1&mute=1' /></div>
+          <div className='mt-10'><YoutubeEmbed embedId='T51chIH2NLI?autoplay=1&mute=1' /></div>
         </div>
   )
 }
