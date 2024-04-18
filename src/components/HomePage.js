@@ -52,7 +52,7 @@ function HomePage() {
             </div>
             <div className='border-r-2 border-white h-full'></div>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
-              <div className='text-5xl font-extrabold text-orange-300'>8M+</div>
+              <div className='text-5xl font-extrabold text-orange-300'>9M+</div>
               <div className='text-2xl googlefontpoppins text-white'>Reel Views</div>
               <NavLink className='text-2xl hover:underline hover:text-indigo-400 googlefontpoppins text-white' to={'https://www.instagram.com/p/C0D5z_RSK-_/'} target="_blank">on Instagram</NavLink>
             </div>
@@ -97,7 +97,7 @@ function HomePage() {
           <div>
           
           </div>
-          <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-10 py-8 shadow-lg'>
+          <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-10 py-8'>
           <div className='flex flex-col md:flex-row justify-evenly w-full px-2 md:px-0 md:w-10/12 mx-auto py-8 mt-4 gap-x-1 gap-y-12 '>
           
           <div className='px-2 text-center md:text-left'>
