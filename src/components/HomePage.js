@@ -94,7 +94,37 @@ function HomePage() {
               </div>
             </div>
           </div> */}
+          <div>
+          
+          </div>
+          <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-10 py-8 shadow-lg'>
+          <div className='flex flex-col md:flex-row justify-evenly w-full px-2 md:px-0 md:w-10/12 mx-auto py-8 mt-4 gap-x-1 gap-y-12 '>
+          
+          <div className='px-2 text-center md:text-left'>
+          <div className='text-3xl font-bold text-center uppercase text-blue-600'>Tiny trends & <span className='text-green-600'>big smiles</span></div>
+          <div className='poppins-regular'>
+          <div className='text-lg mt-8  leading-8'>
 
+            Dress your little one in love, comfort, and endless possibilities. Their tiny outfits are the fabric of cherished memories, stitched with care and sprinkled with joy." 👶👕✨ #TinyThreadsOfLove #BabyFashionStatements
+          </div>
+           <div className='mt-6 text-lg leading-8'>
+            Wrap your bundle of joy in snuggly warmth and adorable style. From tiny socks to soft onesies, every garment is a hug waiting to happen, a smile waiting to bloom." 🍼👶💕 #CuteAndCozy #BabyFashionJoy
+          </div>
+          </div>
+          </div>
+          <div className='max-md:hidden'>
+           
+            <iframe width="560" height="315" className='rounded-lg'
+              src="https://www.youtube.com/embed/-F_BJ7iMo7I?autoplay=1&mute=1" 
+              title="YouTube video player" 
+ 
+              ></iframe>
+            </div>
+            <div className='md:hidden'>
+              <YoutubeEmbed embedId='-F_BJ7iMo7I?autoplay=1&mute=1' />
+            </div>
+          </div>
+          </div>
           <div className=''>
           <div className='w-10/12 mx-auto text-lg py-8 mt-10'>
             <div className='text-2xl md:text-3xl uppercase text-black flex justify-center gap-x-2 font-bold '>Important <span className='text-red-700'>Tips</span></div>
@@ -128,7 +158,7 @@ function HomePage() {
               <Faq isExpanded={isExpanded2} setExpanded={setExpanded2} isLastFaq={false} title={"Do you have a mobile application?"} desc={"Currently we don't have any mobile application."}/>
               <Faq isExpanded={isExpanded3} setExpanded={setExpanded3} isLastFaq={false} title={"Do you have recipe videos?"} desc={"Yes we have recipe videos available on our youtube channel and link is available on footer."}/>
               <Faq isExpanded={isExpanded4} setExpanded={setExpanded4} isLastFaq={true} title={"Is 6 month baby food chart enough?"} desc={"Yes, It is sufficient and If you have any further questions then please feel free to send us a message using Contact us option."}/>
-          </div>
+          </div> 
           </div>
  
   )
