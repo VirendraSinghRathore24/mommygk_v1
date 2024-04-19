@@ -27,7 +27,7 @@ function HomePage() {
     <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-10 py-8'>
           <div className='w-10/12 mx-auto'>
             <div className='text-2xl md:text-3xl text-black uppercase font-bold justify-center flex gap-x-2'>Popular <span className='text-green-700'> Recipe Posts</span></div>
-            <div className='flex overflow-scroll gap-x-4 gap-y-10 justify-evenly mt-14'>
+            <div className='flex overflow-scroll gap-x-10 md:gap-x-0 gap-y-10 ml-10 justify-evenly mt-12 py-5'>
               <PopularCard url={'https://www.youtube.com/watch?v=1h-Buyvan-M&t=91s'} imageUrl={'../../images/sweetpotato7.webp'} title={'Solid Food Introduction'} color={2}/>
               <PopularCard url={'https://www.youtube.com/watch?v=4S02boyMtWA'} imageUrl={'../../images/carrot11.webp'} title={'Carrot Recipe'} color={3}/>
               <PopularCard url={'https://www.youtube.com/watch?v=T51chIH2NLI'} imageUrl={'../../images/banana_puree.webp'} title={'First Week Food'} color={1}/>
@@ -36,7 +36,7 @@ function HomePage() {
           </div>
           <div className='w-10/12 mx-auto text-lg mt-10 py-8'>
             <div className='text-2xl md:text-3xl text-red-700 uppercase font-bold flex justify-center gap-x-2'>Popular <span className='text-green-700'>Food Charts</span></div>
-            <div className='flex overflow-scroll gap-x-4 gap-y-10 justify-evenly mt-14'>
+            <div className='flex overflow-scroll gap-x-10 md:gap-x-0 gap-y-10 justify-evenly mt-14 py-5'>
               <PopularCard1 url={'/babyfoodcharts/6-month-baby-food-chart'} imageUrl={'../../images/foodcharts.webp'} title={'6 Month'} color={3}/>
               <PopularCard1 url={'/babyfoodcharts/7-month-baby-food-chart'} imageUrl={'../../images/food1.webp'} title={'7 Month'} color={1}/>
               <PopularCard1 url={'/babyfoodcharts/8-month-baby-food-chart'} imageUrl={'../../images/food3.webp'} title={'8 Month'} color={2}/>
@@ -70,7 +70,7 @@ function HomePage() {
           <div className=''>
           <div className='w-10/12 mx-auto text-lg mt-10 py-8'>
             <div className='text-2xl md:text-3xl uppercase text-green-700 flex justify-center gap-x-2 font-bold '>Baby Care <span className='text-black'>Checklist</span></div>
-            <div className='flex overflow-scroll gap-x-4 gap-y-10 justify-evenly mt-14'>
+            <div className='flex overflow-scroll gap-x-10 md:gap-x-0 gap-y-10 justify-evenly mt-14 py-5'>
             <ProductCard url={'/newmomchecklist'} imageUrl={'../../images/newmomchecklist.png'}/>
             <ProductCard url={'/foodplatecheklist'} imageUrl={'../../images/foodplate.png'}/>
             <ProductCard url={'/proofingheklist'} imageUrl={'../../images/babyproofing.png'}/>
