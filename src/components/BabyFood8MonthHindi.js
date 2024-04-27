@@ -27,7 +27,7 @@ function BabyFood8MonthHindi() {
          <div className='p-4'>
          <div className='flex flex-col items-center'>
             <h2>8 महीने के बेबी फ़ूड की हिंदी में PDF फाइल डाउनलोड करें : </h2>
-            <div className='bg-blue-500 mt-10 p-2 font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
+            <div className='bg-blue-500 mt-10 px-4 py-1 font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
                 <a 
                     href="/8 Month Baby Food Recipe Hindi.pdf"
                     download="8 Month Baby Food Recipe Hindi"
@@ -43,7 +43,7 @@ function BabyFood8MonthHindi() {
               
                 <div className='flex flex-col gap-y-12 text-center items-center justify-center'>
                     
-                    <div className='bg-pink-500 mt-4 p-2 font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
+                    <div className='bg-pink-500 mt-4 px-4 py-1 font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
                         <a href="https://www.youtube.com/watch?v=T51chIH2NLI" target="_blank" rel="noreferrer">
                         <button>Click here to Watch Recipe Videos</button>
                     </a>

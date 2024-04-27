@@ -33,5 +33,12 @@
         "url" : "10-month-baby-food-chart",
         "color" : 1,
         "shortDesc" : "Baby Food Recipe Chart - 10 month food chart, what to give to baby and what time to give food"
+    },
+    {
+        "title" : "Food Chart - 11 & 12 Month",
+        "imageUrl" : "../../images/BabyFood11Month.webp",
+        "url" : "11-12-month-baby-food-chart",
+        "color" : 5,
+        "shortDesc" : "Baby Food Recipe Chart - 10 month food chart, what to give to baby and what time to give food"
     }
 ]

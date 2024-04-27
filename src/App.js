@@ -48,6 +48,7 @@ import PageNotFound from "./components/PageNotFound";
 import BabyFood8MonthHindi from "./components/BabyFood8MonthHindi";
 import PaymentPage from "./components/PaymentPage";
 import PaymentVerifyPage from "./components/PaymentVerifyPage";
+import BabyFood11Month from "./components/BabyFood11Month";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -82,6 +83,7 @@ export default function App() {
           <Route path="/babyfoodcharts/8-month-baby-food-chart" element={<BabyFood8Month/>}/>
           <Route path="/babyfoodcharts/9-month-baby-food-chart" element={<BabyFood9Month/>}/>
           <Route path="/babyfoodcharts/10-month-baby-food-chart" element={<BabyFood10Month/>}/>
+          <Route path="/babyfoodcharts/11-12-month-baby-food-chart" element={<BabyFood11Month/>}/>
           <Route path="/newmomchecklist" element={<NewMomChecklist/>}/>
           <Route path="/foodplatecheklist" element={<FoodPlateChecklist/>}/>
           <Route path="/proofingheklist" element={<ProofingChecklist/>}/>

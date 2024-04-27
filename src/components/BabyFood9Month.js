@@ -27,7 +27,7 @@ function fetchBlogsData(){
          <div className='p-4'>
          <div className='flex flex-col items-center'>
             <h2 className='text-xl poppins-medium'>9 Month Baby Food Chart</h2>
-            <div className='bg-blue-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
+            <div className='bg-blue-500 mt-4 px-4 py-1 font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
                 <a 
                     href="/9 Month Baby Food Reciepe.pdf"
                     download="9 Month Baby Food Reciepe"
@@ -42,7 +42,7 @@ function fetchBlogsData(){
                 <div>
                 <div className='flex flex-col gap-y-12 text-center items-center justify-center'>
                     
-                        <div className='bg-pink-500 mt-4 h-[30px] w-[280px] font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
+                        <div className='bg-pink-500 mt-4 px-4 py-1 font-semibold text-center rounded-lg text-white hover:scale-110 transition duration-300 ease-in'>
                             <a href="https://www.youtube.com/@MommyGK" target="_blank" rel='noreferrer'>
                             <button>Click here to Watch Recipe Videos</button>
                         </a>
