@@ -1,0 +1,31 @@
+[
+    
+    {
+        "title" : "Solid Food Introduction Guide",
+        "imageUrl" : "../../images/insta/panecake.png",
+        "youtubelink" : "https://www.youtube.com/watch?v=1h-Buyvan-M&t=91s",
+        "shortDesc" : "Solid Food Guide for baby food",
+        "color" : 1
+    },
+    {
+        "title" : "First Week Food (6M+)",
+        "imageUrl" : "../../images/firstweekfood1.webp",
+        "youtubelink" : "https://www.youtube.com/watch?v=T51chIH2NLI",
+        "shortDesc" : "How to prepare first week food for 6+ month baby",
+        "color" : 2
+    },
+    {
+        "title" : "Carrot Puree (6M+)",
+        "imageUrl" : "../../images/carrot2.webp",
+        "youtubelink" : "https://www.youtube.com/watch?v=4S02boyMtWA",
+        "shortDesc" : "How to prepare carrot puree for 6+ month baby",
+        "color" : 3
+    },
+    {
+        "title" : "Sweet Potato Puree (6M+)",
+        "imageUrl" : "../../images/sweetpotato3.webp",
+        "youtubelink" : "https://www.youtube.com/watch?v=6AnFbni7aXI",
+        "shortDesc" : "How to prepare sweet potato food for 6+ month baby",
+        "color" : 4
+    }
+]

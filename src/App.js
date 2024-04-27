@@ -49,6 +49,8 @@ import BabyFood8MonthHindi from "./components/BabyFood8MonthHindi";
 import PaymentPage from "./components/PaymentPage";
 import PaymentVerifyPage from "./components/PaymentVerifyPage";
 import BabyFood11Month from "./components/BabyFood11Month";
+import SendEmail from "./components/admin/SendEmail";
+import InstaVideos from "./components/InstaVideos";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -69,9 +71,11 @@ export default function App() {
           <Route path="/contactus" element={<ContactUS/>}/>
           <Route path="/cloths" element={<ClothsPage/>}/>
           <Route path="/toys" element={<Toys/>}/>
+          <Route path="/admin/sendemail" element={<SendEmail/>}/>
           <Route path="/admin/blogs" element={<BlogList/>}/>
           <Route path="/admin/blogs/:category" element={<UpdateBlog/>}/>
           <Route path="/baby-food-recipes-video" element={<FoodReciepesVideo/>}/>
+          <Route path="/recipe-videos/baby-food-recipes-videos-instagram" element={<InstaVideos/>}/>
           <Route path="/babyfoodcharts" element={<FoodCharts/>}/>
           <Route path="/babyfoodchartshindi" element={<FoodChartsHindi/>}/>
           <Route path="/babyfoodcharts/6-month-baby-food-chart" element={<BabyFood/>}/>
