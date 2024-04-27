@@ -76,7 +76,7 @@ function HomePage() {
           
           <div className='w-full md:w-8/12 ml-16'>
           <NavLink to={'/recipe-videos/baby-food-recipes-videos-instagram'}>
-           <img className='w-[370px] h-[370px] rounded-lg' src='../../images/insta/6monthpart1.png' alt='part1'/>
+           <img className='w-[370px] h-[370px] rounded-lg' src='../../images/insta/6monthpart1.webp' alt='part1'/>
            </NavLink>
           </div>
           
