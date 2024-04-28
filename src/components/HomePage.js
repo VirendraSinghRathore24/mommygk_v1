@@ -18,30 +18,30 @@ function HomePage() {
     const [isExpanded3, setExpanded3] = useState(false)
     const [isExpanded4, setExpanded4] = useState(false)
 
-    useEffect(() =>{
-      window.addEventListener('scroll', reveal);
+    // useEffect(() =>{
+    //   window.addEventListener('scroll', reveal);
 
-       function reveal(){
-        var reveals = document.querySelectorAll('.reveal')
+    //    function reveal(){
+    //     var reveals = document.querySelectorAll('.reveal')
 
-        for(var i = 0; i < reveals.length; i++)
-        {
-          var windowHeight = window.innerHeight;
-          var revealTop = reveals[i].getBoundingClientRect().top;
-          var revealPoint = 90;
+    //     for(var i = 0; i < reveals.length; i++)
+    //     {
+    //       var windowHeight = window.innerHeight;
+    //       var revealTop = reveals[i].getBoundingClientRect().top;
+    //       var revealPoint = 90;
 
 
-          if(revealTop < windowHeight - revealPoint)
-          {
-            reveals[i].classList.add('active');
-          }
-          else{
-            reveals[i].classList.remove('active');
-          }
-        }
-       }
-       return () => window.removeEventListener('scroll', reveal);
-    }, []);
+    //       if(revealTop < windowHeight - revealPoint)
+    //       {
+    //         reveals[i].classList.add('active');
+    //       }
+    //       else{
+    //         reveals[i].classList.remove('active');
+    //       }
+    //     }
+    //    }
+    //    return () => window.removeEventListener('scroll', reveal);
+    // }, []);
     
 
   return (
@@ -50,7 +50,7 @@ function HomePage() {
           <Page1/>
           <Page2/>
     </div>
-    <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-10 py-8 reveal'>
+    <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-10 py-8'>
     <div className='text-3xl font-bold text-center uppercase text-blue-600'>Little mouths,  <span className='text-green-600'>big flavors!</span></div>
           <div className='flex flex-col md:flex-row justify-evenly w-full px-2 md:px-0 md:w-10/12 mx-auto py-8 mt-4 gap-x-1 gap-y-12 '>
           
@@ -84,7 +84,7 @@ function HomePage() {
           
           </div>
           </div>
-    <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-10 py-8 reveal'>
+    <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-10 py-8'>
           <div className='w-full md:w-10/12 mx-auto'>
             <div className='text-2xl md:text-3xl text-black uppercase font-bold justify-center flex gap-x-2 text-center md:text-left'>Popular <span className='text-green-700'> Recipe Posts</span></div>
             <div className='flex flex-wrap gap-x-10 md:gap-x-0 gap-y-10 justify-evenly mt-12 py-5'>
@@ -94,7 +94,7 @@ function HomePage() {
             </div>
           </div>
           </div>
-          <div className='w-full md:w-10/12 mx-auto text-lg mt-10 py-8 reveal'>
+          <div className='w-full md:w-10/12 mx-auto text-lg mt-10 py-8'>
             <div className='text-2xl md:text-3xl text-red-700 uppercase font-bold flex justify-center gap-x-2 text-center md:text-left'>Popular <span className='text-green-700'>Food Charts</span></div>
             <div className='flex flex-wrap gap-x-10 md:gap-x-0 gap-y-10 justify-evenly mt-14 py-5'>
               <PopularCard1 url={'/babyfoodcharts/6-month-baby-food-chart'} imageUrl={'../../images/foodcharts.webp'} title={'6 Month'} color={3}/>
@@ -103,7 +103,7 @@ function HomePage() {
             </div>
           </div>
 
-          <div className='color mt-10 shadow-xl shadow-gray-400 reveal'>
+          <div className='color mt-10 shadow-xl shadow-gray-400'>
           <div className='w-10/12 mx-auto flex justify-center p-6 text-white text-3xl text-center googlefontpoppins'>Helping The New Moms Journey</div>
             <div className='w-10/12 mx-auto grid xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5 3xl:grid-cols-5 place-items-center gap-y-4 gap-x-4 mb-10 p-10'>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
@@ -128,7 +128,7 @@ function HomePage() {
           
 
           <div >
-          <div className='w-10/12 mx-auto text-lg mt-10 py-8 reveal'>
+          <div className='w-10/12 mx-auto text-lg mt-10 py-8'>
             <div className='text-2xl md:text-3xl uppercase text-green-700 flex justify-center gap-x-2 font-bold '>Baby Care <span className='text-black'>Checklist</span></div>
             <div className='flex flex-wrap gap-x-10 md:gap-x-0 gap-y-10 justify-evenly mt-14 py-5'>
             <ProductCard url={'/newmomchecklist'} imageUrl={'../../images/newmomchecklist.png'}/>
@@ -141,7 +141,7 @@ function HomePage() {
           <div>
           
           </div>
-          <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-10 py-8 reveal'>
+          <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-10 py-8'>
           <div className='flex flex-col md:flex-row justify-evenly w-full px-2 md:px-0 md:w-10/12 mx-auto py-8 mt-4 gap-x-1 gap-y-12 '>
           
           <div className='px-2 text-center md:text-left'>
@@ -169,7 +169,7 @@ function HomePage() {
             </div>
           </div>
           </div>
-          <div className='reveal'>
+          <div className=''>
           <div className='w-10/12 mx-auto text-lg py-8 mt-10'>
             <div className='text-2xl md:text-3xl uppercase text-black flex justify-center gap-x-2 font-bold '>Important <span className='text-red-700'>Tips</span></div>
              <div className='flex flex-wrap gap-x-4 mt-14 -mb-[150px] justify-evenly'>
@@ -186,7 +186,7 @@ function HomePage() {
           </div>
           </div>
           
-          <div className='bg-gradient-to-r from-stone-50 to-blue-50 reveal'>
+          <div className='bg-gradient-to-r from-stone-50 to-blue-50'>
           <div className='w-10/12 mx-auto text-2xl py-8 mt-10'>
             <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 flex justify-center gap-x-2 font-bold '>Posts at <span class='text-green-700'>Instagram</span></div>
             <div className='mt-14'>
@@ -195,7 +195,7 @@ function HomePage() {
           </div>
           </div>
           
-          <div id='faq' className='w-9/12 mx-auto py-8 flex flex-col gap-y-4 mt-10 reveal'>
+          <div id='faq' className='w-9/12 mx-auto py-8 flex flex-col gap-y-4 mt-10'>
             <div className='text-3xl poppins-regular flex justify-center text-center'>Frequently asked questions</div>
             <div className='border-b-2 border-stone-200 mt-8'></div>
               <Faq isExpanded={isExpanded1} setExpanded={setExpanded1} isLastFaq={false} title={"When to start solid food for baby?"} desc={"Solid food can be started 6 month onwards."}/>
