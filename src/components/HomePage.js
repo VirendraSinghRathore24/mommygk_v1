@@ -52,29 +52,31 @@ function HomePage() {
     </div>
     <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-10 py-8 reveal'>
     <div className='text-3xl font-bold text-center uppercase text-blue-600'>Little mouths,  <span className='text-green-600'>big flavors!</span></div>
-          <div className='flex flex-col md:flex-row justify-between w-full px-2 md:px-0 md:w-9/12 mx-auto py-8 mt-4 gap-y-12 '>
+          <div className='flex flex-col md:flex-row justify-evenly w-full px-2 md:px-0 md:w-10/12 mx-auto py-8 mt-4 gap-x-1 gap-y-12 '>
           
-          <div className='px-2 text-center md:text-left'>
+
          
-          <div className='poppins-regular'>
-          <div className='text-lg leading-8'>
+          <div className='poppins-regular text-lg leading-8 text-center md:text-left'>
+          <div className=''>
           
             <div className='font-semibold text-xl'>Watch Reciepe Videos for Free : </div><br/>
             <span className='font-semibold'>6 Month </span>: Pumpkin puree, Sweet Potato Puree, Carrot puree, Rice Porridge, Banana puree, Rice porridge and many more...
           </div>
-           <div className='mt-6 text-lg leading-8'>
+
+           <div className='mt-6 '>
            <span className='font-semibold'>7 Month </span>: Suji Porridge, Carrot potato Upma, Pumpkin Rice porridge, Oats porridge, Poha Dates porridge and many more...
           </div>
-          <div className='mt-6 text-lg leading-8'>
+
+          <div className='mt-6 '>
           <span className='font-semibold'>8 Month </span>: Ragi chilla, Oats paneer chilla, Jowar chilla, Suji paneer chilla, Besan chilla and many more...
           </div>
-          </div>
+
           <NavLink to={'/recipe-videos/baby-food-recipes-videos-instagram'}>
-          <button className='w-full text-2xl bg-yellow-500 rounded-lg py-2 mt-8 font-semibold hover:bg-green-800 hover:text-white'>Know More</button>
+            <button className='w-full text-2xl bg-yellow-500 rounded-lg py-2 mt-8 font-semibold hover:bg-green-800 hover:text-white'>Know More</button>
           </NavLink>
           </div>
           
-          <div className='w-full md:w-8/12 ml-0 md:ml-16'>
+          <div className='justify-center flex w-full md:w-6/12'>
           <NavLink to={'/recipe-videos/baby-food-recipes-videos-instagram'}>
            <img className='w-[370px] h-[370px] rounded-lg' src='../../images/insta/6monthpart1.webp' alt='part1'/>
            </NavLink>
