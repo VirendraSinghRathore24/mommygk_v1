@@ -159,13 +159,13 @@ function HomePage() {
           <div className='max-md:hidden'>
            
             <iframe width="560" height="315" className='rounded-lg'
-              src="https://www.youtube.com/embed/-F_BJ7iMo7I?autoplay=1&mute=1" 
+              src="https://www.youtube.com/embed/3NZ-gHKMEDQ?autoplay=1&mute=1" 
               title="YouTube video player" 
  
               ></iframe>
             </div>
             <div className='md:hidden'>
-              <YoutubeEmbed embedId='-F_BJ7iMo7I?autoplay=1&mute=1' />
+              <YoutubeEmbed embedId='3NZ-gHKMEDQ?autoplay=1&mute=1' />
             </div>
           </div>
           </div>
