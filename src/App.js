@@ -52,6 +52,8 @@ import BabyFood11Month from "./components/BabyFood11Month";
 import SendEmail from "./components/admin/SendEmail";
 import InstaVideos from "./components/InstaVideos";
 import AddFoodVideo from "./components/admin/AddFoodVideo";
+import { Provider } from "react-redux";
+import store from "./utils/redux/store";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -60,6 +62,7 @@ export default function App() {
 
   return (
     <div className="w-full h-screen">
+    <Provider store={store}>
       <Header/>
       <Routes>
           <Route path="/" element={<HomePage/>}/>
@@ -113,7 +116,7 @@ export default function App() {
       <>      <PageComponent/>
       </>
       <ToastContainer/>
-
+    </Provider>
     </div>
   )
 }

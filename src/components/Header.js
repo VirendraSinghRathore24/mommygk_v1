@@ -1,10 +1,13 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {Link, NavLink} from "react-router-dom";
 import './Page1.css';
 import './Header.css';
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../config/firebase";
+import { useDispatch } from "react-redux";
+import { addInstaVideo, removeInstaVideo } from "../utils/redux/instaSlice";
 
 function Header() {
-
   const [open, setOpen] = useState(true);
 
   async function clickHandlerBars()
@@ -20,6 +23,26 @@ async function onClickHandler(e)
 {
   setOpen(true);
 }
+
+const dispatch = useDispatch();
+
+const getData =  async() => { 
+      const foodVideosCollectionRef = collection(db, "FoodVideos");
+
+      const data = await getDocs(foodVideosCollectionRef);
+      const filteredData = data.docs.map((doc) => ({...doc.data(), id:doc.id}));
+
+      // Add all videos to redux store
+      dispatch(addInstaVideo(filteredData)); 
+}
+
+useEffect(() => {
+  getData();
+
+  return (() => {
+    dispatch(removeInstaVideo());
+  })
+}, [])
   return (
     <div className="googlefont">
      {/* <div className="flex top-0 w-full px-5 justify-center items-center color">

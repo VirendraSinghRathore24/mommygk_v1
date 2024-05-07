@@ -1,33 +1,19 @@
 import React, { useEffect, useState } from 'react'
 import InstaVideoCard from './InstaVideoCard'
-import { collection, getDocs } from 'firebase/firestore';
-import { db } from '../config/firebase';
+import { useSelector } from 'react-redux';
 
 const InstaVideos = () => {
+  const instaVideos = useSelector(st => st.insta.instaVideos);
 
-  const [posts, setPosts] = useState([]);
-  const [posts1, setPosts1] = useState([]);
+  const posts = instaVideos.filter(x => x.category === '6 to 12 Months');
+  posts.sort((a, b) => a.title[0] - b.title[0]);
 
-  const foodVideosCollectionRef = collection(db, "FoodVideos");
-
-  const getData =  async() => {
-    const data = await getDocs(foodVideosCollectionRef);
-    const filteredData = data.docs.map((doc) => ({...doc.data(), id:doc.id}));
-   
-    // 6 to 12 Months
-    const data1 = filteredData.filter(x => x.category === '6 to 12 Months');
-    data1.sort((a, b) => a.title[0] - b.title[0]);
-    setPosts(data1);
-
-    // 12+ Months
-    const data2 = filteredData.filter(x => x.category === '12+ Months');
-    setPosts1(data2);
-  }
+  const posts1 = instaVideos.filter(x => x.category === '12+ Months');
 
   useEffect(() => {
-    getData();
     window.scroll(0,0);
   },[]);
+
   return (
     <div className='w-full md:w-10/12 mx-auto text-lg p-8 mt-4'>
           <div className='text-3xl uppercase text-red-700 font-mono font-bold mb-8 text-center'>Recipe Videos 6 to 12 Months</div>
