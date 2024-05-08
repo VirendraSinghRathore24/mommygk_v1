@@ -198,7 +198,7 @@ const AddFoodVideo = () => {
                             <td className="whitespace-wrap text-[12px] font-medium px-1 py-2 border-r-2  align-baseline text-center text-wrap">{index+1}</td>
                             <td className="whitespace-wrap text-md font-medium px-1 py-2 border-r-2 align-baseline text-center text-wrap">{p.title}</td>
                             <td className="whitespace-wrap text-md font-medium px-1 py-2 border-r-2 align-baseline text-center text-wrap">{p.category}</td>
-                            <td className="whitespace-wrap text-md font-medium px-1 py-2 border-r-2 align-baseline text-center break-all text-wrap">
+                            <td className="whitespace-wrap text-md font-medium px-1 py-2 border-r-2 align-baseline text-center">
                             <button onClick={() => handleEdit(p)} className='bg-blue-600 px-4 py-1 rounded-lg text-white'>Edit</button></td>
                             <td className="whitespace-wrap text-md font-medium px-1 py-2 border-r-2 align-baseline text-center border-black">
                             <button onClick={() => handleDelete(p.id)} className='bg-red-600 px-4 py-1 rounded-lg text-white'>Delete</button>
