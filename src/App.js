@@ -54,6 +54,7 @@ import InstaVideos from "./components/InstaVideos";
 import AddFoodVideo from "./components/admin/AddFoodVideo";
 import { Provider } from "react-redux";
 import store from "./utils/redux/store";
+import Login from "./components/admin/Login";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -79,6 +80,7 @@ export default function App() {
           <Route path="/admin/addfoodvideo" element={<AddFoodVideo/>}/>
           <Route path="/admin/blogs" element={<BlogList/>}/>
           <Route path="/admin/blogs/:category" element={<UpdateBlog/>}/>
+          <Route path="/admin/login" element={<Login/>}/>
           <Route path="/baby-food-recipes-video" element={<FoodReciepesVideo/>}/>
           <Route path="/recipe-videos/baby-food-recipes-videos-instagram" element={<InstaVideos/>}/>
           <Route path="/babyfoodcharts" element={<FoodCharts/>}/>
