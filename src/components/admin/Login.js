@@ -34,7 +34,7 @@ const Login = () => {
             }
             else{
                 dispatch(addLogin('Logged In'));
-                navigate('/admin/addfoodvideo');
+                navigate('/admin/dashboard');
             }
             
         }

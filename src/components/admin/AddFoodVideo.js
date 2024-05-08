@@ -147,7 +147,7 @@ const AddFoodVideo = () => {
             
             <div className='flex gap-x-6'>
               <h2>Title:</h2>
-              <input type='text' value={title} onChange={(e) => setTitle(e.target.value)} placeholder='Banana recipe ...' className='border-2 border-black rounded-md px-2' />
+              <input required="true" type='text' value={title} onChange={(e) => setTitle(e.target.value)} placeholder='Banana recipe ...' className='border-2 border-black rounded-md px-2' />
             </div>
             <div className='flex gap-x-6'>
             <h2>Category:</h2>
@@ -165,7 +165,7 @@ const AddFoodVideo = () => {
             </div>
             <div className='flex gap-x-6'>
               <h2>Instagram Url:</h2> 
-              <input type='text' value={instaUrl} onChange={(e) => setInstaUrl(e.target.value)} placeholder='https...' className='border-2 border-black rounded-md px-2'/>
+              <input required="true" type='text' value={instaUrl} onChange={(e) => setInstaUrl(e.target.value)} placeholder='https...' className='border-2 border-black rounded-md px-2'/>
             </div>
             {
               isSubmit ? (<button onClick={handleSubmit} className='bg-green-600 text-white rounded-lg px-4 py-1 text-xl text-center'>Submit</button>) 
@@ -177,7 +177,7 @@ const AddFoodVideo = () => {
             
             
                 <div className="overflow-hidden mt-10">
-       <table className="w-10/12 mx-auto text-left text-sm font-light">
+       <table className="w-10/12 mx-auto overflow-y-scroll text-left text-sm font-light">
                 
                 <thead className="font-medium ">
                     <tr className='bg-orange-300 border-2 border-black text-blue-800 font-bold text-md md:text-xl '>

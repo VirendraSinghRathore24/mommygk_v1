@@ -5,9 +5,6 @@ import Card from './Card';
 import './Page1.css'
 import data from "../data/data.json"
 import "./YoutubeEmbed.css";
-import YoutubeEmbed from './YoutubeEmbed';
-import { NavLink } from 'react-router-dom';
-
 
 function Page1() {
     const [loading, setLoading] = useState(false);

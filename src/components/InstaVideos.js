@@ -1,14 +1,15 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import InstaVideoCard from './InstaVideoCard'
 import { useSelector } from 'react-redux';
+import { CATEGORY_12_PLUS_MONTHS, CATEGORY_6_TO_12_MONTHS } from '../utils/contants';
 
 const InstaVideos = () => {
   const instaVideos = useSelector(st => st.insta.instaVideos);
 
-  const posts = instaVideos.filter(x => x.category === '6 to 12 Months');
+  const posts = instaVideos.filter(x => x.category === CATEGORY_6_TO_12_MONTHS);
   posts.sort((a, b) => a.title[0] - b.title[0]);
 
-  const posts1 = instaVideos.filter(x => x.category === '12+ Months');
+  const posts1 = instaVideos.filter(x => x.category === CATEGORY_12_PLUS_MONTHS);
 
   useEffect(() => {
     window.scroll(0,0);

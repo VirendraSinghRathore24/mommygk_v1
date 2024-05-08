@@ -51,7 +51,7 @@ function HomePage() {
           <Page2/>
     </div>
     <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-10 py-8'>
-    <div className='text-3xl font-bold text-center uppercase text-blue-600'>Little mouths,  <span className='text-green-600'>big flavors!</span></div>
+    <div className='text-3xl font-bold text-center uppercase text-blue-600'>Recipe <span className='text-green-600'>Videos</span></div>
           <div className='flex flex-col md:flex-row justify-evenly w-full px-2 md:px-0 md:w-10/12 mx-auto py-8 mt-4 gap-x-1 gap-y-12 '>
           
 
