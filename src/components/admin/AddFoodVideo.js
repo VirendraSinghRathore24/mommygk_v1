@@ -138,9 +138,13 @@ const AddFoodVideo = () => {
   }, []);
   
   return (
-    <div className='flex mt-10'>
-        <div className='flex flex-col gap-y-10 p-10 w-6/12 mx-auto'>
-            <div className='text-2xl font-semibold text-center'>Add Food Video</div>
+    <div className='mt-10'>
+      <div className='text-2xl font-semibold text-center'>Add Food Video</div>
+    
+      <div className='flex flex-col md:flex-row '>
+    
+        <div className='flex flex-col gap-y-10 mt-10 w-full md:w-6/12 mx-auto p-4'>
+            
             <div className='flex gap-x-6'>
               <h2>Title:</h2>
               <input type='text' value={title} onChange={(e) => setTitle(e.target.value)} placeholder='Banana recipe ...' className='border-2 border-black rounded-md px-2' />
@@ -169,7 +173,7 @@ const AddFoodVideo = () => {
             }
             
         </div>
-        <div className='w-6/12 '>
+        <div className=' w-full md:w-6/12 py-4'>
             
             
                 <div className="overflow-hidden mt-10">
@@ -209,6 +213,7 @@ const AddFoodVideo = () => {
        </div> 
          
         </div>
+    </div>
     </div>
   )
 }
