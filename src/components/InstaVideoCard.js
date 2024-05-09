@@ -14,7 +14,7 @@ const InstaVideoCard = ({url, imageUrl, title}) => {
                    <IoPlayCircleOutline size={50} />
               </div>
             </div>
-            <p className='text-blue-700 font-bold text-xl leading-6 text-center mt-6 '>{title}</p>
+            <p className='text-blue-700 font-bold text-xl leading-6 text-center mt-6'>{title}</p>
         </NavLink>
         
     </div>

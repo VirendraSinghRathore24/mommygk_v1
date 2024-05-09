@@ -17,8 +17,8 @@ const InstaVideos = () => {
 
   return (
     <div className='w-full md:w-10/12 mx-auto text-lg p-8 mt-4'>
-          <div className='text-3xl uppercase text-red-700 font-mono font-bold mb-8 text-center'>Recipe Videos 6 to 12 Months</div>
-       
+          <div className='text-3xl uppercase text-blue-700 font-mono font-bold mb-8 text-center'>Recipe Videos</div>
+            <div className='text-3xl uppercase text-red-700 font-mono font-bold mb-8 text-center md:text-left'>6 to 12 Months</div>
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
             {
               posts.map((post) => (
@@ -28,7 +28,7 @@ const InstaVideos = () => {
             </div>
             {
               posts1.length > 0 && (<div>
-              <div className='text-3xl uppercase text-red-700 font-mono font-bold mb-8 text-center'>Recipe Videos 12+ Months</div>
+              <div className='text-3xl uppercase text-red-700 font-mono font-bold mb-8 text-center md:text-left'>12+ Months</div>
               <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 3xl:grid-cols-4 place-items-center gap-y-10 gap-x-4 mb-10 mt-4'>
               {
                 posts1.map((post) => (
