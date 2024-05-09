@@ -32,10 +32,19 @@ const AddFoodVideo = () => {
     setNewFileUpload(true);
   };
 
+  const getCurrentTime = () => {
+    const date = new Date();
+    const showTime = date.getHours() 
+        + date.getMinutes() 
+        + date.getSeconds();
+
+        return showTime;
+  }
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const imageRef = ref(storage, `images/${selectedFile.name}`);
+    const imageRef = ref(storage, `images/${getCurrentTime}-${selectedFile.name}`);
     await uploadBytes(imageRef, selectedFile)
 
     const imageUrl = await getDownloadURL(imageRef);
@@ -100,8 +109,13 @@ const AddFoodVideo = () => {
   }
 
   const handleUpdate =  async() => {
+    try
+    {
         const foodDoc = doc(db, "FoodVideos", docId);
         let imageUrl = selectedFile;
+
+        console.log(imageUrl);
+        console.log(newFileUpload);
 
         if(newFileUpload)
         {
@@ -109,6 +123,8 @@ const AddFoodVideo = () => {
             await uploadBytes(imageRef, selectedFile);
 
             imageUrl = await getDownloadURL(imageRef);
+            console.log('new upload');
+            console.log(imageUrl)
         }
         
         await updateDoc(foodDoc, {title : title, category : selectedOption, imageUrl: imageUrl, InstaUrl: instaUrl });
@@ -116,6 +132,11 @@ const AddFoodVideo = () => {
         alert("Updated Successfully !!!");
         getData();
         clearData();
+      }
+      catch(e)
+      {
+        console.log(e);
+      }
   }
 
   const clearData = () => {
