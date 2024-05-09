@@ -1,15 +1,17 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { db, storage } from '../../config/firebase';
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import { addDoc, collection, deleteDoc, doc, getDocs, updateDoc } from 'firebase/firestore';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import Spinner from '../Spinner';
 
 
 const AddFoodVideo = () => {
   const status = useSelector(st => st.login.status);
   const navigate = useNavigate();
 
+  const [loading, setLoading] = useState(false);
   const [selectedOption, setSelectedOption] = useState('');
   const [title, setTitle] = useState('');
   const [instaUrl, setInstaUrl] = useState('');
@@ -32,30 +34,33 @@ const AddFoodVideo = () => {
     setNewFileUpload(true);
   };
 
-  const getCurrentTime = () => {
+  
     const date = new Date();
-    const showTime = date.getHours() 
-        + date.getMinutes() 
-        + date.getSeconds();
-
-        return showTime;
-  }
+    const showTime = date.getHours() + '-' + date.getMinutes() + '-' + date.getSeconds();
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    try{
+          setLoading(true);
+          e.preventDefault();
 
-    const imageRef = ref(storage, `images/${getCurrentTime}-${selectedFile.name}`);
-    await uploadBytes(imageRef, selectedFile)
+          const imageRef = ref(storage, `images/${showTime}-${selectedFile.name}`);
+          await uploadBytes(imageRef, selectedFile)
 
-    const imageUrl = await getDownloadURL(imageRef);
+          const imageUrl = await getDownloadURL(imageRef);
 
-    addFoodVideo(imageUrl);
+          addFoodVideo(imageUrl);
 
-    alert("Food Video Uploaded");
+          alert("Food Video Uploaded");
 
-    clearData();
-    getData();
+          clearData();
+          getData();
 
+          setLoading(false);
+    }
+    catch(e)
+    {
+      console.log(e);
+    }
   }
 
   const foodVideosCollectionRef = collection(db, "FoodVideos");
@@ -92,6 +97,8 @@ const AddFoodVideo = () => {
     setSelectedFile(p.imageUrl);
     setInstaUrl(p.InstaUrl);
     setDocId(p.id);
+
+    window.scroll(0,0);
   }
   const handleDelete = async(id) => {
     var res = window.confirm("Delete the item?");
@@ -104,22 +111,18 @@ const AddFoodVideo = () => {
       // Do nothing!
       console.log('Not deleted');
     }
-
-     
   }
 
   const handleUpdate =  async() => {
     try
     {
+        setLoading(true);
         const foodDoc = doc(db, "FoodVideos", docId);
         let imageUrl = selectedFile;
 
-        console.log(imageUrl);
-        console.log(newFileUpload);
-
         if(newFileUpload)
         {
-            const imageRef = ref(storage, `images/${selectedFile.name}`);
+            const imageRef = ref(storage, `images/${showTime}-${selectedFile.name}`);
             await uploadBytes(imageRef, selectedFile);
 
             imageUrl = await getDownloadURL(imageRef);
@@ -132,6 +135,8 @@ const AddFoodVideo = () => {
         alert("Updated Successfully !!!");
         getData();
         clearData();
+
+        setLoading(false);
       }
       catch(e)
       {
@@ -164,7 +169,8 @@ const AddFoodVideo = () => {
     
       <div className='flex flex-col md:flex-row '>
     
-        <div className='flex flex-col gap-y-10 mt-10 w-full md:w-6/12 mx-auto p-4'>
+    {
+      loading ? (<Spinner/>) : (<div className='flex flex-col gap-y-10 mt-10 w-full md:w-6/12 mx-auto p-4'>
             
             <div className='flex gap-x-6'>
               <h2>Title:</h2>
@@ -193,7 +199,9 @@ const AddFoodVideo = () => {
               : (<button onClick={handleUpdate} className='bg-yellow-500 text-white rounded-lg px-4 py-1 text-xl text-center'>Update</button>)
             }
             
-        </div>
+        </div>) 
+    }
+        
         <div className=' w-full md:w-6/12 py-4'>
             
             
