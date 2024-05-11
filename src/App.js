@@ -84,7 +84,7 @@ export default function App() {
           <Route path="/admin/login" element={<Login/>}/>
           <Route path="/admin/dashboard" element={<Dashboard/>}/>
           <Route path="/baby-food-recipes-video" element={<FoodReciepesVideo/>}/>
-          <Route path="/recipe-videos/baby-food-recipes-videos-instagram" element={<InstaVideos/>}/>
+          <Route path="/recipe-videos/baby-food-recipe-videos" element={<InstaVideos/>}/>
           <Route path="/babyfoodcharts" element={<FoodCharts/>}/>
           <Route path="/babyfoodchartshindi" element={<FoodChartsHindi/>}/>
           <Route path="/babyfoodcharts/6-month-baby-food-chart" element={<BabyFood/>}/>

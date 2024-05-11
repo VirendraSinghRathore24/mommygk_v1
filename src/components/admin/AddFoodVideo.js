@@ -126,8 +126,6 @@ const AddFoodVideo = () => {
             await uploadBytes(imageRef, selectedFile);
 
             imageUrl = await getDownloadURL(imageRef);
-            console.log('new upload');
-            console.log(imageUrl)
         }
         
         await updateDoc(foodDoc, {title : title, category : selectedOption, imageUrl: imageUrl, InstaUrl: instaUrl });
