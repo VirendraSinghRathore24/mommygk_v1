@@ -32,8 +32,13 @@ const InstaVideos = () => {
   }
 
   const handleClick = (category) => {
+    
+    setLoading(true);
+
     const posts = instaVideos.filter(x => x.category === category);    
     setPosts(posts);
+
+    setLoading(false);
   }
   
   useEffect(() => {
@@ -44,9 +49,9 @@ const InstaVideos = () => {
   return (
     <div className='w-full md:w-10/12 mx-auto text-lg p-8 mt-4'>
           <div className='text-3xl uppercase text-blue-700 font-mono font-bold mb-8 text-center'>Recipe Videos</div>
-          <h3 class="mb-5 text-lg font-medium text-gray-900">Get Recipe Videos By Age : </h3>
+          <h3 class="mb-5 text-lg font-medium text-gray-900 text-center md:text-left">Get Recipe Videos By Age : </h3>
           <div >
-<ul className="grid w-full gap-6 md:grid-cols-2 ">
+<ul className="grid w-full gap-6 md:grid-cols-2 px-5 md:px-0">
     <li onClick={() => handleClick(CATEGORY_6_TO_12_MONTHS)}>
         <input type="radio" id="hosting-small" name="hosting" value="hosting-small" className="hidden peer" required />
         <label for="hosting-small" className="inline-flex items-center justify-between w-full p-5 text-gray-500 border border-gray-200 rounded-lg cursor-pointer  peer-checked:bg-green-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 bg-gray-700 hover:bg-green-500">                           
