@@ -71,7 +71,7 @@ function HomePage() {
           <span className='font-semibold'>8 Month </span>: Ragi chilla, Oats paneer chilla, Jowar chilla, Suji paneer chilla, Besan chilla and many more...
           </div>
 
-          <NavLink to={'/recipe-videos/baby-food-recipes-videos-instagram'}>
+          <NavLink to={'/recipe-videos/baby-food-recipe-videos'}>
             <button className='w-full text-2xl bg-yellow-500 rounded-lg py-2 mt-8 font-semibold hover:bg-green-800 hover:text-white'>Know More</button>
           </NavLink>
           </div>

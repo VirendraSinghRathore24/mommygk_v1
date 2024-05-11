@@ -26,21 +26,25 @@ async function onClickHandler(e)
 
 const dispatch = useDispatch();
 
-const getData =  async() => { 
+const getData =  async() => {
+
       const foodVideosCollectionRef = collection(db, "FoodVideos");
 
       const data = await getDocs(foodVideosCollectionRef);
       const filteredData = data.docs.map((doc) => ({...doc.data(), id:doc.id}));
 
+      localStorage.setItem('recipe-videos', JSON.stringify(filteredData));
+
       // Add all videos to redux store
-      dispatch(addInstaVideo(filteredData)); 
+      //dispatch(addInstaVideo(filteredData)); 
 }
 
 useEffect(() => {
-  //getData();
+  getData();
 
   return (() => {
-    dispatch(removeInstaVideo());
+    //dispatch(removeInstaVideo());
+    localStorage.removeItem('recipe-videos');
   })
 }, [])
   return (

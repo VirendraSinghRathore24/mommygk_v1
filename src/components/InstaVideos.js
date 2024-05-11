@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 import InstaVideoCard from './InstaVideoCard'
 import { CATEGORY_12_PLUS_MONTHS, CATEGORY_6_TO_12_MONTHS } from '../utils/contants';
 import ShimmerUICard from './ShimmerUICard';
-import { collection, getDocs } from 'firebase/firestore';
-import { db } from '../config/firebase';
 
 const InstaVideos = () => {
   const [loading, setLoading] = useState(false);
@@ -15,10 +13,7 @@ const InstaVideos = () => {
     {
         setLoading(true);
 
-        const foodVideosCollectionRef = collection(db, "FoodVideos");
-    
-        const data = await getDocs(foodVideosCollectionRef);
-        const instaVideos = data.docs.map((doc) => ({...doc.data(), id:doc.id}));
+        const instaVideos = JSON.parse(localStorage.getItem('recipe-videos'));
 
         setInstaVideos(instaVideos);  
         setPosts(instaVideos);
