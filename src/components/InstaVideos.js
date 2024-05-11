@@ -20,13 +20,9 @@ const InstaVideos = () => {
         const data = await getDocs(foodVideosCollectionRef);
         const instaVideos = data.docs.map((doc) => ({...doc.data(), id:doc.id}));
 
-        setInstaVideos(instaVideos);
-    
-        // const posts = instaVideos.filter(x => x.category === CATEGORY_6_TO_12_MONTHS);    
+        setInstaVideos(instaVideos);  
         setPosts(instaVideos);
-    
-        // const posts1 = instaVideos.filter(x => x.category === CATEGORY_12_PLUS_MONTHS);
-        // setPosts1(posts1);
+
         setLoading(false);
     }
     catch(er)
@@ -42,8 +38,6 @@ const InstaVideos = () => {
   
   useEffect(() => {
     fetchVideos();
-   
-    console.log('data')
     window.scroll(0,0);
   },[]);
 
@@ -52,25 +46,25 @@ const InstaVideos = () => {
           <div className='text-3xl uppercase text-blue-700 font-mono font-bold mb-8 text-center'>Recipe Videos</div>
           <h3 class="mb-5 text-lg font-medium text-gray-900">Get Recipe Videos By Age : </h3>
           <div >
-<ul class="grid w-full  gap-6 md:grid-cols-2 ">
+<ul className="grid w-full gap-6 md:grid-cols-2 ">
     <li onClick={() => handleClick(CATEGORY_6_TO_12_MONTHS)}>
-        <input type="radio" id="hosting-small" name="hosting" value="hosting-small" class="hidden peer" required />
-        <label for="hosting-small" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:bg-green-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
-            <div class="block">
-                <div class="w-full text-lg font-semibold text-white">6 to 12 Months</div>
+        <input type="radio" id="hosting-small" name="hosting" value="hosting-small" className="hidden peer" required />
+        <label for="hosting-small" className="inline-flex items-center justify-between w-full p-5 text-gray-500 border border-gray-200 rounded-lg cursor-pointer  peer-checked:bg-green-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 bg-gray-700 hover:bg-green-500">                           
+            <div className="block">
+                <div className="w-full text-lg font-semibold text-white">6 to 12 Months</div>
             </div>
-            <svg class="w-5 h-5 ms-3 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+            <svg className="w-5 h-5 ms-3 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
         </label>
     </li>
     <li onClick={() => handleClick(CATEGORY_12_PLUS_MONTHS)}>
-        <input type="radio" id="hosting-big" name="hosting" value="hosting-big" class="hidden peer"/>
-        <label for="hosting-big" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:bg-green-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
-            <div class="block">
-                <div class="w-full text-lg font-semibold text-white">12+ Months</div>
+        <input type="radio" id="hosting-big" name="hosting" value="hosting-big" className="hidden peer"/>
+        <label for="hosting-big" className="inline-flex items-center justify-between w-full p-5 text-gray-500 border border-gray-200 rounded-lg cursor-pointer  peer-checked:bg-green-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 bg-gray-700 hover:bg-green-500">
+            <div className="block">
+                <div className="w-full text-lg font-semibold text-white">12+ Months</div>
             </div>
-            <svg class="w-5 h-5 ms-3 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+            <svg className="w-5 h-5 ms-3 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
         </label>
