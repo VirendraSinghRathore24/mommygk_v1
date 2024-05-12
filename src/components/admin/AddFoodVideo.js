@@ -1,14 +1,12 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { db, storage } from '../../config/firebase';
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import { addDoc, collection, deleteDoc, doc, getDocs, updateDoc } from 'firebase/firestore';
-import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import Spinner from '../Spinner';
 
 
 const AddFoodVideo = () => {
-  const status = useSelector(st => st.login.status);
   const navigate = useNavigate();
 
   const [loading, setLoading] = useState(false);
@@ -152,10 +150,10 @@ const AddFoodVideo = () => {
   }
 
    useEffect(() => {
-
-    if(status !== 'Logged In')
+    const auth = localStorage.getItem("auth");
+    if(auth !== "Logged In")
     {
-        navigate('/admin/login');
+      navigate("/admin/login");
     }
 
     getData();

@@ -32,12 +32,13 @@ const Login = () => {
 
             if(existingCode.includes(code))
             {
-                dispatch(addLogin('Logged In'));
+                //dispatch(addLogin('Logged In'));
+                localStorage.setItem("auth", "Logged In");
                 navigate('/admin/dashboard');
             }
             else
             {
-                alert("Unauthorized access, Please enter correct admin code !!!");
+                alert("Unauthorized access, Please login with valid google account !!!");
             }
 
             setLoading(false);

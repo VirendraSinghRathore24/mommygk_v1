@@ -1,7 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Dashboard = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const auth = localStorage.getItem("auth");
+    if(auth !== "Logged In")
+    {
+      navigate("/admin/login");
+    }
+  }, []);
   return (
     <div className='p-10 flex flex-col gap-y-6'>
         <div className='text-2xl font-semibold text-center'>Admin Dashboard</div>
