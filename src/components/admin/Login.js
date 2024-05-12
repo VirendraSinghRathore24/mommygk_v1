@@ -1,24 +1,28 @@
 import { collection, getDocs } from 'firebase/firestore';
 import React, { useState } from 'react'
-import { db } from '../../config/firebase';
+import { auth, db, googleProvider } from '../../config/firebase';
 import { useDispatch } from 'react-redux';
 import { addLogin } from '../../utils/redux/loginSlice';
 import { useNavigate } from 'react-router-dom';
 import Spinner from '../Spinner';
+import {FcGoogle} from "react-icons/fc";
+import { signInWithPopup } from 'firebase/auth';
 
 const Login = () => {
 
-    const [code, setCode] = useState('');
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
     const [loading, setLoading] = useState(false);
 
-    const handleClick = async() => {
-        // match code with existing db
-        try
-        {
+    const signInWithGoogle = async () => {
+        try{
             setLoading(true);
+
+            await signInWithPopup(auth, googleProvider);
+            const code = auth?.currentUser?.email;
+            console.log(code);
+            //localStorage.setItem("currentUser", auth?.currentUser?.email);
 
             const loginCollectionRef = collection(db, "Login");
             const data = await getDocs(loginCollectionRef);
@@ -26,25 +30,22 @@ const Login = () => {
             const filteredData = data.docs.map((doc) => ({...doc.data(), id:doc.id}));
             const existingCode = filteredData[0].code;
 
-            setLoading(false);
-
-            if(code !== existingCode)
+            if(existingCode.includes(code))
             {
-                alert("Unauthorized access, Please enter correct admin code !!!");
-            }
-            else{
                 dispatch(addLogin('Logged In'));
                 navigate('/admin/dashboard');
             }
-            
-        }
-        catch(er)
-        {
+            else
+            {
+                alert("Unauthorized access, Please enter correct admin code !!!");
+            }
 
+            setLoading(false);
         }
-
-        
-    }
+        catch(err){
+            console.log(err);
+        }
+    };
 
   return (
     <div className='p-10'>
@@ -52,11 +53,14 @@ const Login = () => {
         <div className=''>
         {
             loading ? (<Spinner/>) : (
-                <div className='flex flex-col md:flex-row justify-center p-10 gap-x-4 gap-y-6'>
-                    <h2>Enter Code :</h2>
-                    <input required type='text' className='border-2 border-black rounded-md px-2' value={code} onChange={(e) => setCode(e.target.value)} />
-                    <button onClick={handleClick} className='text-lg px-4 py-1 bg-blue-600 rounded-lg text-white'>Login</button>
-                </div>)
+                <div className='w-full md:w-3/12 mx-auto'>
+                <button className='w-full flex justify-center items-center rounded-[8px] font-medium text-richblack-700 border border-richblack-700
+            px-[12px] py-[8px] gap-x-2 mt-6 bg-yellow-300 hover:bg-green-300' onClick={signInWithGoogle}>
+            
+           <FcGoogle/>
+            <p>Sign in with Google</p>
+           </button>
+           </div>)
         }
             
         </div>
