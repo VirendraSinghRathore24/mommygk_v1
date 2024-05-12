@@ -1,15 +1,15 @@
 import { initializeApp } from "firebase/app";
 import {getAuth, GoogleAuthProvider} from "firebase/auth";
 import {getFirestore} from "firebase/firestore";
-import {getStorage} from "firebase/storage"
+import {getStorage} from "firebase/storage";
 
 const firebase = {
-    apiKey: "AIzaSyCSFuOLTPui1VzQwSNSdE41s5c2Qfg4T5g",
-    authDomain: "mommygk-24714.firebaseapp.com",
-    projectId: "mommygk-24714",
-    storageBucket: "mommygk-24714.appspot.com",
-    messagingSenderId: "1033519774149",
-    appId: "1:1033519774149:web:5a8ae06e29ea320840f3ac"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain : process.env.REACT_APP_AUTH_DOMAIN,
+  projectId : process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID
   };
 
 const app = initializeApp(firebase);

@@ -21,14 +21,14 @@ const Login = () => {
 
             await signInWithPopup(auth, googleProvider);
             const code = auth?.currentUser?.email;
-            console.log(code);
+
             //localStorage.setItem("currentUser", auth?.currentUser?.email);
 
             const loginCollectionRef = collection(db, "Login");
             const data = await getDocs(loginCollectionRef);
 
             const filteredData = data.docs.map((doc) => ({...doc.data(), id:doc.id}));
-            const existingCode = filteredData[0].code;
+            const existingCode = filteredData[0].code.split(',');
 
             if(existingCode.includes(code))
             {

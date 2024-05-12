@@ -45,7 +45,7 @@ function Page1() {
             {
                 loading ? (<Spinner type={"Loading, "}/>) :(
                 posts.map((post, index) => (
-                    <Card key={index} post={post}/>
+                    <Card key={post.title} post={post}/>
                 )))
                } 
             </div>
