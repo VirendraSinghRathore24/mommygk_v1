@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import data from "../data/foodcharts.json"
 import { NavLink } from 'react-router-dom';
 import FoodChartCard from './FoodChartCard';
 
 function FoodCharts() {
-    const [posts, setPosts] = useState(data);
+    const [posts, setPosts] = useState([]);
     useEffect(() => {
+        const data = JSON.parse(localStorage.getItem('food-chart-english'));
+        setPosts(data);
         window.scroll(0,0);
       }, []);
   return (
@@ -15,8 +16,8 @@ function FoodCharts() {
             <div className='grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 place-items-center gap-y-10 mb-10 mt-4'>
             {
                 
-                posts.map((post, index) => (
-                    <FoodChartCard key={index} post={post}/>
+                posts.map((post) => (
+                    <FoodChartCard key={post.title} post={post}/>
                 ))
                } 
             </div>

@@ -4,8 +4,9 @@ import './Page1.css';
 import './Header.css';
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../config/firebase";
-import { useDispatch } from "react-redux";
-import { addInstaVideo, removeInstaVideo } from "../utils/redux/instaSlice";
+import data from "../data/data.json";
+import chartEnglishData from "../data/foodcharts.json";
+import chartHindiData from "../data/foodchartshindi.json";
 
 function Header() {
   const [open, setOpen] = useState(true);
@@ -24,8 +25,6 @@ async function onClickHandler(e)
   setOpen(true);
 }
 
-const dispatch = useDispatch();
-
 const getData =  async() => {
 
       const foodVideosCollectionRef = collection(db, "FoodVideos");
@@ -34,19 +33,22 @@ const getData =  async() => {
       const filteredData = data.docs.map((doc) => ({...doc.data(), id:doc.id}));
 
       localStorage.setItem('recipe-videos', JSON.stringify(filteredData));
-
-      // Add all videos to redux store
-      //dispatch(addInstaVideo(filteredData)); 
 }
 
 useEffect(() => {
   getData();
+  localStorage.setItem('main-page', JSON.stringify(data));
+  localStorage.setItem('food-chart-english', JSON.stringify(chartEnglishData));
+  localStorage.setItem('food-chart-hindi', JSON.stringify(chartHindiData));
 
   return (() => {
-    //dispatch(removeInstaVideo());
     localStorage.removeItem('recipe-videos');
+    localStorage.removeItem('main-page');
+    localStorage.removeItem('food-chart-english');
+    localStorage.removeItem('food-chart-hindi');
   })
 }, [])
+
   return (
     <div className="googlefont">
      {/* <div className="flex top-0 w-full px-5 justify-center items-center color">

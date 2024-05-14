@@ -69,7 +69,7 @@ function Slider1() {
         {
             data.map((d) => (
 
-                <InstagramEmbed url={d.url} />
+                <InstagramEmbed key={d.url} url={d.url} />
             ))
         }
      </Slider>

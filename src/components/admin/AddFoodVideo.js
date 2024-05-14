@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { db, storage } from '../../config/firebase';
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import { addDoc, collection, deleteDoc, doc, getDocs, updateDoc } from 'firebase/firestore';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Spinner from '../Spinner';
 
 
@@ -160,7 +160,11 @@ const AddFoodVideo = () => {
   }, []);
   
   return (
-    <div className='mt-10'>
+    <div>
+       <p className='p-2 underline'><strong><Link to="/admin/dashboard">Dashboard</Link> </strong></p>
+    
+    <div className='mt-6'>
+   
       <div className='text-2xl font-semibold text-center'>Add Food Video</div>
     
       <div className='flex flex-col md:flex-row '>
@@ -182,7 +186,7 @@ const AddFoodVideo = () => {
             </div>
             <div className='flex gap-x-6'>
             <h2>Upload Image:</h2>
-              <input type="file" onChange={handleFileChange} />
+              <input type="file"  onChange={handleFileChange} />
               
               
             </div>
@@ -238,6 +242,7 @@ const AddFoodVideo = () => {
        </div> 
          
         </div>
+    </div>
     </div>
     </div>
   )

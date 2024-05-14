@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import baseUrl from '../../baseUrl';
 import { toast } from 'react-toastify';
 import Spinner from '../Spinner';
+import { Link } from 'react-router-dom';
 
 const SendEmail = () => {
     const [message, setMessage] = useState('');
@@ -36,6 +37,7 @@ const SendEmail = () => {
 
   return (
     <div>
+        <p className='p-2 underline'><strong><Link to="/admin/dashboard">Dashboard</Link> </strong></p>
         <h1 className='text-blue-600 text-2xl font-bold text-center p-6'>Broadcaste New Updates to all Subscribers</h1>
         {
             loading ? <Spinner/> : (
