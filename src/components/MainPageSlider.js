@@ -6,9 +6,16 @@ const MainPageSlider = () => {
     const data = [
         {
             title : "Every meal is a new adventure for little taste buds !!!",
-            imgUrl : "../../images/carrot11.webp",
+            imgUrl : "../../images/recipevideo.webp",
             url : "/recipe-videos/baby-food-recipe-videos",
             color : 1
+            
+        },
+        {
+            title : "A baby food chart is not just a plan, it’s a roadmap to good health !!!",
+            imgUrl : "../../images/menu2.webp",
+            url : "/babyfoodcharts",
+            color : 3
             
         },
         {
@@ -18,13 +25,7 @@ const MainPageSlider = () => {
             color : 2
            
         },
-        {
-            title : "A baby food chart is not just a plan & it’s a roadmap to good health !!!",
-            imgUrl : "../../images/menu2.webp",
-            url : "/babyfoodcharts",
-            color : 3
-            
-        }
+        
     ]
     
     const settings ={
@@ -63,7 +64,7 @@ const MainPageSlider = () => {
                         </Link>
                     </div>
                     <div className='w-4/12 mx-auto'>
-                        <img src={d.imgUrl} alt='cover' className='h-44 md:h-56 rounded-lg'/>
+                        <img src={d.imgUrl} alt='cover' className='h-40 md:h-56 rounded-lg'/>
                     </div>
                 </div>
                 </div>
