@@ -108,7 +108,7 @@ function HomePage() {
           </div> */}
     <div className='bg-gradient-to-r from-stone-50 to-blue-50 py-8'>
           <div className='w-full md:w-10/12 mx-auto'>
-            <div className='text-2xl md:text-3xl text-black  poppins-medium justify-center flex gap-x-2 text-center md:text-left'>Popular <span className='text-green-700'> Recipe Posts</span></div>
+            <div className='text-2xl md:text-3xl text-black  poppins-semibold justify-center flex gap-x-2 text-center md:text-left'>Popular <span className='text-green-700'> Recipe Posts</span></div>
             <div className='flex flex-wrap gap-x-10 md:gap-x-0 gap-y-10 justify-evenly mt-4 py-5'>
               {/* <PopularCard url={'https://www.youtube.com/watch?v=1h-Buyvan-M&t=91s'} imageUrl={'../../images/sweetpotato7.webp'} title={'Solid Food Introduction'} color={2}/> */}
               <PopularCard url={'https://www.youtube.com/watch?v=4S02boyMtWA'} imageUrl={'../../images/carrot11.webp'} title={'Carrot Recipe'} color={3}/>
