@@ -24,8 +24,7 @@ const MainPageSlider = () => {
             url : "/toys",
             color : 2
            
-        },
-        
+        }
     ]
     
     const settings ={
