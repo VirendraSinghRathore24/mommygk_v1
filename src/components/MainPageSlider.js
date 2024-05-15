@@ -30,7 +30,7 @@ const MainPageSlider = () => {
     const settings ={
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: true,
+        arrows: false,
         dots: true,
         speed: 300,
         infinite: true,
@@ -48,11 +48,11 @@ const MainPageSlider = () => {
 
   return (
 
-        <div className='bg-gradient-to-r from-red-100 via-lime-100 to-indigo-200 w-full mx-auto py-8'>
+        <div className='bg-gradient-to-r from-red-100 via-lime-100 to-indigo-200 py-8'>
         <Slider ref={slider => (sliderRef = slider)} {...settings} >
         {
             data.map((d) => (
-                <div className='w-full mx-auto'>
+                <div className=''>
                 <div className='flex justify-evenly gap-x-2 md:gap-x-6 p-4 md:p-8 w-full mx-auto'>
                     <div className='flex flex-col w-8/12 mx-auto gap-y-10'>
                         <div className=' text-lg md:text-3xl poppins-medium'>
