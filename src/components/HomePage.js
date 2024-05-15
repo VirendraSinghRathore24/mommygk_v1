@@ -72,7 +72,7 @@ function HomePage() {
           <Page1/>
           <Page2/>
     </div> */}
-    <div className='shadow-md py-8 mt-4'>
+    {/* <div className='shadow-md py-8 mt-4'>
     <div className='text-3xl font-bold text-center uppercase text-blue-600'>Recipe <span className='text-green-600'>Videos</span></div>
           <div className='flex flex-col md:flex-row justify-evenly w-full px-2 md:px-0 md:w-10/12 mx-auto py-8 mt-4 gap-x-1 gap-y-12 '>
           
@@ -105,7 +105,7 @@ function HomePage() {
           </div>
           
           </div>
-          </div>
+          </div> */}
     <div className='bg-gradient-to-r from-stone-50 to-blue-50 py-8'>
           <div className='w-full md:w-10/12 mx-auto'>
             <div className='text-2xl md:text-3xl text-black uppercase font-bold justify-center flex gap-x-2 text-center md:text-left'>Popular <span className='text-green-700'> Recipe Posts</span></div>
@@ -125,7 +125,7 @@ function HomePage() {
             </div>
           </div> */}
 
-          <div className='color mt-10 shadow-xl shadow-gray-400'>
+          <div className='color shadow-xl shadow-gray-400'>
           <div className='w-10/12 mx-auto flex justify-center p-6 text-white text-3xl text-center googlefontpoppins'>Helping The New Moms Journey</div>
             <div className='w-10/12 mx-auto grid xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5 3xl:grid-cols-5 place-items-center gap-y-4 gap-x-4 mb-10 p-10'>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>

@@ -12,7 +12,7 @@ function Card({post}) {
        <div>
         </div>
     </div>
-      <div className='font-bold text-md md:text-lg text-center mt-3 text-indigo-800'>{post.title}</div>
+      <div className='font-bold text-lg md:text-lg text-center mt-3 text-indigo-800'>{post.title}</div>
       </NavLink>
     </div>
   )
