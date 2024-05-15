@@ -106,7 +106,7 @@ function HomePage() {
           
           </div>
           </div>
-    <div className='bg-gradient-to-r from-stone-50 to-blue-50 mt-10 py-8'>
+    <div className='bg-gradient-to-r from-stone-50 to-blue-50 py-8'>
           <div className='w-full md:w-10/12 mx-auto'>
             <div className='text-2xl md:text-3xl text-black uppercase font-bold justify-center flex gap-x-2 text-center md:text-left'>Popular <span className='text-green-700'> Recipe Posts</span></div>
             <div className='flex flex-wrap gap-x-10 md:gap-x-0 gap-y-10 justify-evenly mt-12 py-5'>

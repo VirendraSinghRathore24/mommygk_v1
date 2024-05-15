@@ -49,7 +49,7 @@ const MainPageSlider = () => {
 
   return (
 
-        <div className='bg-gradient-to-r from-red-100 via-lime-100 to-indigo-200 w-full mx-auto'>
+        <div className='bg-gradient-to-r from-red-100 via-lime-100 to-indigo-200 w-full mx-auto py-8'>
         <Slider ref={slider => (sliderRef = slider)} {...settings} >
         {
             data.map((d) => (
