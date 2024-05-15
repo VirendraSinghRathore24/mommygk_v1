@@ -49,21 +49,21 @@ const MainPageSlider = () => {
 
   return (
 
-        <div className='bg-gradient-to-r from-red-100 via-lime-100 to-indigo-200 '>
+        <div className='bg-gradient-to-r from-red-100 via-lime-100 to-indigo-200 w-full mx-auto'>
         <Slider ref={slider => (sliderRef = slider)} {...settings} >
         {
             data.map((d) => (
                 <div className='w-full mx-auto'>
-                <div className='flex justify-evenly p-3 '>
-                    <div className='flex flex-col justify-center w-5/12 mx-auto gap-y-10'>
-                        <div className=' text-lg md:text-2xl poppins-medium'>
+                <div className='flex justify-evenly gap-x-2 md:gap-x-6 p-4 md:p-8 w-full mx-auto'>
+                    <div className='flex flex-col w-8/12 mx-auto gap-y-10'>
+                        <div className=' text-lg md:text-3xl poppins-medium'>
                             {d.title}
                         </div>
                         <Link to={d.url}>
                         <button className='bg-rose-600 px-1 md:px-4 py-1 md:py-2 rounded-lg text-white text-md font-semibold md:text-lg w-28 md:w-36 hover:bg-green-400 hover:text-black'>Click Here</button>
                         </Link>
                     </div>
-                    <div className='w-5/12 mx-auto'>
+                    <div className='w-5/12 md:w-3/12 mx-auto flex justify-between'>
                         <img src={d.imgUrl} alt='cover' className='h-40 md:h-56 rounded-lg'/>
                     </div>
                 </div>

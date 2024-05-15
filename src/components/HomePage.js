@@ -64,14 +64,15 @@ function HomePage() {
     <MainPageSlider/>
 
    </div>
-    <div className='shadow-2xl py-2 w-full mx-auto '>
+   
+    <div className='shadow-md py-2 w-full mx-auto '>
         <Page1/>
     </div>
     {/* <div className='mx-auto w-10/12 flex flex-wrap mt-10'>
           <Page1/>
           <Page2/>
     </div> */}
-    <div className=' py-8'>
+    <div className='shadow-md py-8 mt-4'>
     <div className='text-3xl font-bold text-center uppercase text-blue-600'>Recipe <span className='text-green-600'>Videos</span></div>
           <div className='flex flex-col md:flex-row justify-evenly w-full px-2 md:px-0 md:w-10/12 mx-auto py-8 mt-4 gap-x-1 gap-y-12 '>
           
