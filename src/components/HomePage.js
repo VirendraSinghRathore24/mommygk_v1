@@ -108,8 +108,8 @@ function HomePage() {
           </div> */}
     <div className='bg-gradient-to-r from-stone-50 to-blue-50 py-8'>
           <div className='w-full md:w-10/12 mx-auto'>
-            <div className='text-2xl md:text-3xl text-black uppercase font-bold justify-center flex gap-x-2 text-center md:text-left'>Popular <span className='text-green-700'> Recipe Posts</span></div>
-            <div className='flex flex-wrap gap-x-10 md:gap-x-0 gap-y-10 justify-evenly mt-12 py-5'>
+            <div className='text-2xl md:text-3xl text-black  poppins-medium justify-center flex gap-x-2 text-center md:text-left'>Popular <span className='text-green-700'> Recipe Posts</span></div>
+            <div className='flex flex-wrap gap-x-10 md:gap-x-0 gap-y-10 justify-evenly mt-4 py-5'>
               {/* <PopularCard url={'https://www.youtube.com/watch?v=1h-Buyvan-M&t=91s'} imageUrl={'../../images/sweetpotato7.webp'} title={'Solid Food Introduction'} color={2}/> */}
               <PopularCard url={'https://www.youtube.com/watch?v=4S02boyMtWA'} imageUrl={'../../images/carrot11.webp'} title={'Carrot Recipe'} color={3}/>
               <PopularCard url={'https://www.youtube.com/watch?v=T51chIH2NLI'} imageUrl={'../../images/banana_puree.webp'} title={'First Week Food'} color={1}/>
@@ -141,7 +141,7 @@ function HomePage() {
             </div>
             <div className='border-r-2 border-white h-full'></div>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
-              <div className='text-5xl font-extrabold text-orange-300'>1617+</div>
+              <div className='text-5xl font-extrabold text-orange-300'>1627+</div>
               <div className='text-2xl googlefontpoppins text-white'>Subscribers</div>
               <NavLink className='text-2xl hover:underline hover:text-indigo-400 googlefontpoppins text-white' to={'https://www.youtube.com/@MommyGK'} target="_blank">on YouTube</NavLink>
             </div>
