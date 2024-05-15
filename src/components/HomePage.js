@@ -11,6 +11,7 @@ import "./Page1.css";
 import { NavLink } from 'react-router-dom';
 import Slider1 from './Slider1';
 import "./HomePage.css"
+import MainPageSlider from './MainPageSlider';
 
 function HomePage() {
     const [isExpanded1, setExpanded1] = useState(false)
@@ -46,7 +47,25 @@ function HomePage() {
 
   return (
    <div className=''>
-    <div className='mx-auto w-10/12 flex flex-wrap'>
+   <div className=''>
+    
+    {/* <div className='bg-gradient-to-r from-red-100 via-lime-100 to-indigo-200 flex justify-between items-center py-4 w-full m-auto'>
+      <div className='flex flex-col justify-center w-4/12 mx-auto gap-y-6'>
+        <div className=' text-2xl font-bold'>
+            Baby Food is one of the best gift & it is delicious, Yummy Food !!!
+        </div>
+        <button className='bg-rose-600 px-4 py-2 rounded-lg text-white text-lg w-36'>Click Here</button>
+      </div>
+      <div className='w-4/12 mx-auto'>
+        <img src='../../images/carrot11.webp' alt='cover' className='h-56'/>
+      </div>
+    </div> */}
+    
+    <MainPageSlider/>
+
+   </div>
+
+    <div className='mx-auto w-10/12 flex flex-wrap mt-10'>
           <Page1/>
           <Page2/>
     </div>
