@@ -1,7 +1,7 @@
 [
     {
         "title" : "Charts",
-        "imageUrl" : "/.netlify/images?url=../../images/menu2.webp",
+        "imageUrl" : "../../images/menu2.webp",
         "url" : "babyfoodcharts",
         "bgcolor" : 1,
         "shortDesc" : "Baby Food Recipe Chart - month wise food chart, what to give to baby and what time to give food"
