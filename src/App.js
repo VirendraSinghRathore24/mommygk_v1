@@ -56,6 +56,7 @@ import { Provider } from "react-redux";
 import store from "./utils/redux/store";
 import Login from "./components/admin/Login";
 import Dashboard from "./components/admin/Dashboard";
+import RecipePagePreview from "./components/admin/RecipePagePreview";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -71,6 +72,7 @@ export default function App() {
           <Route path="/insertcard" element={<InsertCard/>}/>
           <Route path="/insertcategorycard" element={<InsertCategoryCard/>}/>
           <Route path="/insertblog" element={<InsertBlog/>}/>
+          <Route path="/recipeblogpreview/:recipe" element={<RecipePagePreview/>}/>
           <Route path="/food" element={<FoodPage/>}/>
           <Route path="/blogs/:title" element={<BlogPage/>}/>
           <Route path="/aboutus" element={<AboutUS/>}/>
