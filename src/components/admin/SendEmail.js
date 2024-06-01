@@ -20,7 +20,7 @@ const SendEmail = () => {
             postData.append('subject', subject);
             postData.append('message', message);
 
-            await axios.post(`${baseUrl}/sendemail`, postData);
+            //await axios.post(`${baseUrl}/sendemail`, postData);
 
             setLoading(false);
             toast.success(`Email sent to all the subscribers`, {position: "top-center"});
@@ -38,11 +38,11 @@ const SendEmail = () => {
   return (
     <div>
         <p className='p-2 underline'><strong><Link to="/admin/dashboard">Dashboard</Link> </strong></p>
-        <h1 className='text-blue-600 text-2xl font-bold text-center p-6'>Broadcaste New Updates to all Subscribers</h1>
+        <h1 className='text-blue-600 text-2xl font-bold text-center p-6'>Broadcast New Updates to all Subscribers</h1>
         {
             loading ? <Spinner/> : (
         <form onSubmit={handleSubmit}>
-            <div className='w-5/12 mx-auto m-6'>
+            <div className='w-full md:w-5/12 mx-auto p-4 m-6'>
             <div className=' '>
                 <input placeholder='Enter Subject Here ...' value={subject} onChange={(e) => setSubject(e.target.value)}  className='w-full mb-4 rounded-lg px-2 py-2 border-2 border-blue-300'></input>
             </div>

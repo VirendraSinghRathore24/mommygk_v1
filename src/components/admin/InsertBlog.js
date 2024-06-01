@@ -185,6 +185,11 @@ function InsertBlog() {
     }
 
     useEffect(() => {
+        const auth = localStorage.getItem("auth");
+        if(auth !== "Logged In")
+        {
+        navigate("/admin/login");
+        }
         getData();
     }, []);
 

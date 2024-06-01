@@ -82,7 +82,7 @@ useEffect(() => {
                 <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/babyfoodcharts">
                 <span>Charts</span>
                 </NavLink></li>
-                <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/baby-food-recipes-video">
+                <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/recipe-videos/baby-food-recipe-videos">
                 <span>Videos</span>
                 </NavLink></li>
                 <li><NavLink className="py-5 flase text-lg leading-5 relative group flex gap-1 items-center link" to="/baby-food-recipes">
@@ -117,7 +117,7 @@ useEffect(() => {
        
         <ul className="flex flex-col items-center gap-y-6 md:hidden select-none text-xl">
         <li className="text-center"><NavLink class="leading-5" to="/babyfoodcharts" onClick={onClickHandler}>Charts</NavLink></li>
-        <li className="text-center"><NavLink class=" text-xl leading-5" to="/baby-food-recipes-video" onClick={onClickHandler}>Videos</NavLink></li>
+        <li className="text-center"><NavLink class=" text-xl leading-5" to="/recipe-videos/baby-food-recipe-videos" onClick={onClickHandler}>Videos</NavLink></li>
         <li className="text-center"><NavLink class="text-xl leading-5" to="/baby-food-recipes" onClick={onClickHandler}>Blogs</NavLink></li>
         <li className="text-center"><NavLink class=" text-xl leading-5" to="/toys" onClick={onClickHandler}>Toys</NavLink></li>
         <li className="text-center"><NavLink class=" text-xl leading-5" to="/aboutus" onClick={onClickHandler}>About us</NavLink></li>
