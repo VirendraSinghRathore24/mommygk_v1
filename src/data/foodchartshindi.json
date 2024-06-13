@@ -19,5 +19,12 @@
         "url" : "8-month-baby-food-chart-hindi",
         "color" : 3,
         "shortDesc" : "Baby Food Recipe Chart - 8 month food chart, what to give to baby and what time to give food"
+    },
+    {
+        "title" : "फूड चार्ट - 9 महीने",
+        "imageUrl" : "../../images/9month.webp",
+        "url" : "9-month-baby-food-chart-hindi",
+        "color" : 3,
+        "shortDesc" : "Baby Food Recipe Chart - 9 month food chart, what to give to baby and what time to give food"
     }
 ]

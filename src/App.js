@@ -57,6 +57,8 @@ import store from "./utils/redux/store";
 import Login from "./components/admin/Login";
 import Dashboard from "./components/admin/Dashboard";
 import RecipePagePreview from "./components/admin/RecipePagePreview";
+import BabyFood9MonthHindi from "./components/BabyFood9MonthHindi";
+import GeneratePdf from "./components/GeneratePdf";
 
 const TRACKING_ID = "G-VLLGEZ81FC";
 ReactGA.initialize(TRACKING_ID);
@@ -93,6 +95,8 @@ export default function App() {
           <Route path="/babyfoodcharts/6-month-baby-food-chart-hindi" element={<BabyFood6MonthHindi/>}/>
           <Route path="/babyfoodcharts/7-month-baby-food-chart-hindi" element={<BabyFood7MonthHindi/>}/>
           <Route path="/babyfoodcharts/8-month-baby-food-chart-hindi" element={<BabyFood8MonthHindi/>}/>
+          <Route path="/babyfoodcharts/9-month-baby-food-chart-hindi" element={<BabyFood9MonthHindi/>}/>
+          <Route path="/test" element={<GeneratePdf/>}/>
           <Route path="/babyfoodcharts/7-month-baby-food-chart" element={<BabyFood7Month/>}/>
           <Route path="/babyfoodspices" element={<BabyFoodSpices/>}/>
           <Route path="/babyfoodcharts/8-month-baby-food-chart" element={<BabyFood8Month/>}/>

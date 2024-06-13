@@ -1,4 +1,5 @@
 import React from 'react'
+import './google-poppins-font.css'
 
 function FoodMonthsCard({post, week, time, color, video}) {
   return (
@@ -30,7 +31,7 @@ function FoodMonthsCard({post, week, time, color, video}) {
 
                 (
                 
-                <thead className=" font-medium ">
+                <thead className=" ">
                     <tr className='bg-orange-300 border-2 border-black'>
                     <th scope="col" className="px-1 py-2 border-r-2 text-center">Day</th>
                     <th scope="col" className="px-1 py-2 border-r-2 border-black text-center text-blue-800 font-bold text-xl">{time}</th>              
@@ -81,7 +82,7 @@ function FoodMonthsCard({post, week, time, color, video}) {
                                     
                                     p.youtubelink ? (<div className='text-blue-600 underline'><a href={p.youtubelink} target="_blank" rel="noreferrer">
                                     {p.Reciepe1}
-                                </a></div>) : (<div>{p.Reciepe1}</div>)
+                                </a></div>) : (<div className='poppins-medium'>{p.Reciepe1}</div>)
                                 }
                                 
                             </td>

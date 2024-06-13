@@ -54,7 +54,7 @@ useEffect(() => {
      <div className="flex top-0 w-full px-5 justify-center items-center color">
           
           <div className='text-white text-center p-4 text-lg '> Use code 
-           <span className="blink_me text-xl text-orange-400"> SanjuSGR24 </span> and get 50% off on</div>
+           <span className="blink_me text-xl text-orange-400"> SanjuSBB24 </span> and get 50% off on</div>
            <img src="../../images/fc-logo.png" alt="Logo" width={75} loading='lazy'/>
      </div>
        {/* <div className="flex top-0 justify-between items-center  mx-auto w-full  h-20 px-5
