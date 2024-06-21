@@ -51,9 +51,9 @@ function Footer() {
         <div className='flex flex-col text-center text-base md:text-left'>
           <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Food Charts</p>
           <div className='flex flex-col gap-y-2'>
-                <a href='/babyfood6month'>6 Month</a>
-                <a href='/babyfood7month'>7 Month</a>
-                <a href='/foodfor8monthbaby'>8 Month</a>
+                <a href='/babyfoodcharts/6-month-baby-food-chart'>6 Month</a>
+                <a href='/babyfoodcharts/7-month-baby-food-chart'>7 Month</a>
+                <a href='/babyfoodcharts/8-month-baby-food-chart'>8 Month</a>
                 <a href='/babyfoodspices'>Baby Food Spices</a>
           </div>
         </div>
@@ -61,7 +61,7 @@ function Footer() {
           <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Top Posts</p>
           <div className='flex flex-col gap-y-2'>
                 <a href='/babyfoodcharts'>Food Charts</a> 
-                <a href='/foodrecipesvideo'>Recipe Videos</a>
+                <a href='/recipe-videos/baby-food-recipe-videos'>Recipe Videos</a>
                 <a href='/toys'>Toys Checklist</a> 
                 <a href='/newmomchecklist'>New Mom Checklist</a>   
           </div>
