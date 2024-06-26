@@ -49,7 +49,7 @@ function Footer() {
         </div>
         
         <div className='flex flex-col text-center text-base md:text-left'>
-          <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Food Charts</p>
+          <p className="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Food Charts</p>
           <div className='flex flex-col gap-y-2'>
                 <a href='/babyfoodcharts/6-month-baby-food-chart'>6 Month</a>
                 <a href='/babyfoodcharts/7-month-baby-food-chart'>7 Month</a>
@@ -58,7 +58,7 @@ function Footer() {
           </div>
         </div>
         <div className='flex flex-col text-center text-base md:text-left'>
-          <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Top Posts</p>
+          <p className="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Top Posts</p>
           <div className='flex flex-col gap-y-2'>
                 <a href='/babyfoodcharts'>Food Charts</a> 
                 <a href='/recipe-videos/baby-food-recipe-videos'>Recipe Videos</a>
@@ -68,7 +68,7 @@ function Footer() {
         </div>
         
         <div className='flex flex-col text-center text-base md:text-left'>
-          <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Services</p>
+          <p className="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Services</p>
           <div className='flex flex-col gap-y-2'>
             <a href='/aboutus'>About us</a>
             <a href='/contactus'>Contact us</a>
@@ -77,7 +77,7 @@ function Footer() {
          </div>
         </div>
         <div className='flex flex-col text-center text-base items-center'>
-          <p class="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Get in touch</p>
+          <p className="mb-2 md:mb-6 font-bold uppercase text-center md:text-left">Get in touch</p>
           <div className='flex gap-x-4'>
               
           <Link to="https://www.instagram.com/mommy_sanju/" target="_blank">
@@ -100,14 +100,14 @@ function Footer() {
         <div className='flex mt-8'>Subscribe for our latest updates</div>
         <form className='flex mt-2' onSubmit={handleSubmit}>
         <div className="mx-0 mb-1 sm:mb-4">
-            <input type="email" id="email" autocomplete="email"  required="true" placeholder="Your email address" value={formData.email} onChange={handleInputChange} className="mb-2 w-full border py-2 pl-2 pr-4 h-10 sm:mb-0" name="email"/>
+            <input type="email" id="email" autoComplete="email" required={true} placeholder="Your email address" value={formData.email} onChange={handleInputChange} className="mb-2 w-full border py-2 pl-2 pr-4 h-10 sm:mb-0" name="email"/>
         </div>
           <button type="submit" className="flex items-center justify-center w-[100px] h-10 bg-blue-600 text-white font-lg ">Subscribe</button>
         </form>
         </div>
         </div>
         </div>
-        <div class="text-center border-t border-brColor pt-4 font-bold text-lg text-blue-600">Made with ❤️ in India</div>
+        <div className="text-center border-t border-brColor pt-4 font-bold text-lg text-blue-600">Made with ❤️ in India</div>
         </div>
         
     </div>

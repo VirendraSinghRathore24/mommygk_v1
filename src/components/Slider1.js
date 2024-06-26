@@ -67,7 +67,7 @@ function Slider1() {
         <div className='mt-10  slider-container'>
         <Slider ref={slider => (sliderRef = slider)} {...settings}>
         {
-            data.map((d) => (
+          data != null && data.length > 0 && data.map((d) => (
 
                 <InstagramEmbed key={d.url} url={d.url} />
             ))

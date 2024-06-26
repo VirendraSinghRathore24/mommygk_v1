@@ -1,11 +1,9 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useState } from 'react'
 import "./YoutubeEmbed.css";
 import YoutubeEmbed from './YoutubeEmbed';
 import Page1 from './Page1';
-import Page2 from './page2';
 import PopularCard from './PopularCard';
 import ProductCard from './ProductCard';
-import PopularCard1 from './PopularCard1';
 import Faq from './Faq';
 import "./Page1.css";
 import { NavLink } from 'react-router-dom';
@@ -129,7 +127,7 @@ function HomePage() {
           <div className='w-10/12 mx-auto flex justify-center p-6 text-white text-3xl text-center googlefontpoppins'>Helping The New Moms Journey</div>
             <div className='w-10/12 mx-auto grid xxs:grid-cols-1 xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-5 2xl:grid-cols-5 3xl:grid-cols-5 place-items-center gap-y-4 gap-x-4 mb-10 p-10'>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
-              <div className='text-5xl font-extrabold text-orange-300'>65K+</div>
+              <div className='text-5xl font-extrabold text-orange-300'>66K+</div>
               <div className='text-2xl googlefontpoppins text-white'>Followers</div>
               <NavLink className='text-2xl hover:underline hover:text-indigo-400 googlefontpoppins text-white' to={'https://www.instagram.com/mommy_sanju/'} target="_blank">on Instagram</NavLink>
             </div>
@@ -141,7 +139,7 @@ function HomePage() {
             </div>
             <div className='border-r-2 border-white h-full'></div>
             <div className='flex flex-col items-center text-white gap-y-2 p-4'>
-              <div className='text-5xl font-extrabold text-orange-300'>1740+</div>
+              <div className='text-5xl font-extrabold text-orange-300'>1760+</div>
               <div className='text-2xl googlefontpoppins text-white'>Subscribers</div>
               <NavLink className='text-2xl hover:underline hover:text-indigo-400 googlefontpoppins text-white' to={'https://www.youtube.com/@MommyGK'} target="_blank">on YouTube</NavLink>
             </div>
@@ -210,7 +208,7 @@ function HomePage() {
           
           <div className='bg-gradient-to-r from-stone-50 to-blue-50'>
           <div className='w-10/12 mx-auto text-2xl py-8 mt-10'>
-            <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 flex justify-center gap-x-2 font-bold '>Posts at <span class='text-green-700'>Instagram</span></div>
+            <div className='xs:text-xl sm:text-xl md:text-3xl uppercase text-red-700 flex justify-center gap-x-2 font-bold '>Posts at <span className='text-green-700'>Instagram</span></div>
             <div className='mt-14'>
               <Slider1/>
             </div>

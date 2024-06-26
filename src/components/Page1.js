@@ -33,7 +33,7 @@ function Page1() {
             <div className='grid grid-cols-2 place-items-center gap-y-4 mb-10 mt-8 md:hidden'>
             {
                 loading ? (<Spinner type={"Loading, "}/>) :(
-                posts.map((post, index) => (
+                posts != null && posts.length > 0 && posts.map((post) => (
                     <Card key={post.title} post={post}/>
                 )))
                } 
@@ -41,7 +41,7 @@ function Page1() {
             <div className='flex flex-wrap justify-evenly gap-y-4 mb-10 mt-8 max-md:hidden'>
             {
                 loading ? (<Spinner type={"Loading, "}/>) :(
-                posts.map((post, index) => (
+                posts != null && posts.length > 0 && posts.map((post) => (
                     <Card key={post.title} post={post}/>
                 )))
                } 

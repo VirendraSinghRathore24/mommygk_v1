@@ -52,7 +52,7 @@ const MainPageSlider = () => {
         <Slider ref={slider => (sliderRef = slider)} {...settings} >
         {
             data.map((d) => (
-                <div className=''>
+                <div key={d.title} className=''>
                 <div className='flex justify-evenly gap-x-2 md:gap-x-6 p-4 md:p-8 w-full mx-auto'>
                     <div className='flex flex-col w-8/12 mx-auto gap-y-10'>
                         <div className=' text-lg md:text-3xl poppins-medium'>
